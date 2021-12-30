@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+       <NPCCharacter id="republic_clone" default_group="Ranged" level="21" name="Clone Trooper" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15a_blaster_Rifle" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_comando" default_group="Ranged" level="21" name="Clone Commando" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="100" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.commando_armor" />
+                            <equipment slot="Cape" id="Item.commando_pauldrons" />
+                            <equipment slot="Gloves" id="Item.commando_gauntlets" />
+                            <equipment slot="Leg" id="Item.commando_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="arf_clone" default_group="Ranged" level="21" name="ARF Trooper" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1arf_armor" />
+                            <equipment slot="Cape" id="Item.p1arf_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1arf_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1arf_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_barc_trooper" default_group="Ranged" level="21" name="BARC Trooper" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.barc_armor" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="shadow_clone" default_group="Ranged" level="21" name="Shadow Trooper" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.shadowspartan_armor" />
+                            <equipment slot="Cape" id="Item.shadowspartan_pauldrons" />
+                            <equipment slot="Gloves" id="Item.shadowspartan_gauntlets" />
+                            <equipment slot="Leg" id="Item.shadowspartan_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_clone_p2" default_group="Ranged" level="21" name="Clone Phase 2 Trooper" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p2troop_armor" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_arf_hound" default_group="Ranged" level="21" name="ARF Hound Trooper" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1arfhound_armor" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_clone_captain_troop" default_group="Ranged" level="21" name="Clone Captain" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1cpt_armor" />
+                            <equipment slot="Cape" id="Item.p1cpt_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1cpt_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_clone_commander_troop" default_group="Ranged" level="21" name="Clone Commander" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1cmd_armor" />
+                            <equipment slot="Cape" id="Item.p1cmd_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1cmd_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_clone_captain_troop" default_group="Ranged" level="21" name="Clone Captain" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1cpt_armor" />
+                            <equipment slot="Cape" id="Item.p1cpt_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1cpt_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_clone_lieutenant_troop" default_group="Ranged" level="21" name="Clone Lieutenant" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1lt_armor" />
+                            <equipment slot="Cape" id="Item.p1lt_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1lt_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="republic_clone_sergeant_troop" default_group="Ranged" level="21" name="Clone Sergeant" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.p1sgt_armor" />
+                            <equipment slot="Cape" id="Item.p1sgt_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1sgt_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <!-- <NPCCharacter id="republic_commando_boss_troop" default_group="Ranged" level="21" name="Commando Boss" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.commando_armor2" />
+                            <equipment slot="Cape" id="Item.commando_pauldrons2" />
+                            <equipment slot="Gloves" id="Item.commando_gauntlets2" />
+                            <equipment slot="Leg" id="Item.commando_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter> Now sergeant_boss-->
+       <NPCCharacter id="mando_death_watch_troop" default_group="Ranged" level="21" name="Death Watch" occupation="Soldier" culture="Culture.mandalorians">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.death_watch_armor" />
+                            <equipment slot="Gloves" id="Item.death_watch_gauntlets" />
+                            <equipment slot="Leg" id="Item.death_watch_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="mando_maul_death_watch_troop" default_group="Ranged" level="21" name="Maul's Death Watch" occupation="Soldier" culture="Culture.mandalorians">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.death_watch_maul_armor" />
+                            <equipment slot="Gloves" id="Item.death_watch_maul_gauntlets" />
+                            <equipment slot="Leg" id="Item.death_watch_maul_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="nimbus_commando_troop" default_group="Ranged" level="21" name="Nimbus Commando" occupation="Soldier" culture="Culture.mandalorians">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
+                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Body" id="Item.nimbusbody" />
+                            <equipment slot="Cape" id="Item.nimbusshoulders" />
+                            <equipment slot="Gloves" id="Item.nimbusgauntlets" />
+                            <equipment slot="Leg" id="Item.nimbusgreaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="captain_rex" name="Captain Rex" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1rex_armor" />
+                            <equipment slot="Cape" id="Item.p1rex_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1rex_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1rex_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="sergeant_boss" name="Sergeant Boss" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.commando_armor2" />
+                            <equipment slot="Cape" id="Item.commando_pauldrons2" />
+                            <equipment slot="Gloves" id="Item.commando_gauntlets2" />
+                            <equipment slot="Leg" id="Item.commando_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+
+       <NPCCharacter id="commander_ganch" name="Commander Ganch" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1ganch_armor" />
+                            <equipment slot="Cape" id="Item.p1ganch_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1ganch_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1ganch_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+       <NPCCharacter id="commander_fox" name="Commander Fox" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1fox_armor" />
+                            <equipment slot="Cape" id="Item.p1fox_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1fox_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1fox_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+       <NPCCharacter id="commander_thorn" name="Commander Thorn" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1thorn_armor" />
+                            <equipment slot="Cape" id="Item.p1thorn_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1thorn_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1thorn_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+       <NPCCharacter id="captain_delirious" name="Captain Delirious" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1fangs_armor" />
+                            <equipment slot="Cape" id="Item.p1fangs_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1fangs_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1fangs_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="captain_zade" name="Captain Zadeinator" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1zade_armor" />
+                            <equipment slot="Cape" id="Item.p1zade_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1zade_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1zade_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+       <NPCCharacter id="captain_psycho" name="Captain Psycho" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1psycho_armor" />
+                            <equipment slot="Cape" id="Item.p1psycho_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1psycho_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1psycho_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+       <NPCCharacter id="jango_fett" name="Jango Fett" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.red_lightsaber" />
+                            <equipment slot="Item1" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item2" id="Item.blaster_beam_red_medium" />
+
+
+                            <equipment slot="Body" id="Item.jango_armor" />                            
+                            <equipment slot="Gloves" id="Item.jango_gauntlets" />
+                            <equipment slot="Leg" id="Item.jango_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+
+
+       <NPCCharacter id="mando_awaud_nam" name="Nam Beroya" default_group="cavalry" age="20" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.red_lightsaber" />
+                            <equipment slot="Item1" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item2" id="Item.blaster_beam_red_medium" />
+
+
+                            <equipment slot="Body" id="Item.death_watch_maul_armor" />                            
+                            <equipment slot="Gloves" id="Item.death_watch_maul_gauntlets" />
+                            <equipment slot="Leg" id="Item.death_watch_maul_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+       <NPCCharacter id="pre_vizsla" name="Pre Vizsla" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.darksaber" />
+                            <equipment slot="Item1" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item2" id="Item.blaster_beam_red_medium" />
+
+
+                            <equipment slot="Body" id="Item.pv_armor" />                            
+                            <equipment slot="Gloves" id="Item.pv_gauntlets" />
+                            <equipment slot="Leg" id="Item.pv_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="bo_katan" name="Bo Katan" is_female="true" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.darksaber" />
+                            <equipment slot="Item1" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item2" id="Item.blaster_beam_red_medium" />
+
+
+                            <equipment slot="Body" id="Item.bokatanbody" />
+                            <equipment slot="Cape" id="Item.bokatanshoulders" />                            
+                            <equipment slot="Gloves" id="Item.bokatanbracers" />
+                            <equipment slot="Leg" id="Item.bokatangreaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="commander_cody" name="Commander Cody" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15a_blaster_Rifle" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.cody_armor" />
+                            <equipment slot="Cape" id="Item.cody_pauldrons" />
+                            <equipment slot="Gloves" id="Item.cody_gauntlets" />
+                            <equipment slot="Leg" id="Item.cody_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="commander_wolffe" name="Commander Wolffe" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+              <face>
+                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
+              </face>
+              <Traits>
+                     <Trait id="BalancedFightingSkills" value="5" />
+                     <Trait id="Commander" value="7" />
+                     <Trait id="Politician" value="5" />
+                     <Trait id="Manager" value="6" />
+                     <Trait id="Honor" value="+1" />
+                     <Trait id="Mercy" value="-1" />
+                     <Trait id="Generosity" value="-1" />
+              </Traits>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber" />
+                            <equipment slot="Item1" id="Item.dc15s_blaster_carbine" />
+                            <equipment slot="Item2" id="Item.blaster_beam_blue_medium" />
+
+
+                            <equipment slot="Body" id="Item.p1wolffe_armor" />
+                            <equipment slot="Cape" id="Item.p1wolffe_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1wolffe_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1wolffe_greaves" />
+                            <equipment slot="Horse" id="Item.t2_empire_horse" />
+                            <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+</NPCCharacters><!--
+<NPCCharacter id="new_troop_unique_id"
+                default_group="Ranged"
+                level="21"
+                name="temp name"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="25" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="110" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="130" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>      
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.dc15s_blaster_carbine" />
+        <equipment slot="Item1"
+                   id="Item.blaster_beam_blue_medium" />        
+        <equipment slot="Body"
+                   id="Item.replace" />        
+        <equipment slot="Cape"
+                   id="Item.replace" />
+        <equipment slot="Gloves"
+                   id="Item.replace" />
+        <equipment slot="Leg"
+                   id="Item.replace" />
+      </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+-->

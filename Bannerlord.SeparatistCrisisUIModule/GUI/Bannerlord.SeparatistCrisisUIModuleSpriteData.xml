@@ -1,0 +1,3380 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SpriteData>
+  <SpriteCategories>
+    <SpriteCategory>
+      <Name>ui_facegen_1</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="4096" Height="128" />
+    </SpriteCategory>
+    <SpriteCategory>
+      <Name>ui_group1_1</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="4096" Height="4096" />
+    </SpriteCategory>
+    <SpriteCategory>
+      <Name>ui_group1_2</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="4096" Height="2048" />
+    </SpriteCategory>
+    <SpriteCategory>
+      <Name>ui_group1_3</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="1024" Height="256" />
+    </SpriteCategory>
+    <SpriteCategory>
+      <Name>ui_options_1</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="1024" Height="64" />
+    </SpriteCategory>
+  </SpriteCategories>
+  <SpriteParts>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>body button highlighted</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>body button selected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1999</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>body button unselected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1894</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>eyes button highlighted</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1789</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>eyes button selected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1684</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>eyes button unselected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1579</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>face button highlighted</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1474</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>face button selected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1369</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>face button unselected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1264</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>face markings button highlighted</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1159</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>face markings button selected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>1054</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>face markings button unselected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>949</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>hair button highlighted</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>844</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>hair button selected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>739</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>hair button unselected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>634</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>mouth button highlighted</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>529</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>mouth button selected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>424</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>mouth button unselected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>319</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>nose button highlighted</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>214</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>nose button selected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>109</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>nose button unselected</Name>
+      <Width>97</Width>
+      <Height>90</Height>
+      <SheetX>2104</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>voice test button</Name>
+      <Width>44</Width>
+      <Height>46</Height>
+      <SheetX>2209</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_facegen_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>bar thing 2</Name>
+      <Width>16</Width>
+      <Height>43</Height>
+      <SheetX>3959</SheetX>
+      <SheetY>307</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>bar thing</Name>
+      <Width>17</Width>
+      <Height>295</Height>
+      <SheetX>3959</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>custom battle centre</Name>
+      <Width>156</Width>
+      <Height>1097</Height>
+      <SheetX>3022</SheetX>
+      <SheetY>1100</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>dropdown list</Name>
+      <Width>331</Width>
+      <Height>362</Height>
+      <SheetX>1589</SheetX>
+      <SheetY>1784</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>health bar filling</Name>
+      <Width>39</Width>
+      <Height>26</Height>
+      <SheetX>4031</SheetX>
+      <SheetY>637</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD top piece</Name>
+      <Width>648</Width>
+      <Height>133</Height>
+      <SheetX>3186</SheetX>
+      <SheetY>1626</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>large UI piece</Name>
+      <Width>1466</Width>
+      <Height>928</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>main menu alt</Name>
+      <Width>424</Width>
+      <Height>902</Height>
+      <SheetX>2062</SheetX>
+      <SheetY>944</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>main menu</Name>
+      <Width>439</Width>
+      <Height>1088</Height>
+      <SheetX>1142</SheetX>
+      <SheetY>944</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>map location image frame</Name>
+      <Width>666</Width>
+      <Height>850</Height>
+      <SheetX>3285</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>misc corner piece</Name>
+      <Width>513</Width>
+      <Height>220</Height>
+      <SheetX>2494</SheetX>
+      <SheetY>1761</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>misc UI container</Name>
+      <Width>690</Width>
+      <Height>1088</Height>
+      <SheetX>2587</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>misc UI frame</Name>
+      <Width>691</Width>
+      <Height>756</Height>
+      <SheetX>3285</SheetX>
+      <SheetY>862</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>misc yellow bar 1</Name>
+      <Width>708</Width>
+      <Height>13</Height>
+      <SheetX>3186</SheetX>
+      <SheetY>1862</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>misc yellow bar 2</Name>
+      <Width>213</Width>
+      <Height>6</Height>
+      <SheetX>3838</SheetX>
+      <SheetY>1767</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>morale bar separator</Name>
+      <Width>16</Width>
+      <Height>25</Height>
+      <SheetX>3959</SheetX>
+      <SheetY>358</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>mount bar filling</Name>
+      <Width>32</Width>
+      <Height>22</Height>
+      <SheetX>4059</SheetX>
+      <SheetY>671</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>notification bg</Name>
+      <Width>520</Width>
+      <Height>653</Height>
+      <SheetX>2494</SheetX>
+      <SheetY>1100</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>slider bar fill</Name>
+      <Width>357</Width>
+      <Height>54</Height>
+      <SheetX>1928</SheetX>
+      <SheetY>1854</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>UI button holder bottom</Name>
+      <Width>644</Width>
+      <Height>87</Height>
+      <SheetX>3186</SheetX>
+      <SheetY>1767</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>UI connector piece</Name>
+      <Width>35</Width>
+      <Height>625</Height>
+      <SheetX>4031</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>UI corner</Name>
+      <Width>970</Width>
+      <Height>160</Height>
+      <SheetX>4</SheetX>
+      <SheetY>1821</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>UI frame thin</Name>
+      <Width>465</Width>
+      <Height>832</Height>
+      <SheetX>1589</SheetX>
+      <SheetY>944</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>UI frame</Name>
+      <Width>1130</Width>
+      <Height>873</Height>
+      <SheetX>4</SheetX>
+      <SheetY>940</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>UI vertical bar</Name>
+      <Width>39</Width>
+      <Height>876</Height>
+      <SheetX>3984</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>UI window container</Name>
+      <Width>1101</Width>
+      <Height>932</Height>
+      <SheetX>1478</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>controller cursor</Name>
+      <Width>120</Width>
+      <Height>120</Height>
+      <SheetX>2168</SheetX>
+      <SheetY>624</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\activated box thing</Name>
+      <Width>294</Width>
+      <Height>224</Height>
+      <SheetX>3486</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\bar containing words</Name>
+      <Width>309</Width>
+      <Height>47</Height>
+      <SheetX>1336</SheetX>
+      <SheetY>662</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\battle won banner</Name>
+      <Width>1130</Width>
+      <Height>74</Height>
+      <SheetX>1074</SheetX>
+      <SheetY>395</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\blue button highlighted taller</Name>
+      <Width>251</Width>
+      <Height>68</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>579</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\blue button taller</Name>
+      <Width>251</Width>
+      <Height>68</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>655</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\blue title</Name>
+      <Width>405</Width>
+      <Height>127</Height>
+      <SheetX>2877</SheetX>
+      <SheetY>316</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\bottom blue lit</Name>
+      <Width>331</Width>
+      <Height>66</Height>
+      <SheetX>3422</SheetX>
+      <SheetY>431</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\bottom blue unlit</Name>
+      <Width>331</Width>
+      <Height>66</Height>
+      <SheetX>3422</SheetX>
+      <SheetY>505</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\bottom red lit</Name>
+      <Width>331</Width>
+      <Height>66</Height>
+      <SheetX>1336</SheetX>
+      <SheetY>549</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\bottom red unlit</Name>
+      <Width>331</Width>
+      <Height>66</Height>
+      <SheetX>1721</SheetX>
+      <SheetY>477</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\character creator button</Name>
+      <Width>62</Width>
+      <Height>48</Height>
+      <SheetX>2096</SheetX>
+      <SheetY>687</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\corner hud thing</Name>
+      <Width>546</Width>
+      <Height>112</Height>
+      <SheetX>2877</SheetX>
+      <SheetY>196</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\day-night container</Name>
+      <Width>434</Width>
+      <Height>61</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>451</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\deactivated box thing</Name>
+      <Width>281</Width>
+      <Height>211</Height>
+      <SheetX>3788</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\dropdown highlight</Name>
+      <Width>397</Width>
+      <Height>34</Height>
+      <SheetX>1894</SheetX>
+      <SheetY>187</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\fast forward button</Name>
+      <Width>32</Width>
+      <Height>30</Height>
+      <SheetX>3696</SheetX>
+      <SheetY>1058</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\female symbol</Name>
+      <Width>123</Width>
+      <Height>190</Height>
+      <SheetX>3896</SheetX>
+      <SheetY>223</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\health bar background</Name>
+      <Width>222</Width>
+      <Height>21</Height>
+      <SheetX>1632</SheetX>
+      <SheetY>902</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\health bar container</Name>
+      <Width>231</Width>
+      <Height>36</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>731</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\health icon</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1016</SheetX>
+      <SheetY>805</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\highlighted bar containing words</Name>
+      <Width>309</Width>
+      <Height>46</Height>
+      <SheetX>1019</SheetX>
+      <SheetY>674</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\highlighted slider clicky bit</Name>
+      <Width>44</Width>
+      <Height>67</Height>
+      <SheetX>2712</SheetX>
+      <SheetY>515</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\horse man</Name>
+      <Width>82</Width>
+      <Height>175</Height>
+      <SheetX>2665</SheetX>
+      <SheetY>591</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\horse ranged man</Name>
+      <Width>80</Width>
+      <Height>189</Height>
+      <SheetX>3174</SheetX>
+      <SheetY>579</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\icon box glowing</Name>
+      <Width>117</Width>
+      <Height>117</Height>
+      <SheetX>3884</SheetX>
+      <SheetY>774</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\icon box</Name>
+      <Width>104</Width>
+      <Height>104</Height>
+      <SheetX>3919</SheetX>
+      <SheetY>899</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\lit slider left</Name>
+      <Width>45</Width>
+      <Height>51</Height>
+      <SheetX>3927</SheetX>
+      <SheetY>1225</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\lit slider right</Name>
+      <Width>45</Width>
+      <Height>51</Height>
+      <SheetX>2713</SheetX>
+      <SheetY>774</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\male symbol</Name>
+      <Width>149</Width>
+      <Height>147</Height>
+      <SheetX>3896</SheetX>
+      <SheetY>421</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\map player icon</Name>
+      <Width>106</Width>
+      <Height>106</Height>
+      <SheetX>3466</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\map screen bottom left rounded button</Name>
+      <Width>98</Width>
+      <Height>60</Height>
+      <SheetX>2366</SheetX>
+      <SheetY>871</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\map screen bottom left</Name>
+      <Width>549</Width>
+      <Height>67</Height>
+      <SheetX>2212</SheetX>
+      <SheetY>440</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\melee man</Name>
+      <Width>95</Width>
+      <Height>190</Height>
+      <SheetX>3263</SheetX>
+      <SheetY>548</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\menu pointer</Name>
+      <Width>56</Width>
+      <Height>25</Height>
+      <SheetX>2409</SheetX>
+      <SheetY>748</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc bar 1</Name>
+      <Width>114</Width>
+      <Height>28</Height>
+      <SheetX>2060</SheetX>
+      <SheetY>477</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc bar 2</Name>
+      <Width>214</Width>
+      <Height>29</Height>
+      <SheetX>2522</SheetX>
+      <SheetY>847</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc bar 3</Name>
+      <Width>221</Width>
+      <Height>29</Height>
+      <SheetX>1618</SheetX>
+      <SheetY>788</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc button highlighted</Name>
+      <Width>56</Width>
+      <Height>39</Height>
+      <SheetX>2299</SheetX>
+      <SheetY>187</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc button unhighlighted</Name>
+      <Width>55</Width>
+      <Height>39</Height>
+      <SheetX>2522</SheetX>
+      <SheetY>798</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI bar container</Name>
+      <Width>475</Width>
+      <Height>36</Height>
+      <SheetX>536</SheetX>
+      <SheetY>674</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI divider</Name>
+      <Width>576</Width>
+      <Height>16</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>932</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI full header</Name>
+      <Width>1944</Width>
+      <Height>175</Height>
+      <SheetX>536</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI header</Name>
+      <Width>792</Width>
+      <Height>106</Height>
+      <SheetX>536</SheetX>
+      <SheetY>560</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI metal</Name>
+      <Width>518</Width>
+      <Height>124</Height>
+      <SheetX>1894</SheetX>
+      <SheetY>236</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI panel long</Name>
+      <Width>990</Width>
+      <Height>184</Height>
+      <SheetX>2488</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI panel</Name>
+      <Width>530</Width>
+      <Height>365</Height>
+      <SheetX>536</SheetX>
+      <SheetY>187</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\misc UI thing</Name>
+      <Width>307</Width>
+      <Height>187</Height>
+      <SheetX>3431</SheetX>
+      <SheetY>236</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\morale bar container 2</Name>
+      <Width>526</Width>
+      <Height>31</Height>
+      <SheetX>1336</SheetX>
+      <SheetY>623</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\morale bar container</Name>
+      <Width>526</Width>
+      <Height>31</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>777</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\mount health bar background</Name>
+      <Width>185</Width>
+      <Height>22</Height>
+      <SheetX>747</SheetX>
+      <SheetY>949</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\mount health bar container</Name>
+      <Width>183</Width>
+      <Height>24</Height>
+      <SheetX>1722</SheetX>
+      <SheetY>970</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\mount health icon</Name>
+      <Width>58</Width>
+      <Height>58</Height>
+      <SheetX>2207</SheetX>
+      <SheetY>842</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\notification box separator</Name>
+      <Width>515</Width>
+      <Height>16</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>889</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\notification container</Name>
+      <Width>116</Width>
+      <Height>118</Height>
+      <SheetX>1653</SheetX>
+      <SheetY>662</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\pause menu column</Name>
+      <Width>524</Width>
+      <Height>706</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\pop-up frame</Name>
+      <Width>542</Width>
+      <Height>678</Height>
+      <SheetX>4</SheetX>
+      <SheetY>718</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\ranged man</Name>
+      <Width>115</Width>
+      <Height>190</Height>
+      <SheetX>3896</SheetX>
+      <SheetY>576</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\red back button highlighted</Name>
+      <Width>115</Width>
+      <Height>53</Height>
+      <SheetX>1954</SheetX>
+      <SheetY>771</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\red back button</Name>
+      <Width>160</Width>
+      <Height>63</Height>
+      <SheetX>3919</SheetX>
+      <SheetY>1011</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\red button highlighted taller</Name>
+      <Width>251</Width>
+      <Height>68</Height>
+      <SheetX>3366</SheetX>
+      <SheetY>719</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\red button taller</Name>
+      <Width>251</Width>
+      <Height>68</Height>
+      <SheetX>2453</SheetX>
+      <SheetY>515</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\red title</Name>
+      <Width>449</Width>
+      <Height>140</Height>
+      <SheetX>2420</SheetX>
+      <SheetY>196</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\shield health bar background</Name>
+      <Width>185</Width>
+      <Height>22</Height>
+      <SheetX>554</SheetX>
+      <SheetY>949</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\shield health container</Name>
+      <Width>183</Width>
+      <Height>24</Height>
+      <SheetX>1722</SheetX>
+      <SheetY>938</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\slider bar container</Name>
+      <Width>385</Width>
+      <Height>47</Height>
+      <SheetX>2060</SheetX>
+      <SheetY>515</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\slider bar texture</Name>
+      <Width>364</Width>
+      <Height>46</Height>
+      <SheetX>1995</SheetX>
+      <SheetY>570</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\slider clicky bit</Name>
+      <Width>28</Width>
+      <Height>51</Height>
+      <SheetX>3314</SheetX>
+      <SheetY>816</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\small corner bit button</Name>
+      <Width>82</Width>
+      <Height>54</Height>
+      <SheetX>1632</SheetX>
+      <SheetY>931</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\small corner bit</Name>
+      <Width>104</Width>
+      <Height>75</Height>
+      <SheetX>3985</SheetX>
+      <SheetY>1082</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\top header text holder</Name>
+      <Width>437</Width>
+      <Height>51</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>520</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\UI bottom menu</Name>
+      <Width>812</Width>
+      <Height>200</Height>
+      <SheetX>1074</SheetX>
+      <SheetY>187</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\UI side piece (char creator)</Name>
+      <Width>100</Width>
+      <Height>519</Height>
+      <SheetX>3788</SheetX>
+      <SheetY>223</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\UI top bar highlighted</Name>
+      <Width>290</Width>
+      <Height>55</Height>
+      <SheetX>2367</SheetX>
+      <SheetY>591</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\UI top bar unhighlighted</Name>
+      <Width>290</Width>
+      <Height>55</Height>
+      <SheetX>1870</SheetX>
+      <SheetY>624</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\UI top left bar glowing 2</Name>
+      <Width>312</Width>
+      <Height>56</Height>
+      <SheetX>3366</SheetX>
+      <SheetY>579</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\UI top left bar glowing</Name>
+      <Width>312</Width>
+      <Height>56</Height>
+      <SheetX>1675</SheetX>
+      <SheetY>551</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\UI vertical bar</Name>
+      <Width>41</Width>
+      <Height>874</Height>
+      <SheetX>2769</SheetX>
+      <SheetY>440</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\unit card</Name>
+      <Width>124</Width>
+      <Height>224</Height>
+      <SheetX>3290</SheetX>
+      <SheetY>316</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\unknown (maybe hitmarker)</Name>
+      <Width>26</Width>
+      <Height>27</Height>
+      <SheetX>1618</SheetX>
+      <SheetY>717</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\unknown man</Name>
+      <Width>89</Width>
+      <Height>190</Height>
+      <SheetX>3077</SheetX>
+      <SheetY>579</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\unlit slider left</Name>
+      <Width>45</Width>
+      <Height>51</Height>
+      <SheetX>3753</SheetX>
+      <SheetY>939</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\unlit slider right</Name>
+      <Width>45</Width>
+      <Height>51</Height>
+      <SheetX>3927</SheetX>
+      <SheetY>1166</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\victory screen bad guy header</Name>
+      <Width>639</Width>
+      <Height>64</Height>
+      <SheetX>1074</SheetX>
+      <SheetY>477</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\victory screen good guy header</Name>
+      <Width>634</Width>
+      <Height>64</Height>
+      <SheetX>2212</SheetX>
+      <SheetY>368</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\white button highlighted taller</Name>
+      <Width>251</Width>
+      <Height>68</Height>
+      <SheetX>3366</SheetX>
+      <SheetY>643</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>HUD elements\white button</Name>
+      <Width>251</Width>
+      <Height>68</Height>
+      <SheetX>3625</SheetX>
+      <SheetY>750</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\A button</Name>
+      <Width>86</Width>
+      <Height>86</Height>
+      <SheetX>2296</SheetX>
+      <SheetY>654</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\B button</Name>
+      <Width>86</Width>
+      <Height>86</Height>
+      <SheetX>1524</SheetX>
+      <SheetY>717</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\d-pad down</Name>
+      <Width>82</Width>
+      <Height>82</Height>
+      <SheetX>2096</SheetX>
+      <SheetY>752</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\d-pad left</Name>
+      <Width>82</Width>
+      <Height>82</Height>
+      <SheetX>2186</SheetX>
+      <SheetY>752</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\d-pad right</Name>
+      <Width>82</Width>
+      <Height>82</Height>
+      <SheetX>2276</SheetX>
+      <SheetY>821</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\d-pad up</Name>
+      <Width>82</Width>
+      <Height>82</Height>
+      <SheetX>1864</SheetX>
+      <SheetY>771</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\L1</Name>
+      <Width>92</Width>
+      <Height>61</Height>
+      <SheetX>2572</SheetX>
+      <SheetY>884</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\L2</Name>
+      <Width>67</Width>
+      <Height>86</Height>
+      <SheetX>4019</SheetX>
+      <SheetY>670</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\L3 press</Name>
+      <Width>108</Width>
+      <Height>76</Height>
+      <SheetX>3753</SheetX>
+      <SheetY>1012</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\L3</Name>
+      <Width>108</Width>
+      <Height>64</Height>
+      <SheetX>2484</SheetX>
+      <SheetY>726</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\LB button</Name>
+      <Width>92</Width>
+      <Height>61</Height>
+      <SheetX>2472</SheetX>
+      <SheetY>884</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\left thumbstick press</Name>
+      <Width>108</Width>
+      <Height>76</Height>
+      <SheetX>1864</SheetX>
+      <SheetY>687</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\left thumbstick</Name>
+      <Width>108</Width>
+      <Height>64</Height>
+      <SheetX>3082</SheetX>
+      <SheetY>816</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\left trigger</Name>
+      <Width>67</Width>
+      <Height>86</Height>
+      <SheetX>2132</SheetX>
+      <SheetY>842</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\pause button</Name>
+      <Width>86</Width>
+      <Height>86</Height>
+      <SheetX>3985</SheetX>
+      <SheetY>1165</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS button left</Name>
+      <Width>59</Width>
+      <Height>91</Height>
+      <SheetX>4031</SheetX>
+      <SheetY>893</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS button right</Name>
+      <Width>55</Width>
+      <Height>88</Height>
+      <SheetX>3402</SheetX>
+      <SheetY>932</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS d-pad down</Name>
+      <Width>105</Width>
+      <Height>105</Height>
+      <SheetX>3466</SheetX>
+      <SheetY>909</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS d-pad left</Name>
+      <Width>105</Width>
+      <Height>105</Height>
+      <SheetX>3580</SheetX>
+      <SheetY>826</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS d-pad right</Name>
+      <Width>105</Width>
+      <Height>105</Height>
+      <SheetX>3693</SheetX>
+      <SheetY>826</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS d-pad up</Name>
+      <Width>105</Width>
+      <Height>105</Height>
+      <SheetX>3806</SheetX>
+      <SheetY>899</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS O button</Name>
+      <Width>73</Width>
+      <Height>73</Height>
+      <SheetX>2488</SheetX>
+      <SheetY>953</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS rectangle button</Name>
+      <Width>73</Width>
+      <Height>73</Height>
+      <SheetX>2569</SheetX>
+      <SheetY>953</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS triangle button</Name>
+      <Width>74</Width>
+      <Height>74</Height>
+      <SheetX>2672</SheetX>
+      <SheetY>884</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\PS X button</Name>
+      <Width>73</Width>
+      <Height>73</Height>
+      <SheetX>2407</SheetX>
+      <SheetY>953</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\R1</Name>
+      <Width>92</Width>
+      <Height>61</Height>
+      <SheetX>2207</SheetX>
+      <SheetY>911</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\R2</Name>
+      <Width>67</Width>
+      <Height>86</Height>
+      <SheetX>4019</SheetX>
+      <SheetY>576</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\R3 press</Name>
+      <Width>108</Width>
+      <Height>76</Height>
+      <SheetX>3869</SheetX>
+      <SheetY>1082</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\R3</Name>
+      <Width>108</Width>
+      <Height>64</Height>
+      <SheetX>2484</SheetX>
+      <SheetY>654</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\RB button</Name>
+      <Width>92</Width>
+      <Height>61</Height>
+      <SheetX>2307</SheetX>
+      <SheetY>939</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\right thumbstick press</Name>
+      <Width>108</Width>
+      <Height>76</Height>
+      <SheetX>1980</SheetX>
+      <SheetY>687</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\right thumbstick</Name>
+      <Width>108</Width>
+      <Height>64</Height>
+      <SheetX>3198</SheetX>
+      <SheetY>816</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\right trigger</Name>
+      <Width>67</Width>
+      <Height>86</Height>
+      <SheetX>2057</SheetX>
+      <SheetY>842</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\select button</Name>
+      <Width>86</Width>
+      <Height>86</Height>
+      <SheetX>2390</SheetX>
+      <SheetY>654</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\X button</Name>
+      <Width>86</Width>
+      <Height>86</Height>
+      <SheetX>1430</SheetX>
+      <SheetY>717</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\Controller Inputs\Y button</Name>
+      <Width>86</Width>
+      <Height>86</Height>
+      <SheetX>1336</SheetX>
+      <SheetY>717</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\+ key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2171</SheetX>
+      <SheetY>980</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\- key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2248</SheetX>
+      <SheetY>1008</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\0 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2325</SheetX>
+      <SheetY>1008</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\1 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>785</SheetX>
+      <SheetY>872</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\2 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2479</SheetX>
+      <SheetY>1034</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\3 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2556</SheetX>
+      <SheetY>1034</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\4 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2633</SheetX>
+      <SheetY>1043</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\5 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>554</SheetX>
+      <SheetY>872</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\6 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>631</SheetX>
+      <SheetY>872</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\7 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>708</SheetX>
+      <SheetY>872</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\8 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>939</SheetX>
+      <SheetY>872</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\9 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>862</SheetX>
+      <SheetY>872</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\a key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1478</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\alt key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1401</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\b key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1324</SheetX>
+      <SheetY>888</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\backspace</Name>
+      <Width>119</Width>
+      <Height>63</Height>
+      <SheetX>2955</SheetX>
+      <SheetY>816</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\c key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1555</SheetX>
+      <SheetY>902</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\caps lock key</Name>
+      <Width>105</Width>
+      <Height>65</Height>
+      <SheetX>2600</SheetX>
+      <SheetY>774</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\ctrl key</Name>
+      <Width>105</Width>
+      <Height>65</Height>
+      <SheetX>2296</SheetX>
+      <SheetY>748</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\d key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1093</SheetX>
+      <SheetY>882</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\down arrow</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1247</SheetX>
+      <SheetY>882</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\e key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1016</SheetX>
+      <SheetY>882</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\enter key</Name>
+      <Width>106</Width>
+      <Height>129</Height>
+      <SheetX>3352</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\escape key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1170</SheetX>
+      <SheetY>882</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2017</SheetX>
+      <SheetY>936</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f1 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2402</SheetX>
+      <SheetY>1034</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f10 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1863</SheetX>
+      <SheetY>861</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f11 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1170</SheetX>
+      <SheetY>805</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f12 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1016</SheetX>
+      <SheetY>728</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f2 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>939</SheetX>
+      <SheetY>718</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f3 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>862</SheetX>
+      <SheetY>718</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f4</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>785</SheetX>
+      <SheetY>718</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f5 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>631</SheetX>
+      <SheetY>718</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f6 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>554</SheetX>
+      <SheetY>718</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f7 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1093</SheetX>
+      <SheetY>728</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f8 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>3542</SheetX>
+      <SheetY>1058</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\f9 key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>3465</SheetX>
+      <SheetY>1022</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\fancy e key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>3696</SheetX>
+      <SheetY>1096</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\g key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>3773</SheetX>
+      <SheetY>1096</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\h key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>3619</SheetX>
+      <SheetY>1058</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\i key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2650</SheetX>
+      <SheetY>966</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\j key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>708</SheetX>
+      <SheetY>718</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\k key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1170</SheetX>
+      <SheetY>728</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\l key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1786</SheetX>
+      <SheetY>825</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\left arrow</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>554</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\left click</Name>
+      <Width>79</Width>
+      <Height>111</Height>
+      <SheetX>3666</SheetX>
+      <SheetY>939</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\m key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1709</SheetX>
+      <SheetY>825</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\middle-click</Name>
+      <Width>79</Width>
+      <Height>111</Height>
+      <SheetX>3579</SheetX>
+      <SheetY>939</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\n key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1632</SheetX>
+      <SheetY>825</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\o key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1555</SheetX>
+      <SheetY>825</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\p key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1478</SheetX>
+      <SheetY>811</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\q key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1401</SheetX>
+      <SheetY>811</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\question mark key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1247</SheetX>
+      <SheetY>728</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\r key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1247</SheetX>
+      <SheetY>805</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\right arrow</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1093</SheetX>
+      <SheetY>805</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\right click</Name>
+      <Width>80</Width>
+      <Height>111</Height>
+      <SheetX>4009</SheetX>
+      <SheetY>774</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\s key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>939</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\scroll down</Name>
+      <Width>79</Width>
+      <Height>111</Height>
+      <SheetX>1777</SheetX>
+      <SheetY>662</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\scroll up</Name>
+      <Width>79</Width>
+      <Height>111</Height>
+      <SheetX>3686</SheetX>
+      <SheetY>579</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\shift key</Name>
+      <Width>95</Width>
+      <Height>63</Height>
+      <SheetX>1954</SheetX>
+      <SheetY>832</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\space bar</Name>
+      <Width>129</Width>
+      <Height>65</Height>
+      <SheetX>2818</SheetX>
+      <SheetY>816</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\t key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>862</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\tab key</Name>
+      <Width>105</Width>
+      <Height>65</Height>
+      <SheetX>2409</SheetX>
+      <SheetY>798</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\u key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>785</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\up arrow</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>708</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\v key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>631</SheetX>
+      <SheetY>795</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\w key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>3850</SheetX>
+      <SheetY>1166</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\x key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1324</SheetX>
+      <SheetY>811</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\y key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>2094</SheetX>
+      <SheetY>936</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>Inputs\PC Inputs\z key</Name>
+      <Width>69</Width>
+      <Height>69</Height>
+      <SheetX>1940</SheetX>
+      <SheetY>903</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>arrow left button 1</Name>
+      <Width>31</Width>
+      <Height>32</Height>
+      <SheetX>503</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>checkbox ticked</Name>
+      <Width>40</Width>
+      <Height>40</Height>
+      <SheetX>267</SheetX>
+      <SheetY>72</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>checkbox unticked</Name>
+      <Width>31</Width>
+      <Height>31</Height>
+      <SheetX>542</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>colour selector highlight</Name>
+      <Width>55</Width>
+      <Height>55</Height>
+      <SheetX>4</SheetX>
+      <SheetY>145</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>credit icon</Name>
+      <Width>39</Width>
+      <Height>40</Height>
+      <SheetX>315</SheetX>
+      <SheetY>72</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>hp map icon</Name>
+      <Width>59</Width>
+      <Height>58</Height>
+      <SheetX>200</SheetX>
+      <SheetY>72</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>map screen bottom left button 2</Name>
+      <Width>84</Width>
+      <Height>60</Height>
+      <SheetX>4</SheetX>
+      <SheetY>77</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>map screen bottom left button 3</Name>
+      <Width>84</Width>
+      <Height>60</Height>
+      <SheetX>200</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>map screen bottom left button 4</Name>
+      <Width>84</Width>
+      <Height>60</Height>
+      <SheetX>292</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>map screen bottom left button 5</Name>
+      <Width>84</Width>
+      <Height>69</Height>
+      <SheetX>108</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>map screen bottom left button</Name>
+      <Width>96</Width>
+      <Height>65</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>rewind button</Name>
+      <Width>70</Width>
+      <Height>65</Height>
+      <SheetX>384</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>scroll bar</Name>
+      <Width>33</Width>
+      <Height>33</Height>
+      <SheetX>462</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>shield health icon</Name>
+      <Width>58</Width>
+      <Height>58</Height>
+      <SheetX>96</SheetX>
+      <SheetY>81</SheetY>
+      <CategoryName>ui_group1_3</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>bar container</Name>
+      <Width>327</Width>
+      <Height>32</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_options_1</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>bar</Name>
+      <Width>252</Width>
+      <Height>22</Height>
+      <SheetX>339</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_options_1</CategoryName>
+    </SpritePart>
+  </SpriteParts>
+  <Sprites>
+    <GenericSprite>
+      <Name>body button highlighted</Name>
+      <SpritePartName>body button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>body button selected</Name>
+      <SpritePartName>body button selected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>body button unselected</Name>
+      <SpritePartName>body button unselected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>eyes button highlighted</Name>
+      <SpritePartName>eyes button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>eyes button selected</Name>
+      <SpritePartName>eyes button selected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>eyes button unselected</Name>
+      <SpritePartName>eyes button unselected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>face button highlighted</Name>
+      <SpritePartName>face button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>face button selected</Name>
+      <SpritePartName>face button selected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>face button unselected</Name>
+      <SpritePartName>face button unselected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>face markings button highlighted</Name>
+      <SpritePartName>face markings button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>face markings button selected</Name>
+      <SpritePartName>face markings button selected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>face markings button unselected</Name>
+      <SpritePartName>face markings button unselected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>hair button highlighted</Name>
+      <SpritePartName>hair button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>hair button selected</Name>
+      <SpritePartName>hair button selected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>hair button unselected</Name>
+      <SpritePartName>hair button unselected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>mouth button highlighted</Name>
+      <SpritePartName>mouth button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>mouth button selected</Name>
+      <SpritePartName>mouth button selected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>mouth button unselected</Name>
+      <SpritePartName>mouth button unselected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>nose button highlighted</Name>
+      <SpritePartName>nose button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>nose button selected</Name>
+      <SpritePartName>nose button selected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>nose button unselected</Name>
+      <SpritePartName>nose button unselected</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>voice test button</Name>
+      <SpritePartName>voice test button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>bar thing 2</Name>
+      <SpritePartName>bar thing 2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>bar thing</Name>
+      <SpritePartName>bar thing</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>custom battle centre</Name>
+      <SpritePartName>custom battle centre</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>dropdown list</Name>
+      <SpritePartName>dropdown list</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>health bar filling</Name>
+      <SpritePartName>health bar filling</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD top piece</Name>
+      <SpritePartName>HUD top piece</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>large UI piece</Name>
+      <SpritePartName>large UI piece</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>main menu alt</Name>
+      <SpritePartName>main menu alt</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>main menu</Name>
+      <SpritePartName>main menu</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>map location image frame</Name>
+      <SpritePartName>map location image frame</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>misc corner piece</Name>
+      <SpritePartName>misc corner piece</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>misc UI container</Name>
+      <SpritePartName>misc UI container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>misc UI frame</Name>
+      <SpritePartName>misc UI frame</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>misc yellow bar 1</Name>
+      <SpritePartName>misc yellow bar 1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>misc yellow bar 2</Name>
+      <SpritePartName>misc yellow bar 2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>morale bar separator</Name>
+      <SpritePartName>morale bar separator</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>mount bar filling</Name>
+      <SpritePartName>mount bar filling</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>notification bg</Name>
+      <SpritePartName>notification bg</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>slider bar fill</Name>
+      <SpritePartName>slider bar fill</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>UI button holder bottom</Name>
+      <SpritePartName>UI button holder bottom</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>UI connector piece</Name>
+      <SpritePartName>UI connector piece</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>UI corner</Name>
+      <SpritePartName>UI corner</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>UI frame thin</Name>
+      <SpritePartName>UI frame thin</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>UI frame</Name>
+      <SpritePartName>UI frame</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>UI vertical bar</Name>
+      <SpritePartName>UI vertical bar</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>UI window container</Name>
+      <SpritePartName>UI window container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>controller cursor</Name>
+      <SpritePartName>controller cursor</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\activated box thing</Name>
+      <SpritePartName>HUD elements\activated box thing</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\bar containing words</Name>
+      <SpritePartName>HUD elements\bar containing words</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\battle won banner</Name>
+      <SpritePartName>HUD elements\battle won banner</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\blue button highlighted taller</Name>
+      <SpritePartName>HUD elements\blue button highlighted taller</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\blue button taller</Name>
+      <SpritePartName>HUD elements\blue button taller</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\blue title</Name>
+      <SpritePartName>HUD elements\blue title</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\bottom blue lit</Name>
+      <SpritePartName>HUD elements\bottom blue lit</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\bottom blue unlit</Name>
+      <SpritePartName>HUD elements\bottom blue unlit</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\bottom red lit</Name>
+      <SpritePartName>HUD elements\bottom red lit</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\bottom red unlit</Name>
+      <SpritePartName>HUD elements\bottom red unlit</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\character creator button</Name>
+      <SpritePartName>HUD elements\character creator button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\corner hud thing</Name>
+      <SpritePartName>HUD elements\corner hud thing</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\day-night container</Name>
+      <SpritePartName>HUD elements\day-night container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\deactivated box thing</Name>
+      <SpritePartName>HUD elements\deactivated box thing</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\dropdown highlight</Name>
+      <SpritePartName>HUD elements\dropdown highlight</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\fast forward button</Name>
+      <SpritePartName>HUD elements\fast forward button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\female symbol</Name>
+      <SpritePartName>HUD elements\female symbol</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\health bar background</Name>
+      <SpritePartName>HUD elements\health bar background</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\health bar container</Name>
+      <SpritePartName>HUD elements\health bar container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\health icon</Name>
+      <SpritePartName>HUD elements\health icon</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\highlighted bar containing words</Name>
+      <SpritePartName>HUD elements\highlighted bar containing words</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\highlighted slider clicky bit</Name>
+      <SpritePartName>HUD elements\highlighted slider clicky bit</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\horse man</Name>
+      <SpritePartName>HUD elements\horse man</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\horse ranged man</Name>
+      <SpritePartName>HUD elements\horse ranged man</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\icon box glowing</Name>
+      <SpritePartName>HUD elements\icon box glowing</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\icon box</Name>
+      <SpritePartName>HUD elements\icon box</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\lit slider left</Name>
+      <SpritePartName>HUD elements\lit slider left</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\lit slider right</Name>
+      <SpritePartName>HUD elements\lit slider right</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\male symbol</Name>
+      <SpritePartName>HUD elements\male symbol</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\map player icon</Name>
+      <SpritePartName>HUD elements\map player icon</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\map screen bottom left rounded button</Name>
+      <SpritePartName>HUD elements\map screen bottom left rounded button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\map screen bottom left</Name>
+      <SpritePartName>HUD elements\map screen bottom left</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\melee man</Name>
+      <SpritePartName>HUD elements\melee man</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\menu pointer</Name>
+      <SpritePartName>HUD elements\menu pointer</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc bar 1</Name>
+      <SpritePartName>HUD elements\misc bar 1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc bar 2</Name>
+      <SpritePartName>HUD elements\misc bar 2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc bar 3</Name>
+      <SpritePartName>HUD elements\misc bar 3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc button highlighted</Name>
+      <SpritePartName>HUD elements\misc button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc button unhighlighted</Name>
+      <SpritePartName>HUD elements\misc button unhighlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI bar container</Name>
+      <SpritePartName>HUD elements\misc UI bar container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI divider</Name>
+      <SpritePartName>HUD elements\misc UI divider</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI full header</Name>
+      <SpritePartName>HUD elements\misc UI full header</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI header</Name>
+      <SpritePartName>HUD elements\misc UI header</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI metal</Name>
+      <SpritePartName>HUD elements\misc UI metal</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI panel long</Name>
+      <SpritePartName>HUD elements\misc UI panel long</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI panel</Name>
+      <SpritePartName>HUD elements\misc UI panel</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\misc UI thing</Name>
+      <SpritePartName>HUD elements\misc UI thing</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\morale bar container 2</Name>
+      <SpritePartName>HUD elements\morale bar container 2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\morale bar container</Name>
+      <SpritePartName>HUD elements\morale bar container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\mount health bar background</Name>
+      <SpritePartName>HUD elements\mount health bar background</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\mount health bar container</Name>
+      <SpritePartName>HUD elements\mount health bar container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\mount health icon</Name>
+      <SpritePartName>HUD elements\mount health icon</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\notification box separator</Name>
+      <SpritePartName>HUD elements\notification box separator</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\notification container</Name>
+      <SpritePartName>HUD elements\notification container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\pause menu column</Name>
+      <SpritePartName>HUD elements\pause menu column</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\pop-up frame</Name>
+      <SpritePartName>HUD elements\pop-up frame</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\ranged man</Name>
+      <SpritePartName>HUD elements\ranged man</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\red back button highlighted</Name>
+      <SpritePartName>HUD elements\red back button highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\red back button</Name>
+      <SpritePartName>HUD elements\red back button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\red button highlighted taller</Name>
+      <SpritePartName>HUD elements\red button highlighted taller</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\red button taller</Name>
+      <SpritePartName>HUD elements\red button taller</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\red title</Name>
+      <SpritePartName>HUD elements\red title</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\shield health bar background</Name>
+      <SpritePartName>HUD elements\shield health bar background</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\shield health container</Name>
+      <SpritePartName>HUD elements\shield health container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\slider bar container</Name>
+      <SpritePartName>HUD elements\slider bar container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\slider bar texture</Name>
+      <SpritePartName>HUD elements\slider bar texture</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\slider clicky bit</Name>
+      <SpritePartName>HUD elements\slider clicky bit</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\small corner bit button</Name>
+      <SpritePartName>HUD elements\small corner bit button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\small corner bit</Name>
+      <SpritePartName>HUD elements\small corner bit</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\top header text holder</Name>
+      <SpritePartName>HUD elements\top header text holder</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\UI bottom menu</Name>
+      <SpritePartName>HUD elements\UI bottom menu</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\UI side piece (char creator)</Name>
+      <SpritePartName>HUD elements\UI side piece (char creator)</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\UI top bar highlighted</Name>
+      <SpritePartName>HUD elements\UI top bar highlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\UI top bar unhighlighted</Name>
+      <SpritePartName>HUD elements\UI top bar unhighlighted</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\UI top left bar glowing 2</Name>
+      <SpritePartName>HUD elements\UI top left bar glowing 2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\UI top left bar glowing</Name>
+      <SpritePartName>HUD elements\UI top left bar glowing</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\UI vertical bar</Name>
+      <SpritePartName>HUD elements\UI vertical bar</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\unit card</Name>
+      <SpritePartName>HUD elements\unit card</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\unknown (maybe hitmarker)</Name>
+      <SpritePartName>HUD elements\unknown (maybe hitmarker)</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\unknown man</Name>
+      <SpritePartName>HUD elements\unknown man</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\unlit slider left</Name>
+      <SpritePartName>HUD elements\unlit slider left</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\unlit slider right</Name>
+      <SpritePartName>HUD elements\unlit slider right</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\victory screen bad guy header</Name>
+      <SpritePartName>HUD elements\victory screen bad guy header</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\victory screen good guy header</Name>
+      <SpritePartName>HUD elements\victory screen good guy header</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\white button highlighted taller</Name>
+      <SpritePartName>HUD elements\white button highlighted taller</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>HUD elements\white button</Name>
+      <SpritePartName>HUD elements\white button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\A button</Name>
+      <SpritePartName>Inputs\Controller Inputs\A button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\B button</Name>
+      <SpritePartName>Inputs\Controller Inputs\B button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\d-pad down</Name>
+      <SpritePartName>Inputs\Controller Inputs\d-pad down</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\d-pad left</Name>
+      <SpritePartName>Inputs\Controller Inputs\d-pad left</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\d-pad right</Name>
+      <SpritePartName>Inputs\Controller Inputs\d-pad right</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\d-pad up</Name>
+      <SpritePartName>Inputs\Controller Inputs\d-pad up</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\L1</Name>
+      <SpritePartName>Inputs\Controller Inputs\L1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\L2</Name>
+      <SpritePartName>Inputs\Controller Inputs\L2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\L3 press</Name>
+      <SpritePartName>Inputs\Controller Inputs\L3 press</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\L3</Name>
+      <SpritePartName>Inputs\Controller Inputs\L3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\LB button</Name>
+      <SpritePartName>Inputs\Controller Inputs\LB button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\left thumbstick press</Name>
+      <SpritePartName>Inputs\Controller Inputs\left thumbstick press</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\left thumbstick</Name>
+      <SpritePartName>Inputs\Controller Inputs\left thumbstick</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\left trigger</Name>
+      <SpritePartName>Inputs\Controller Inputs\left trigger</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\pause button</Name>
+      <SpritePartName>Inputs\Controller Inputs\pause button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS button left</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS button left</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS button right</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS button right</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS d-pad down</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS d-pad down</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS d-pad left</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS d-pad left</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS d-pad right</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS d-pad right</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS d-pad up</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS d-pad up</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS O button</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS O button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS rectangle button</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS rectangle button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS triangle button</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS triangle button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\PS X button</Name>
+      <SpritePartName>Inputs\Controller Inputs\PS X button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\R1</Name>
+      <SpritePartName>Inputs\Controller Inputs\R1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\R2</Name>
+      <SpritePartName>Inputs\Controller Inputs\R2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\R3 press</Name>
+      <SpritePartName>Inputs\Controller Inputs\R3 press</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\R3</Name>
+      <SpritePartName>Inputs\Controller Inputs\R3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\RB button</Name>
+      <SpritePartName>Inputs\Controller Inputs\RB button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\right thumbstick press</Name>
+      <SpritePartName>Inputs\Controller Inputs\right thumbstick press</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\right thumbstick</Name>
+      <SpritePartName>Inputs\Controller Inputs\right thumbstick</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\right trigger</Name>
+      <SpritePartName>Inputs\Controller Inputs\right trigger</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\select button</Name>
+      <SpritePartName>Inputs\Controller Inputs\select button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\X button</Name>
+      <SpritePartName>Inputs\Controller Inputs\X button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\Controller Inputs\Y button</Name>
+      <SpritePartName>Inputs\Controller Inputs\Y button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\+ key</Name>
+      <SpritePartName>Inputs\PC Inputs\+ key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\- key</Name>
+      <SpritePartName>Inputs\PC Inputs\- key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\0 key</Name>
+      <SpritePartName>Inputs\PC Inputs\0 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\1 key</Name>
+      <SpritePartName>Inputs\PC Inputs\1 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\2 key</Name>
+      <SpritePartName>Inputs\PC Inputs\2 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\3 key</Name>
+      <SpritePartName>Inputs\PC Inputs\3 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\4 key</Name>
+      <SpritePartName>Inputs\PC Inputs\4 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\5 key</Name>
+      <SpritePartName>Inputs\PC Inputs\5 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\6 key</Name>
+      <SpritePartName>Inputs\PC Inputs\6 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\7 key</Name>
+      <SpritePartName>Inputs\PC Inputs\7 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\8 key</Name>
+      <SpritePartName>Inputs\PC Inputs\8 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\9 key</Name>
+      <SpritePartName>Inputs\PC Inputs\9 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\a key</Name>
+      <SpritePartName>Inputs\PC Inputs\a key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\alt key</Name>
+      <SpritePartName>Inputs\PC Inputs\alt key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\b key</Name>
+      <SpritePartName>Inputs\PC Inputs\b key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\backspace</Name>
+      <SpritePartName>Inputs\PC Inputs\backspace</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\c key</Name>
+      <SpritePartName>Inputs\PC Inputs\c key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\caps lock key</Name>
+      <SpritePartName>Inputs\PC Inputs\caps lock key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\ctrl key</Name>
+      <SpritePartName>Inputs\PC Inputs\ctrl key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\d key</Name>
+      <SpritePartName>Inputs\PC Inputs\d key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\down arrow</Name>
+      <SpritePartName>Inputs\PC Inputs\down arrow</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\e key</Name>
+      <SpritePartName>Inputs\PC Inputs\e key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\enter key</Name>
+      <SpritePartName>Inputs\PC Inputs\enter key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\escape key</Name>
+      <SpritePartName>Inputs\PC Inputs\escape key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f key</Name>
+      <SpritePartName>Inputs\PC Inputs\f key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f1 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f1 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f10 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f10 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f11 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f11 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f12 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f12 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f2 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f2 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f3 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f3 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f4</Name>
+      <SpritePartName>Inputs\PC Inputs\f4</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f5 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f5 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f6 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f6 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f7 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f7 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f8 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f8 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\f9 key</Name>
+      <SpritePartName>Inputs\PC Inputs\f9 key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\fancy e key</Name>
+      <SpritePartName>Inputs\PC Inputs\fancy e key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\g key</Name>
+      <SpritePartName>Inputs\PC Inputs\g key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\h key</Name>
+      <SpritePartName>Inputs\PC Inputs\h key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\i key</Name>
+      <SpritePartName>Inputs\PC Inputs\i key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\j key</Name>
+      <SpritePartName>Inputs\PC Inputs\j key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\k key</Name>
+      <SpritePartName>Inputs\PC Inputs\k key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\l key</Name>
+      <SpritePartName>Inputs\PC Inputs\l key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\left arrow</Name>
+      <SpritePartName>Inputs\PC Inputs\left arrow</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\left click</Name>
+      <SpritePartName>Inputs\PC Inputs\left click</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\m key</Name>
+      <SpritePartName>Inputs\PC Inputs\m key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\middle-click</Name>
+      <SpritePartName>Inputs\PC Inputs\middle-click</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\n key</Name>
+      <SpritePartName>Inputs\PC Inputs\n key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\o key</Name>
+      <SpritePartName>Inputs\PC Inputs\o key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\p key</Name>
+      <SpritePartName>Inputs\PC Inputs\p key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\q key</Name>
+      <SpritePartName>Inputs\PC Inputs\q key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\question mark key</Name>
+      <SpritePartName>Inputs\PC Inputs\question mark key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\r key</Name>
+      <SpritePartName>Inputs\PC Inputs\r key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\right arrow</Name>
+      <SpritePartName>Inputs\PC Inputs\right arrow</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\right click</Name>
+      <SpritePartName>Inputs\PC Inputs\right click</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\s key</Name>
+      <SpritePartName>Inputs\PC Inputs\s key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\scroll down</Name>
+      <SpritePartName>Inputs\PC Inputs\scroll down</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\scroll up</Name>
+      <SpritePartName>Inputs\PC Inputs\scroll up</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\shift key</Name>
+      <SpritePartName>Inputs\PC Inputs\shift key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\space bar</Name>
+      <SpritePartName>Inputs\PC Inputs\space bar</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\t key</Name>
+      <SpritePartName>Inputs\PC Inputs\t key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\tab key</Name>
+      <SpritePartName>Inputs\PC Inputs\tab key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\u key</Name>
+      <SpritePartName>Inputs\PC Inputs\u key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\up arrow</Name>
+      <SpritePartName>Inputs\PC Inputs\up arrow</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\v key</Name>
+      <SpritePartName>Inputs\PC Inputs\v key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\w key</Name>
+      <SpritePartName>Inputs\PC Inputs\w key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\x key</Name>
+      <SpritePartName>Inputs\PC Inputs\x key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\y key</Name>
+      <SpritePartName>Inputs\PC Inputs\y key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>Inputs\PC Inputs\z key</Name>
+      <SpritePartName>Inputs\PC Inputs\z key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>arrow left button 1</Name>
+      <SpritePartName>arrow left button 1</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>checkbox ticked</Name>
+      <SpritePartName>checkbox ticked</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>checkbox unticked</Name>
+      <SpritePartName>checkbox unticked</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>colour selector highlight</Name>
+      <SpritePartName>colour selector highlight</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>credit icon</Name>
+      <SpritePartName>credit icon</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>hp map icon</Name>
+      <SpritePartName>hp map icon</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>map screen bottom left button 2</Name>
+      <SpritePartName>map screen bottom left button 2</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>map screen bottom left button 3</Name>
+      <SpritePartName>map screen bottom left button 3</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>map screen bottom left button 4</Name>
+      <SpritePartName>map screen bottom left button 4</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>map screen bottom left button 5</Name>
+      <SpritePartName>map screen bottom left button 5</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>map screen bottom left button</Name>
+      <SpritePartName>map screen bottom left button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>rewind button</Name>
+      <SpritePartName>rewind button</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>scroll bar</Name>
+      <SpritePartName>scroll bar</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>shield health icon</Name>
+      <SpritePartName>shield health icon</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>bar container</Name>
+      <SpritePartName>bar container</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>bar</Name>
+      <SpritePartName>bar</SpritePartName>
+    </GenericSprite>
+  </Sprites>
+</SpriteData>

@@ -1,0 +1,17 @@
+<Config>
+	<SpriteCategory Name="ui_facegen_1">
+		<AlwaysLoad/>
+	</SpriteCategory>
+	<SpriteCategory Name="ui_group1_1">
+		<AlwaysLoad/>
+	</SpriteCategory>
+	<SpriteCategory Name="ui_group1_2">
+		<AlwaysLoad/>
+	</SpriteCategory>
+	<SpriteCategory Name="ui_group1_3">
+		<AlwaysLoad/>
+	</SpriteCategory>
+	<SpriteCategory Name="ui_options_1">
+		<AlwaysLoad/>
+	</SpriteCategory>
+</Config>

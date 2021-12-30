@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  <!--player faction-->
+  <Faction id="galactic_republic"
+           owner="Hero.palpatine_republic"
+           banner_key="11.12.12.4345.4345.768.768.1.0.0.100.13.13.512.512.769.764.1.0.0"           
+           label_color="FFD2C0AA"
+           color="FF8D5C44"
+           color2="FFE9A74D"
+           alternative_color="FF6C5749"
+           alternative_color2="FFB3A491"
+           culture="Culture.galactic_republic"
+           settlement_banner_mesh="encounter_flag_a"
+           name="Republic Senate"
+           super_faction="Kingdom.galactic_republic"
+           tier="3"></Faction>
+  <Faction id="mandalorians"
+           owner="Hero.bo_katan"
+           banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0"           
+           label_color="FFD2C0AA"
+           color="FF8D5C44"
+           color2="FFE9A74D"
+           alternative_color="FF6C5749"
+           alternative_color2="FFB3A491"
+           culture="Culture.mandalorians"
+           settlement_banner_mesh="encounter_flag_a"
+           name="Clan Katan"
+           super_faction="Kingdom.mandalorian_loyalists"
+           tier="3"></Faction>
+</Factions>

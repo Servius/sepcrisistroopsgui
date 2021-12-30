@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+  <!-- #region Sword Pieces -->
+  <!-- #region Used Sword Blade Pieces -->
+  <CraftingPiece id="anakin_hilt" 
+    name="{=longclaw_grip}Anakin Lightsaber Hilt" 
+    tier="5" 
+    piece_type="Handle" 
+    mesh="anakin_lightsaber_hilt" 
+    culture="Culture.galactic_republic" 
+    length="26.5" 
+    weight="0.20" 
+    item_holster_pos_shift="0,0,-0.0">
+
+    <BuildData piece_offset="0" 
+      next_piece_offset="1" />
+    <Materials>
+      <Material id="Iron4"
+                count="12" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="anakin_blade" 
+    name="Anakin Lightsaber Blade" 
+    tier="5" piece_type="Blade" 
+    mesh="anakin_lightsaber_blade" 
+    culture="Culture.galactic_republic" 
+    length="86.2" 
+    weight="0.5">
+    <BladeData stack_amount="3" 
+      physics_material="metal_weapon" 
+      body_name="bo_sword_one_handed" 
+      holster_mesh="anakin_lightsaber_holster">
+      <Thrust damage_type="Pierce" 
+        damage_factor="4.0" />
+      <Swing damage_type="Cut" damage_factor="5.0" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron4"
+                count="12" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="red_blade" 
+    name="Red Lightsaber Blade" 
+    tier="5" 
+    piece_type="Blade" 
+    mesh="red_lightsaber_blade" 
+    culture="Culture.galactic_republic" 
+    length="86.2" 
+    weight="0.5">
+    <BladeData stack_amount="3" 
+      physics_material="metal_weapon" 
+      body_name="bo_sword_one_handed" 
+      holster_mesh="anakin_lightsaber_holster">
+      <Thrust damage_type="Pierce" 
+        damage_factor="8.0" />
+      <Swing damage_type="Cut" 
+        damage_factor="10.0" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron4"
+                count="12" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="black_blade" 
+    name="Darksaber Blade" 
+    tier="5" 
+    piece_type="Blade" 
+    mesh="black_lightsaber_blade" 
+    culture="Culture.galactic_republic" 
+    length="86.2" 
+    weight="0.5">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="anakin_lightsaber_holster">
+      <Thrust damage_type="Pierce" damage_factor="8.0" />
+      <Swing damage_type="Cut" damage_factor="10.0" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron4"
+                count="12" />
+    </Materials>
+  </CraftingPiece>
+
+
+
+
+  <!-- #endregion -->
+  <!-- #endregion -->
+</CraftingPieces>

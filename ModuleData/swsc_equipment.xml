@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+<EquipmentRoster id="republic_clone_trooper">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+        id="Item.battania_sword_2_t3" />
+      <Equipment slot="Body"
+        id="Item.p1trooper_armor" />
+      <Equipment slot="Cape"
+        id="Item.scarf" />
+      <Equipment slot="Leg"
+        id="Item.strapped_shoes" />
+      <Equipment slot="Gloves"
+        id="Item.highland_gloves" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  </EquipmentRosters>
