@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Separatist Crisis"/>
+  <Id value="SeparatistCrisis"/>
+  <Version value="e0.0.0.2"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" DependentVersion="e1.5.9"/>
+    <DependedModule Id="SandBoxCore" DependentVersion="e1.5.9"/>
+    <DependedModule Id="Sandbox" DependentVersion="e1.5.9"/>
+		<DependedModule Id="CustomBattle" DependentVersion="e1.5.9"/>
+    <DependedModule Id="StoryMode" DependentVersion="e1.5.9"/>
+  </DependedModules>
+  <SubModules>
+	<SubModule>
+		<Name value="SeparatistCrisis"/>
+		<DLLName value="SeparatistCrisis.dll"/>
+		<SubModuleClassType value="SeparatistCrisis.Main"/>
+		<Tags>
+			<Tag key="DedicatedServerType" value="none" />
+			<Tag key="IsNoRenderModeElement" value="false" />
+		</Tags>
+	</SubModule>
+  </SubModules>
+  <Xmls>	
+	<XmlNode>                
+      <XmlName id="NPCCharacters" path="lords"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+		<GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>         
+	<XmlNode>                
+		<XmlName id="SPCultures" path="spcultures"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode> 
+	<XmlNode>	
+		<XmlName id="NPCCharacters" path="spnpccharacters"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>							    
+	<XmlNode>
+			<XmlName id="Items" path="items"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="swsc_equipment"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	<XmlNode>
+		
+			<XmlName id="Items" path="weapons_blaster"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="CraftingPieces" path="crafting_pieces_swsc"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>               
+		<XmlNode>                
+			<XmlName id="CraftingTemplates" path="crafting_templates_swsc"/>
+		</XmlNode>	
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="weapon_descriptions_swsc"/>
+		</XmlNode>		
+  </Xmls>
+</Module>
