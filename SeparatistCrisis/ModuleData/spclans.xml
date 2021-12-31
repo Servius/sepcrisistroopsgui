@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Factions>
-  <!--player faction-->
+  <!--player faction--><!--super_faction="Kingdom.mandalorian_loyalists"-->           <!--super_faction="Kingdom.mandalorian_loyalists"--><!-- super_faction="Kingdom.galactic_republic"-->
   <Faction id="galactic_republic"
            owner="Hero.palpatine_republic"
            banner_key="11.12.12.4345.4345.768.768.1.0.0.100.13.13.512.512.769.764.1.0.0"           
@@ -11,9 +11,12 @@
            alternative_color2="FFB3A491"
            culture="Culture.galactic_republic"
            settlement_banner_mesh="encounter_flag_a"
+           is_minor_faction="true"
+           is_clan_type_mercenary="true"
            name="Republic Senate"
-           super_faction="Kingdom.galactic_republic"
-           tier="3"></Faction>
+          
+           tier="3"
+           text="{=bhxVA9w7}The Last Legion was created after the Emperor Arenicos abolished the last of the Empire's standing armies in the wake of the battle of Pendraic, relying instead on the archons' private retinues which were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regularly, and they take contracts from imperial and foreign lords alike."></Faction>
   <Faction id="mandalorians"
            owner="Hero.bo_katan"
            banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0"           
@@ -25,6 +28,24 @@
            culture="Culture.mandalorians"
            settlement_banner_mesh="encounter_flag_a"
            name="Clan Katan"
-           super_faction="Kingdom.mandalorian_loyalists"
-           tier="3"></Faction>
+           is_minor_faction="true"
+           is_clan_type_mercenary="true"
+
+           tier="3"
+           text="{=bhxVA9w7}The Last Legion was created after the Emperor Arenicos abolished the last of the Empire's standing armies in the wake of the battle of Pendraic, relying instead on the archons' private retinues which were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regularly, and they take contracts from imperial and foreign lords alike."></Faction>
+  <Faction id="mando_awaud"
+           owner="Hero.mando_awaud_nam"
+           banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0"           
+           label_color="FFD2C0AA"
+           color="FF8D5C44"
+           color2="FFE9A74D"
+           alternative_color="FF6C5749"
+           alternative_color2="FFB3A491"
+           culture="Culture.mandalorians"
+           settlement_banner_mesh="encounter_flag_a"
+           name="Clan Awaud"
+           is_minor_faction="true"
+           is_clan_type_mercenary="true"           
+           tier="1"
+           text="{=bhxVA9w7}The Last Legion was created after the Emperor Arenicos abolished the last of the Empire's standing armies in the wake of the battle of Pendraic, relying instead on the archons' private retinues which were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regularly, and they take contracts from imperial and foreign lords alike."></Faction>
 </Factions>

@@ -2,8 +2,8 @@
 <Heroes>
   <!--lords.xml-->
   <Hero id="palpatine_republic" is_noble="true" faction="Faction.republic_senate" text="Leader of the Galactic Senate" />
-  <Hero id="mando_awaud_vera" is_noble="true" faction="Faction.mando_awaud" father="Hero.mando_awaud_nam" text="Is Nam Beroyas daughter" />
-  <Hero id="mando_awaud_kad" is_noble="true" faction="Faction.mando_awaud" father="Hero.mando_awaud_avin" text="Adopted by Avin Solus" />
+  <Hero id="mando_awaud_nam" is_noble="true" faction="Faction.mando_awaud" text="Is Nam Beroyas, Leader of Clan Awaud" />
+  <!--<Hero id="mando_awaud_kad" is_noble="true" faction="Faction.mando_awaud" father="Hero.mando_awaud_avin" text="Adopted by Avin Solus" />
   <Hero id="mando_awaud_avin" is_noble="true" faction="Faction.mando_awaud" text="Mandalorian mercenary" />
-  <Hero id="mando_awaud_teroch" is_noble="true" faction="Faction.mando_awaud" text="Well seasoned mercenary with no interest in politics" />
+  <Hero id="mando_awaud_teroch" is_noble="true" faction="Faction.mando_awaud" text="Well seasoned mercenary with no interest in politics" />-->
 </Heroes>
