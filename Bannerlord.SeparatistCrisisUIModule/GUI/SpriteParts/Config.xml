@@ -14,4 +14,7 @@
 	<SpriteCategory Name="ui_options_1">
 		<AlwaysLoad/>
 	</SpriteCategory>
+	<SpriteCategory Name="ui_culture_banners">
+		<AlwaysLoad/>
+	</SpriteCategory>
 </Config>

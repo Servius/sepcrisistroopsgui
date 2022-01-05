@@ -2,6 +2,12 @@
 <SpriteData>
   <SpriteCategories>
     <SpriteCategory>
+      <Name>ui_culture_banners</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="512" Height="1024" />
+    </SpriteCategory>
+    <SpriteCategory>
       <Name>ui_facegen_1</Name>
       <AlwaysLoad />
       <SpriteSheetCount>1</SpriteSheetCount>
@@ -33,6 +39,15 @@
     </SpriteCategory>
   </SpriteCategories>
   <SpriteParts>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>CharacterCreation\Culture\galactic_republic</Name>
+      <Width>358</Width>
+      <Height>660</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_culture_banners</CategoryName>
+    </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
       <Name>FaceGen\BodyBtn1</Name>
@@ -461,8 +476,8 @@
       <Name>controller cursor</Name>
       <Width>120</Width>
       <Height>120</Height>
-      <SheetX>1556</SheetX>
-      <SheetY>918</SheetY>
+      <SheetX>1197</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -470,8 +485,8 @@
       <Name>main_menu_texture1</Name>
       <Width>424</Width>
       <Height>902</Height>
-      <SheetX>4</SheetX>
-      <SheetY>1092</SheetY>
+      <SheetX>457</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -479,8 +494,8 @@
       <Name>General\InitialMenu\main_menu_logo</Name>
       <Width>480</Width>
       <Height>131</Height>
-      <SheetX>457</SheetX>
-      <SheetY>783</SheetY>
+      <SheetX>858</SheetX>
+      <SheetY>1122</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -497,8 +512,8 @@
       <Name>HUD elements\activated box thing</Name>
       <Width>294</Width>
       <Height>224</Height>
-      <SheetX>1455</SheetX>
-      <SheetY>326</SheetY>
+      <SheetX>556</SheetX>
+      <SheetY>1122</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -506,8 +521,8 @@
       <Name>HUD elements\bar containing words</Name>
       <Width>309</Width>
       <Height>47</Height>
-      <SheetX>1587</SheetX>
-      <SheetY>787</SheetY>
+      <SheetX>1035</SheetX>
+      <SheetY>282</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -515,8 +530,8 @@
       <Name>HUD elements\battle won banner</Name>
       <Width>1130</Width>
       <Height>74</Height>
-      <SheetX>457</SheetX>
-      <SheetY>569</SheetY>
+      <SheetX>1354</SheetX>
+      <SheetY>2396</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -524,8 +539,8 @@
       <Name>HUD elements\blue button highlighted taller</Name>
       <Width>251</Width>
       <Height>68</Height>
-      <SheetX>1889</SheetX>
-      <SheetY>433</SheetY>
+      <SheetX>938</SheetX>
+      <SheetY>80</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -533,8 +548,8 @@
       <Name>HUD elements\blue button taller</Name>
       <Width>251</Width>
       <Height>68</Height>
-      <SheetX>1889</SheetX>
-      <SheetY>357</SheetY>
+      <SheetX>938</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -542,8 +557,8 @@
       <Name>HUD elements\bottom blue lit</Name>
       <Width>331</Width>
       <Height>66</Height>
-      <SheetX>1588</SheetX>
-      <SheetY>1605</SheetY>
+      <SheetX>1661</SheetX>
+      <SheetY>1721</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -551,8 +566,8 @@
       <Name>HUD elements\bottom blue unlit</Name>
       <Width>331</Width>
       <Height>66</Height>
-      <SheetX>986</SheetX>
-      <SheetY>1664</SheetY>
+      <SheetX>556</SheetX>
+      <SheetY>1754</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -560,8 +575,8 @@
       <Name>HUD elements\bottom red lit</Name>
       <Width>331</Width>
       <Height>66</Height>
-      <SheetX>1588</SheetX>
-      <SheetY>1679</SheetY>
+      <SheetX>1661</SheetX>
+      <SheetY>1795</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -569,8 +584,8 @@
       <Name>HUD elements\bottom red unlit</Name>
       <Width>331</Width>
       <Height>66</Height>
-      <SheetX>1927</SheetX>
-      <SheetY>1605</SheetY>
+      <SheetX>1092</SheetX>
+      <SheetY>2096</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -578,8 +593,8 @@
       <Name>HUD elements\character creator button</Name>
       <Width>62</Width>
       <Height>48</Height>
-      <SheetX>1473</SheetX>
-      <SheetY>1115</SheetY>
+      <SheetX>457</SheetX>
+      <SheetY>1033</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -587,8 +602,8 @@
       <Name>HUD elements\corner hud thing</Name>
       <Width>546</Width>
       <Height>112</Height>
-      <SheetX>914</SheetX>
-      <SheetY>922</SheetY>
+      <SheetX>556</SheetX>
+      <SheetY>1634</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -596,8 +611,8 @@
       <Name>HUD elements\day-night container</Name>
       <Width>434</Width>
       <Height>61</Height>
-      <SheetX>1795</SheetX>
-      <SheetY>212</SheetY>
+      <SheetX>1649</SheetX>
+      <SheetY>2021</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -605,8 +620,8 @@
       <Name>HUD elements\deactivated box thing</Name>
       <Width>281</Width>
       <Height>211</Height>
-      <SheetX>983</SheetX>
-      <SheetY>651</SheetY>
+      <SheetX>1082</SheetX>
+      <SheetY>1261</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -614,8 +629,8 @@
       <Name>HUD elements\dropdown highlight</Name>
       <Width>397</Width>
       <Height>34</Height>
-      <SheetX>2152</SheetX>
-      <SheetY>609</SheetY>
+      <SheetX>1997</SheetX>
+      <SheetY>2350</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -623,8 +638,8 @@
       <Name>HUD elements\fast forward button</Name>
       <Width>32</Width>
       <Height>30</Height>
-      <SheetX>1406</SheetX>
-      <SheetY>1530</SheetY>
+      <SheetX>1165</SheetX>
+      <SheetY>709</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -632,8 +647,8 @@
       <Name>HUD elements\female symbol</Name>
       <Width>123</Width>
       <Height>190</Height>
-      <SheetX>1815</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1407</SheetX>
+      <SheetY>1721</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -641,8 +656,8 @@
       <Name>HUD elements\health bar background</Name>
       <Width>222</Width>
       <Height>21</Height>
-      <SheetX>1509</SheetX>
-      <SheetY>1565</SheetY>
+      <SheetX>1407</SheetX>
+      <SheetY>1919</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -650,8 +665,8 @@
       <Name>HUD elements\health bar container</Name>
       <Width>231</Width>
       <Height>36</Height>
-      <SheetX>1889</SheetX>
-      <SheetY>509</SheetY>
+      <SheetX>2402</SheetX>
+      <SheetY>2350</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -659,8 +674,8 @@
       <Name>HUD elements\health icon</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1791</SheetX>
-      <SheetY>1454</SheetY>
+      <SheetX>1980</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -668,8 +683,8 @@
       <Name>HUD elements\highlighted bar containing words</Name>
       <Width>309</Width>
       <Height>46</Height>
-      <SheetX>2152</SheetX>
-      <SheetY>555</SheetY>
+      <SheetX>1333</SheetX>
+      <SheetY>187</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -677,8 +692,8 @@
       <Name>HUD elements\highlighted slider clicky bit</Name>
       <Width>44</Width>
       <Height>67</Height>
-      <SheetX>1866</SheetX>
-      <SheetY>1277</SheetY>
+      <SheetX>1723</SheetX>
+      <SheetY>954</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -686,8 +701,8 @@
       <Name>HUD elements\horse man</Name>
       <Width>82</Width>
       <Height>175</Height>
-      <SheetX>1684</SheetX>
-      <SheetY>918</SheetY>
+      <SheetX>1333</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -695,8 +710,8 @@
       <Name>HUD elements\horse ranged man</Name>
       <Width>80</Width>
       <Height>189</Height>
-      <SheetX>1468</SheetX>
-      <SheetY>918</SheetY>
+      <SheetX>938</SheetX>
+      <SheetY>408</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -704,8 +719,8 @@
       <Name>HUD elements\icon box glowing</Name>
       <Width>117</Width>
       <Height>117</Height>
-      <SheetX>1556</SheetX>
-      <SheetY>1046</SheetY>
+      <SheetX>1423</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -713,8 +728,8 @@
       <Name>HUD elements\icon box</Name>
       <Width>104</Width>
       <Height>104</Height>
-      <SheetX>1094</SheetX>
-      <SheetY>1042</SheetY>
+      <SheetX>1052</SheetX>
+      <SheetY>747</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -722,8 +737,8 @@
       <Name>HUD elements\lit slider left</Name>
       <Width>45</Width>
       <Height>51</Height>
-      <SheetX>1712</SheetX>
-      <SheetY>1220</SheetY>
+      <SheetX>1733</SheetX>
+      <SheetY>875</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -731,8 +746,8 @@
       <Name>HUD elements\lit slider right</Name>
       <Width>45</Width>
       <Height>51</Height>
-      <SheetX>2407</SheetX>
-      <SheetY>274</SheetY>
+      <SheetX>1649</SheetX>
+      <SheetY>493</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -740,8 +755,8 @@
       <Name>HUD elements\male symbol</Name>
       <Width>149</Width>
       <Height>147</Height>
-      <SheetX>1431</SheetX>
-      <SheetY>1605</SheetY>
+      <SheetX>1110</SheetX>
+      <SheetY>1480</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -749,8 +764,8 @@
       <Name>HUD elements\map player icon</Name>
       <Width>106</Width>
       <Height>106</Height>
-      <SheetX>2245</SheetX>
-      <SheetY>357</SheetY>
+      <SheetX>938</SheetX>
+      <SheetY>742</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -758,8 +773,8 @@
       <Name>HUD elements\map screen bottom left rounded button</Name>
       <Width>98</Width>
       <Height>60</Height>
-      <SheetX>2982</SheetX>
-      <SheetY>512</SheetY>
+      <SheetX>1443</SheetX>
+      <SheetY>500</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -767,8 +782,8 @@
       <Name>HUD elements\map screen bottom left</Name>
       <Width>549</Width>
       <Height>67</Height>
-      <SheetX>1595</SheetX>
-      <SheetY>558</SheetY>
+      <SheetX>1092</SheetX>
+      <SheetY>2021</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -776,8 +791,8 @@
       <Name>HUD elements\melee man</Name>
       <Width>95</Width>
       <Height>190</Height>
-      <SheetX>2069</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1684</SheetX>
+      <SheetY>2090</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -785,8 +800,8 @@
       <Name>HUD elements\menu pointer</Name>
       <Width>56</Width>
       <Height>25</Height>
-      <SheetX>3142</SheetX>
-      <SheetY>65</SheetY>
+      <SheetX>1301</SheetX>
+      <SheetY>1721</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -794,8 +809,8 @@
       <Name>HUD elements\misc bar 1</Name>
       <Width>114</Width>
       <Height>28</Height>
-      <SheetX>3142</SheetX>
-      <SheetY>98</SheetY>
+      <SheetX>2107</SheetX>
+      <SheetY>2096</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -803,8 +818,8 @@
       <Name>HUD elements\misc bar 2</Name>
       <Width>214</Width>
       <Height>29</Height>
-      <SheetX>986</SheetX>
-      <SheetY>1738</SheetY>
+      <SheetX>1423</SheetX>
+      <SheetY>130</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -812,8 +827,8 @@
       <Name>HUD elements\misc bar 3</Name>
       <Width>221</Width>
       <Height>29</Height>
-      <SheetX>3029</SheetX>
-      <SheetY>140</SheetY>
+      <SheetX>1684</SheetX>
+      <SheetY>2288</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -821,8 +836,8 @@
       <Name>HUD elements\misc button highlighted</Name>
       <Width>56</Width>
       <Height>39</Height>
-      <SheetX>914</SheetX>
-      <SheetY>1042</SheetY>
+      <SheetX>1267</SheetX>
+      <SheetY>1599</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -830,8 +845,8 @@
       <Name>HUD elements\misc button unhighlighted</Name>
       <Width>55</Width>
       <Height>39</Height>
-      <SheetX>1256</SheetX>
-      <SheetY>1394</SheetY>
+      <SheetX>1913</SheetX>
+      <SheetY>2274</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -839,8 +854,8 @@
       <Name>HUD elements\misc UI bar container</Name>
       <Width>475</Width>
       <Height>36</Height>
-      <SheetX>1927</SheetX>
-      <SheetY>1734</SheetY>
+      <SheetX>1787</SheetX>
+      <SheetY>2154</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -848,8 +863,8 @@
       <Name>HUD elements\misc UI divider</Name>
       <Width>576</Width>
       <Height>16</Height>
-      <SheetX>2469</SheetX>
-      <SheetY>583</SheetY>
+      <SheetX>889</SheetX>
+      <SheetY>886</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -857,8 +872,8 @@
       <Name>HUD elements\misc UI full header</Name>
       <Width>1944</Width>
       <Height>175</Height>
-      <SheetX>436</SheetX>
-      <SheetY>1778</SheetY>
+      <SheetX>4</SheetX>
+      <SheetY>2517</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -866,8 +881,8 @@
       <Name>HUD elements\misc UI header</Name>
       <Width>792</Width>
       <Height>106</Height>
-      <SheetX>995</SheetX>
-      <SheetY>212</SheetY>
+      <SheetX>554</SheetX>
+      <SheetY>2396</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -875,8 +890,8 @@
       <Name>HUD elements\misc UI metal</Name>
       <Width>518</Width>
       <Height>124</Height>
-      <SheetX>457</SheetX>
-      <SheetY>651</SheetY>
+      <SheetX>556</SheetX>
+      <SheetY>1354</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -884,8 +899,8 @@
       <Name>HUD elements\misc UI panel long</Name>
       <Width>990</Width>
       <Height>184</Height>
-      <SheetX>457</SheetX>
-      <SheetY>377</SheetY>
+      <SheetX>554</SheetX>
+      <SheetY>2204</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -893,8 +908,8 @@
       <Name>HUD elements\misc UI panel</Name>
       <Width>530</Width>
       <Height>365</Height>
-      <SheetX>457</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>554</SheetX>
+      <SheetY>1831</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -902,8 +917,8 @@
       <Name>HUD elements\misc UI thing</Name>
       <Width>307</Width>
       <Height>187</Height>
-      <SheetX>1272</SheetX>
-      <SheetY>651</SheetY>
+      <SheetX>1092</SheetX>
+      <SheetY>1754</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -911,8 +926,8 @@
       <Name>HUD elements\morale bar container 2</Name>
       <Width>526</Width>
       <Height>31</Height>
-      <SheetX>436</SheetX>
-      <SheetY>1961</SheetY>
+      <SheetX>1888</SheetX>
+      <SheetY>2478</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -920,8 +935,8 @@
       <Name>HUD elements\morale bar container</Name>
       <Width>526</Width>
       <Height>31</Height>
-      <SheetX>2431</SheetX>
-      <SheetY>68</SheetY>
+      <SheetX>1354</SheetX>
+      <SheetY>2478</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -929,8 +944,8 @@
       <Name>HUD elements\mount health bar background</Name>
       <Width>185</Width>
       <Height>22</Height>
-      <SheetX>1188</SheetX>
-      <SheetY>326</SheetY>
+      <SheetX>1092</SheetX>
+      <SheetY>2170</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -938,8 +953,8 @@
       <Name>HUD elements\mount health bar container</Name>
       <Width>183</Width>
       <Height>24</Height>
-      <SheetX>2669</SheetX>
-      <SheetY>533</SheetY>
+      <SheetX>1110</SheetX>
+      <SheetY>1721</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -947,8 +962,8 @@
       <Name>HUD elements\mount health icon</Name>
       <Width>58</Width>
       <Height>58</Height>
-      <SheetX>1443</SheetX>
-      <SheetY>1205</SheetY>
+      <SheetX>1459</SheetX>
+      <SheetY>335</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -956,8 +971,8 @@
       <Name>HUD elements\notification box separator</Name>
       <Width>515</Width>
       <Height>16</Height>
-      <SheetX>986</SheetX>
-      <SheetY>1569</SheetY>
+      <SheetX>1734</SheetX>
+      <SheetY>1988</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -965,17 +980,8 @@
       <Name>HUD elements\notification container</Name>
       <Width>116</Width>
       <Height>118</Height>
-      <SheetX>1774</SheetX>
-      <SheetY>918</SheetY>
-      <CategoryName>ui_group1_2</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>1</SheetID>
-      <Name>HUD elements\pause menu column</Name>
-      <Width>524</Width>
-      <Height>706</Height>
-      <SheetX>4</SheetX>
-      <SheetY>2002</SheetY>
+      <SheetX>1548</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -983,8 +989,8 @@
       <Name>HUD elements\pop-up frame</Name>
       <Width>542</Width>
       <Height>678</Height>
-      <SheetX>436</SheetX>
-      <SheetY>1092</SheetY>
+      <SheetX>4</SheetX>
+      <SheetY>1831</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -992,8 +998,8 @@
       <Name>HUD elements\ranged man</Name>
       <Width>115</Width>
       <Height>190</Height>
-      <SheetX>1946</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1538</SheetX>
+      <SheetY>1721</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1001,8 +1007,8 @@
       <Name>HUD elements\red back button highlighted</Name>
       <Width>115</Width>
       <Height>53</Height>
-      <SheetX>3088</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1375</SheetX>
+      <SheetY>590</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1010,8 +1016,8 @@
       <Name>HUD elements\red back button</Name>
       <Width>160</Width>
       <Height>63</Height>
-      <SheetX>2472</SheetX>
-      <SheetY>387</SheetY>
+      <SheetX>895</SheetX>
+      <SheetY>1754</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1019,8 +1025,8 @@
       <Name>HUD elements\red button highlighted taller</Name>
       <Width>251</Width>
       <Height>68</Height>
-      <SheetX>2172</SheetX>
-      <SheetY>68</SheetY>
+      <SheetX>1997</SheetX>
+      <SheetY>2274</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1028,8 +1034,8 @@
       <Name>HUD elements\red button taller</Name>
       <Width>251</Width>
       <Height>68</Height>
-      <SheetX>1889</SheetX>
-      <SheetY>281</SheetY>
+      <SheetX>1787</SheetX>
+      <SheetY>2198</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1037,8 +1043,8 @@
       <Name>HUD elements\red title</Name>
       <Width>449</Width>
       <Height>140</Height>
-      <SheetX>457</SheetX>
-      <SheetY>922</SheetY>
+      <SheetX>556</SheetX>
+      <SheetY>1486</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1046,8 +1052,8 @@
       <Name>HUD elements\shield health bar background</Name>
       <Width>185</Width>
       <Height>22</Height>
-      <SheetX>995</SheetX>
-      <SheetY>326</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1610</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1055,8 +1061,8 @@
       <Name>HUD elements\shield health container</Name>
       <Width>183</Width>
       <Height>24</Height>
-      <SheetX>1094</SheetX>
-      <SheetY>1522</SheetY>
+      <SheetX>1646</SheetX>
+      <SheetY>1039</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1064,8 +1070,8 @@
       <Name>HUD elements\slider bar container</Name>
       <Width>385</Width>
       <Height>47</Height>
-      <SheetX>1927</SheetX>
-      <SheetY>1679</SheetY>
+      <SheetX>1661</SheetX>
+      <SheetY>1869</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1073,8 +1079,8 @@
       <Name>HUD elements\slider bar texture</Name>
       <Width>364</Width>
       <Height>46</Height>
-      <SheetX>2237</SheetX>
-      <SheetY>220</SheetY>
+      <SheetX>938</SheetX>
+      <SheetY>354</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1082,8 +1088,8 @@
       <Name>HUD elements\slider clicky bit</Name>
       <Width>28</Width>
       <Height>51</Height>
-      <SheetX>1676</SheetX>
-      <SheetY>1310</SheetY>
+      <SheetX>1310</SheetX>
+      <SheetY>337</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1091,8 +1097,8 @@
       <Name>HUD elements\small corner bit button</Name>
       <Width>82</Width>
       <Height>54</Height>
-      <SheetX>1739</SheetX>
-      <SheetY>1531</SheetY>
+      <SheetX>1633</SheetX>
+      <SheetY>1225</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1100,8 +1106,8 @@
       <Name>HUD elements\small corner bit</Name>
       <Width>104</Width>
       <Height>75</Height>
-      <SheetX>2609</SheetX>
-      <SheetY>191</SheetY>
+      <SheetX>2223</SheetX>
+      <SheetY>2012</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1109,8 +1115,8 @@
       <Name>HUD elements\top header text holder</Name>
       <Width>437</Width>
       <Height>51</Height>
-      <SheetX>986</SheetX>
-      <SheetY>1605</SheetY>
+      <SheetX>1552</SheetX>
+      <SheetY>2328</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1118,8 +1124,8 @@
       <Name>HUD elements\UI bottom menu</Name>
       <Width>812</Width>
       <Height>200</Height>
-      <SheetX>995</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>556</SheetX>
+      <SheetY>914</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1127,8 +1133,8 @@
       <Name>HUD elements\UI side piece (char creator)</Name>
       <Width>100</Width>
       <Height>519</Height>
-      <SheetX>986</SheetX>
-      <SheetY>1042</SheetY>
+      <SheetX>1371</SheetX>
+      <SheetY>1122</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1136,8 +1142,8 @@
       <Name>HUD elements\UI top bar highlighted</Name>
       <Width>290</Width>
       <Height>55</Height>
-      <SheetX>2492</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1035</SheetX>
+      <SheetY>156</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1145,8 +1151,8 @@
       <Name>HUD elements\UI top bar unhighlighted</Name>
       <Width>290</Width>
       <Height>55</Height>
-      <SheetX>2790</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1035</SheetX>
+      <SheetY>219</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1154,8 +1160,8 @@
       <Name>HUD elements\UI top left bar glowing 2</Name>
       <Width>312</Width>
       <Height>56</Height>
-      <SheetX>2172</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1734</SheetX>
+      <SheetY>1924</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1163,8 +1169,8 @@
       <Name>HUD elements\UI top left bar glowing</Name>
       <Width>312</Width>
       <Height>56</Height>
-      <SheetX>1587</SheetX>
-      <SheetY>723</SheetY>
+      <SheetX>1787</SheetX>
+      <SheetY>2090</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1172,8 +1178,8 @@
       <Name>HUD elements\UI vertical bar</Name>
       <Width>41</Width>
       <Height>874</Height>
-      <SheetX>1919</SheetX>
-      <SheetY>723</SheetY>
+      <SheetX>889</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1181,8 +1187,8 @@
       <Name>HUD elements\unit card</Name>
       <Width>124</Width>
       <Height>224</Height>
-      <SheetX>1757</SheetX>
-      <SheetY>326</SheetY>
+      <SheetX>1552</SheetX>
+      <SheetY>2096</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1190,8 +1196,8 @@
       <Name>HUD elements\unknown (maybe hitmarker)</Name>
       <Width>26</Width>
       <Height>27</Height>
-      <SheetX>2431</SheetX>
-      <SheetY>107</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1575</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1199,8 +1205,8 @@
       <Name>HUD elements\unknown man</Name>
       <Width>89</Width>
       <Height>190</Height>
-      <SheetX>2148</SheetX>
-      <SheetY>357</SheetY>
+      <SheetX>938</SheetX>
+      <SheetY>156</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1208,8 +1214,8 @@
       <Name>HUD elements\unlit slider left</Name>
       <Width>45</Width>
       <Height>51</Height>
-      <SheetX>2172</SheetX>
-      <SheetY>144</SheetY>
+      <SheetX>1747</SheetX>
+      <SheetY>787</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1217,8 +1223,8 @@
       <Name>HUD elements\unlit slider right</Name>
       <Width>45</Width>
       <Height>51</Height>
-      <SheetX>3197</SheetX>
-      <SheetY>177</SheetY>
+      <SheetX>1775</SheetX>
+      <SheetY>934</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1226,8 +1232,8 @@
       <Name>HUD elements\victory screen bad guy header</Name>
       <Width>639</Width>
       <Height>64</Height>
-      <SheetX>1272</SheetX>
-      <SheetY>846</SheetY>
+      <SheetX>1110</SheetX>
+      <SheetY>1649</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1235,8 +1241,8 @@
       <Name>HUD elements\victory screen good guy header</Name>
       <Width>634</Width>
       <Height>64</Height>
-      <SheetX>1587</SheetX>
-      <SheetY>651</SheetY>
+      <SheetX>1092</SheetX>
+      <SheetY>1949</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1244,8 +1250,8 @@
       <Name>HUD elements\white button highlighted taller</Name>
       <Width>251</Width>
       <Height>68</Height>
-      <SheetX>2148</SheetX>
-      <SheetY>281</SheetY>
+      <SheetX>2046</SheetX>
+      <SheetY>2198</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1253,8 +1259,8 @@
       <Name>HUD elements\white button</Name>
       <Width>251</Width>
       <Height>68</Height>
-      <SheetX>2237</SheetX>
-      <SheetY>144</SheetY>
+      <SheetX>2256</SheetX>
+      <SheetY>2274</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1262,8 +1268,8 @@
       <Name>Inputs\Controller Inputs\A button</Name>
       <Width>86</Width>
       <Height>86</Height>
-      <SheetX>2819</SheetX>
-      <SheetY>107</SheetY>
+      <SheetX>1259</SheetX>
+      <SheetY>502</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1271,8 +1277,8 @@
       <Name>Inputs\Controller Inputs\B button</Name>
       <Width>86</Width>
       <Height>86</Height>
-      <SheetX>2828</SheetX>
-      <SheetY>201</SheetY>
+      <SheetX>1251</SheetX>
+      <SheetY>709</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1280,8 +1286,8 @@
       <Name>Inputs\Controller Inputs\d-pad down</Name>
       <Width>82</Width>
       <Height>82</Height>
-      <SheetX>1293</SheetX>
-      <SheetY>1042</SheetY>
+      <SheetX>1346</SheetX>
+      <SheetY>410</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1289,8 +1295,8 @@
       <Name>Inputs\Controller Inputs\d-pad left</Name>
       <Width>82</Width>
       <Height>82</Height>
-      <SheetX>1509</SheetX>
-      <SheetY>1244</SheetY>
+      <SheetX>1353</SheetX>
+      <SheetY>500</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1298,8 +1304,8 @@
       <Name>Inputs\Controller Inputs\d-pad right</Name>
       <Width>82</Width>
       <Height>82</Height>
-      <SheetX>1383</SheetX>
-      <SheetY>1115</SheetY>
+      <SheetX>1436</SheetX>
+      <SheetY>410</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1307,8 +1313,8 @@
       <Name>Inputs\Controller Inputs\d-pad up</Name>
       <Width>82</Width>
       <Height>82</Height>
-      <SheetX>1622</SheetX>
-      <SheetY>1220</SheetY>
+      <SheetX>1352</SheetX>
+      <SheetY>241</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1316,8 +1322,8 @@
       <Name>Inputs\Controller Inputs\L1</Name>
       <Width>92</Width>
       <Height>61</Height>
-      <SheetX>1194</SheetX>
-      <SheetY>1295</SheetY>
+      <SheetX>1526</SheetX>
+      <SheetY>429</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1325,8 +1331,8 @@
       <Name>Inputs\Controller Inputs\L2</Name>
       <Width>67</Width>
       <Height>86</Height>
-      <SheetX>1293</SheetX>
-      <SheetY>1132</SheetY>
+      <SheetX>1442</SheetX>
+      <SheetY>241</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1334,8 +1340,8 @@
       <Name>Inputs\Controller Inputs\L3 press</Name>
       <Width>108</Width>
       <Height>76</Height>
-      <SheetX>2609</SheetX>
-      <SheetY>107</SheetY>
+      <SheetX>1376</SheetX>
+      <SheetY>1029</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1343,8 +1349,8 @@
       <Name>Inputs\Controller Inputs\L3</Name>
       <Width>108</Width>
       <Height>64</Height>
-      <SheetX>2922</SheetX>
-      <SheetY>179</SheetY>
+      <SheetX>1367</SheetX>
+      <SheetY>740</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1352,8 +1358,8 @@
       <Name>Inputs\Controller Inputs\LB button</Name>
       <Width>92</Width>
       <Height>61</Height>
-      <SheetX>1094</SheetX>
-      <SheetY>1273</SheetY>
+      <SheetX>1498</SheetX>
+      <SheetY>568</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1361,8 +1367,8 @@
       <Name>Inputs\Controller Inputs\left thumbstick press</Name>
       <Width>108</Width>
       <Height>76</Height>
-      <SheetX>2669</SheetX>
-      <SheetY>442</SheetY>
+      <SheetX>1463</SheetX>
+      <SheetY>910</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1370,8 +1376,8 @@
       <Name>Inputs\Controller Inputs\left thumbstick</Name>
       <Width>108</Width>
       <Height>64</Height>
-      <SheetX>2850</SheetX>
-      <SheetY>295</SheetY>
+      <SheetX>1259</SheetX>
+      <SheetY>596</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1379,8 +1385,8 @@
       <Name>Inputs\Controller Inputs\left trigger</Name>
       <Width>67</Width>
       <Height>86</Height>
-      <SheetX>1181</SheetX>
-      <SheetY>1161</SheetY>
+      <SheetX>1526</SheetX>
+      <SheetY>335</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1388,8 +1394,8 @@
       <Name>Inputs\Controller Inputs\pause button</Name>
       <Width>86</Width>
       <Height>86</Height>
-      <SheetX>2756</SheetX>
-      <SheetY>345</SheetY>
+      <SheetX>2305</SheetX>
+      <SheetY>2166</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1397,8 +1403,8 @@
       <Name>Inputs\Controller Inputs\PS button left</Name>
       <Width>59</Width>
       <Height>91</Height>
-      <SheetX>1294</SheetX>
-      <SheetY>1295</SheetY>
+      <SheetX>1650</SheetX>
+      <SheetY>130</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1406,8 +1412,8 @@
       <Name>Inputs\Controller Inputs\PS button right</Name>
       <Width>55</Width>
       <Height>88</Height>
-      <SheetX>1856</SheetX>
-      <SheetY>1181</SheetY>
+      <SheetX>1667</SheetX>
+      <SheetY>229</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1415,8 +1421,8 @@
       <Name>Inputs\Controller Inputs\PS d-pad down</Name>
       <Width>105</Width>
       <Height>105</Height>
-      <SheetX>2359</SheetX>
-      <SheetY>357</SheetY>
+      <SheetX>1139</SheetX>
+      <SheetY>408</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1424,8 +1430,8 @@
       <Name>Inputs\Controller Inputs\PS d-pad left</Name>
       <Width>105</Width>
       <Height>105</Height>
-      <SheetX>2469</SheetX>
-      <SheetY>470</SheetY>
+      <SheetX>1052</SheetX>
+      <SheetY>521</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1433,8 +1439,8 @@
       <Name>Inputs\Controller Inputs\PS d-pad right</Name>
       <Width>105</Width>
       <Height>105</Height>
-      <SheetX>2496</SheetX>
-      <SheetY>107</SheetY>
+      <SheetX>1026</SheetX>
+      <SheetY>408</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1442,8 +1448,8 @@
       <Name>Inputs\Controller Inputs\PS d-pad up</Name>
       <Width>105</Width>
       <Height>105</Height>
-      <SheetX>2472</SheetX>
-      <SheetY>274</SheetY>
+      <SheetX>1052</SheetX>
+      <SheetY>634</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1451,8 +1457,8 @@
       <Name>Inputs\Controller Inputs\PS O button</Name>
       <Width>73</Width>
       <Height>73</Height>
-      <SheetX>1094</SheetX>
-      <SheetY>1342</SheetY>
+      <SheetX>995</SheetX>
+      <SheetY>1261</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1460,8 +1466,8 @@
       <Name>Inputs\Controller Inputs\PS rectangle button</Name>
       <Width>73</Width>
       <Height>73</Height>
-      <SheetX>1175</SheetX>
-      <SheetY>1364</SheetY>
+      <SheetX>1601</SheetX>
+      <SheetY>335</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1469,8 +1475,8 @@
       <Name>Inputs\Controller Inputs\PS triangle button</Name>
       <Width>74</Width>
       <Height>74</Height>
-      <SheetX>2382</SheetX>
-      <SheetY>470</SheetY>
+      <SheetX>1564</SheetX>
+      <SheetY>637</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1478,8 +1484,8 @@
       <Name>Inputs\Controller Inputs\PS X button</Name>
       <Width>73</Width>
       <Height>73</Height>
-      <SheetX>1094</SheetX>
-      <SheetY>1423</SheetY>
+      <SheetX>1583</SheetX>
+      <SheetY>719</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1487,8 +1493,8 @@
       <Name>Inputs\Controller Inputs\R1</Name>
       <Width>92</Width>
       <Height>61</Height>
-      <SheetX>1256</SheetX>
-      <SheetY>1226</SheetY>
+      <SheetX>1483</SheetX>
+      <SheetY>722</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1496,8 +1502,8 @@
       <Name>Inputs\Controller Inputs\R2</Name>
       <Width>67</Width>
       <Height>86</Height>
-      <SheetX>1368</SheetX>
-      <SheetY>1205</SheetY>
+      <SheetX>1592</SheetX>
+      <SheetY>241</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1505,8 +1511,8 @@
       <Name>Inputs\Controller Inputs\R3 press</Name>
       <Width>108</Width>
       <Height>76</Height>
-      <SheetX>2640</SheetX>
-      <SheetY>358</SheetY>
+      <SheetX>2107</SheetX>
+      <SheetY>2012</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1514,8 +1520,8 @@
       <Name>Inputs\Controller Inputs\R3</Name>
       <Width>108</Width>
       <Height>64</Height>
-      <SheetX>2850</SheetX>
-      <SheetY>367</SheetY>
+      <SheetX>1251</SheetX>
+      <SheetY>803</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1523,8 +1529,8 @@
       <Name>Inputs\Controller Inputs\RB button</Name>
       <Width>92</Width>
       <Height>61</Height>
-      <SheetX>2721</SheetX>
-      <SheetY>201</SheetY>
+      <SheetX>1549</SheetX>
+      <SheetY>498</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1532,8 +1538,8 @@
       <Name>Inputs\Controller Inputs\right thumbstick press</Name>
       <Width>108</Width>
       <Height>76</Height>
-      <SheetX>2585</SheetX>
-      <SheetY>274</SheetY>
+      <SheetX>1431</SheetX>
+      <SheetY>2096</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1541,8 +1547,8 @@
       <Name>Inputs\Controller Inputs\right thumbstick</Name>
       <Width>108</Width>
       <Height>64</Height>
-      <SheetX>2913</SheetX>
-      <SheetY>107</SheetY>
+      <SheetX>1345</SheetX>
+      <SheetY>668</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1550,8 +1556,8 @@
       <Name>Inputs\Controller Inputs\right trigger</Name>
       <Width>67</Width>
       <Height>86</Height>
-      <SheetX>3211</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1517</SheetX>
+      <SheetY>241</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1559,8 +1565,8 @@
       <Name>Inputs\Controller Inputs\select button</Name>
       <Width>86</Width>
       <Height>86</Height>
-      <SheetX>2725</SheetX>
-      <SheetY>107</SheetY>
+      <SheetX>1252</SheetX>
+      <SheetY>408</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1568,8 +1574,8 @@
       <Name>Inputs\Controller Inputs\X button</Name>
       <Width>86</Width>
       <Height>86</Height>
-      <SheetX>2785</SheetX>
-      <SheetY>439</SheetY>
+      <SheetX>1165</SheetX>
+      <SheetY>615</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1577,8 +1583,8 @@
       <Name>Inputs\Controller Inputs\Y button</Name>
       <Width>86</Width>
       <Height>86</Height>
-      <SheetX>1325</SheetX>
-      <SheetY>1664</SheetY>
+      <SheetX>1165</SheetX>
+      <SheetY>521</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1586,8 +1592,8 @@
       <Name>Inputs\PC Inputs\+ key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3902</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1556</SheetX>
+      <SheetY>1148</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1595,8 +1601,8 @@
       <Name>Inputs\PC Inputs\- key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3979</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1741</SheetX>
+      <SheetY>633</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1604,8 +1610,8 @@
       <Name>Inputs\PC Inputs\0 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3902</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1556</SheetX>
+      <SheetY>1302</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1613,8 +1619,8 @@
       <Name>Inputs\PC Inputs\1 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3363</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1556</SheetX>
+      <SheetY>1379</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1622,8 +1628,8 @@
       <Name>Inputs\PC Inputs\2 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3440</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1556</SheetX>
+      <SheetY>1456</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1631,8 +1637,8 @@
       <Name>Inputs\PC Inputs\3 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3517</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1556</SheetX>
+      <SheetY>1533</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1640,8 +1646,8 @@
       <Name>Inputs\PC Inputs\4 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3594</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1633</SheetX>
+      <SheetY>1071</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1649,8 +1655,8 @@
       <Name>Inputs\PC Inputs\5 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3671</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1646</SheetX>
+      <SheetY>962</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1658,8 +1664,8 @@
       <Name>Inputs\PC Inputs\6 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3748</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1656</SheetX>
+      <SheetY>877</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1667,8 +1673,8 @@
       <Name>Inputs\PC Inputs\7 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3825</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1670</SheetX>
+      <SheetY>798</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1676,8 +1682,8 @@
       <Name>Inputs\PC Inputs\8 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3797</SheetX>
-      <SheetY>158</SheetY>
+      <SheetX>1633</SheetX>
+      <SheetY>1148</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1685,8 +1691,8 @@
       <Name>Inputs\PC Inputs\9 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1483</SheetX>
-      <SheetY>1411</SheetY>
+      <SheetX>1741</SheetX>
+      <SheetY>710</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1694,8 +1700,8 @@
       <Name>Inputs\PC Inputs\a key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3979</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1800</SheetX>
+      <SheetY>543</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1703,8 +1709,8 @@
       <Name>Inputs\PC Inputs\alt key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3258</SheetX>
-      <SheetY>158</SheetY>
+      <SheetX>1857</SheetX>
+      <SheetY>389</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1712,8 +1718,8 @@
       <Name>Inputs\PC Inputs\b key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3335</SheetX>
-      <SheetY>158</SheetY>
+      <SheetX>1857</SheetX>
+      <SheetY>466</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1721,8 +1727,8 @@
       <Name>Inputs\PC Inputs\backspace</Name>
       <Width>119</Width>
       <Height>63</Height>
-      <SheetX>2701</SheetX>
-      <SheetY>274</SheetY>
+      <SheetX>2270</SheetX>
+      <SheetY>2095</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1730,7 +1736,7 @@
       <Name>Inputs\PC Inputs\c key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3412</SheetX>
+      <SheetX>1961</SheetX>
       <SheetY>158</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
@@ -1739,8 +1745,8 @@
       <Name>Inputs\PC Inputs\caps lock key</Name>
       <Width>105</Width>
       <Height>65</Height>
-      <SheetX>1509</SheetX>
-      <SheetY>1171</SheetY>
+      <SheetX>1346</SheetX>
+      <SheetY>337</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1748,8 +1754,8 @@
       <Name>Inputs\PC Inputs\ctrl key</Name>
       <Width>105</Width>
       <Height>65</Height>
-      <SheetX>2879</SheetX>
-      <SheetY>439</SheetY>
+      <SheetX>1367</SheetX>
+      <SheetY>812</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1757,8 +1763,8 @@
       <Name>Inputs\PC Inputs\d key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3489</SheetX>
-      <SheetY>158</SheetY>
+      <SheetX>1961</SheetX>
+      <SheetY>235</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1766,7 +1772,7 @@
       <Name>Inputs\PC Inputs\down arrow</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3566</SheetX>
+      <SheetX>1884</SheetX>
       <SheetY>158</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
@@ -1775,8 +1781,8 @@
       <Name>Inputs\PC Inputs\e key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3720</SheetX>
-      <SheetY>158</SheetY>
+      <SheetX>2025</SheetX>
+      <SheetY>81</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1784,8 +1790,8 @@
       <Name>Inputs\PC Inputs\enter key</Name>
       <Width>106</Width>
       <Height>129</Height>
-      <SheetX>1774</SheetX>
-      <SheetY>1044</SheetY>
+      <SheetX>938</SheetX>
+      <SheetY>605</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1793,8 +1799,8 @@
       <Name>Inputs\PC Inputs\escape key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3874</SheetX>
-      <SheetY>158</SheetY>
+      <SheetX>2057</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1802,8 +1808,8 @@
       <Name>Inputs\PC Inputs\f key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3643</SheetX>
-      <SheetY>158</SheetY>
+      <SheetX>1913</SheetX>
+      <SheetY>312</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1811,8 +1817,8 @@
       <Name>Inputs\PC Inputs\f1 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3748</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1884</SheetX>
+      <SheetY>235</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1820,8 +1826,8 @@
       <Name>Inputs\PC Inputs\f10 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3286</SheetX>
-      <SheetY>81</SheetY>
+      <SheetX>1556</SheetX>
+      <SheetY>1225</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1829,8 +1835,8 @@
       <Name>Inputs\PC Inputs\f11 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3594</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1780</SheetX>
+      <SheetY>466</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1838,8 +1844,8 @@
       <Name>Inputs\PC Inputs\f12 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3069</SheetX>
-      <SheetY>408</SheetY>
+      <SheetX>1579</SheetX>
+      <SheetY>885</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1847,8 +1853,8 @@
       <Name>Inputs\PC Inputs\f2 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1329</SheetX>
-      <SheetY>1394</SheetY>
+      <SheetX>1682</SheetX>
+      <SheetY>325</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1856,8 +1862,8 @@
       <Name>Inputs\PC Inputs\f3 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1329</SheetX>
-      <SheetY>1471</SheetY>
+      <SheetX>1703</SheetX>
+      <SheetY>402</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1865,8 +1871,8 @@
       <Name>Inputs\PC Inputs\f4</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>2966</SheetX>
-      <SheetY>251</SheetY>
+      <SheetX>1703</SheetX>
+      <SheetY>479</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1874,8 +1880,8 @@
       <Name>Inputs\PC Inputs\f5 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1509</SheetX>
-      <SheetY>1334</SheetY>
+      <SheetX>1730</SheetX>
+      <SheetY>235</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1883,8 +1889,8 @@
       <Name>Inputs\PC Inputs\f6 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>2992</SheetX>
-      <SheetY>405</SheetY>
+      <SheetX>1826</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1892,8 +1898,8 @@
       <Name>Inputs\PC Inputs\f7 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>2966</SheetX>
-      <SheetY>328</SheetY>
+      <SheetX>1794</SheetX>
+      <SheetY>81</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1901,8 +1907,8 @@
       <Name>Inputs\PC Inputs\f8 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1406</SheetX>
-      <SheetY>1376</SheetY>
+      <SheetX>1730</SheetX>
+      <SheetY>158</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1910,8 +1916,8 @@
       <Name>Inputs\PC Inputs\f9 key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1599</SheetX>
-      <SheetY>1310</SheetY>
+      <SheetX>1759</SheetX>
+      <SheetY>312</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1919,8 +1925,8 @@
       <Name>Inputs\PC Inputs\fancy e key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1712</SheetX>
-      <SheetY>1300</SheetY>
+      <SheetX>1646</SheetX>
+      <SheetY>567</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1928,8 +1934,8 @@
       <Name>Inputs\PC Inputs\g key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1361</SheetX>
-      <SheetY>1299</SheetY>
+      <SheetX>1749</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1937,8 +1943,8 @@
       <Name>Inputs\PC Inputs\h key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1252</SheetX>
-      <SheetY>1445</SheetY>
+      <SheetX>1717</SheetX>
+      <SheetY>81</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1946,8 +1952,8 @@
       <Name>Inputs\PC Inputs\i key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1175</SheetX>
-      <SheetY>1445</SheetY>
+      <SheetX>1672</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1955,8 +1961,8 @@
       <Name>Inputs\PC Inputs\j key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1406</SheetX>
-      <SheetY>1453</SheetY>
+      <SheetX>1626</SheetX>
+      <SheetY>416</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1964,8 +1970,8 @@
       <Name>Inputs\PC Inputs\k key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1789</SheetX>
-      <SheetY>1300</SheetY>
+      <SheetX>1807</SheetX>
+      <SheetY>158</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1973,8 +1979,8 @@
       <Name>Inputs\PC Inputs\l key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3517</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1498</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1982,8 +1988,8 @@
       <Name>Inputs\PC Inputs\left arrow</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1483</SheetX>
-      <SheetY>1488</SheetY>
+      <SheetX>1871</SheetX>
+      <SheetY>81</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -1991,8 +1997,8 @@
       <Name>Inputs\PC Inputs\left click</Name>
       <Width>79</Width>
       <Height>111</Height>
-      <SheetX>1094</SheetX>
-      <SheetY>1154</SheetY>
+      <SheetX>1376</SheetX>
+      <SheetY>910</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2000,8 +2006,8 @@
       <Name>Inputs\PC Inputs\m key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3440</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1780</SheetX>
+      <SheetY>389</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2009,8 +2015,8 @@
       <Name>Inputs\PC Inputs\middle-click</Name>
       <Width>79</Width>
       <Height>111</Height>
-      <SheetX>2582</SheetX>
-      <SheetY>458</SheetY>
+      <SheetX>457</SheetX>
+      <SheetY>914</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2018,8 +2024,8 @@
       <Name>Inputs\PC Inputs\n key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3363</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1723</SheetX>
+      <SheetY>556</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2027,8 +2033,8 @@
       <Name>Inputs\PC Inputs\o key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3286</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1664</SheetX>
+      <SheetY>721</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2036,8 +2042,8 @@
       <Name>Inputs\PC Inputs\p key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3120</SheetX>
-      <SheetY>254</SheetY>
+      <SheetX>1664</SheetX>
+      <SheetY>644</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2045,8 +2051,8 @@
       <Name>Inputs\PC Inputs\q key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3120</SheetX>
-      <SheetY>177</SheetY>
+      <SheetX>1593</SheetX>
+      <SheetY>800</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2054,8 +2060,8 @@
       <Name>Inputs\PC Inputs\question mark key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3069</SheetX>
-      <SheetY>331</SheetY>
+      <SheetX>1807</SheetX>
+      <SheetY>235</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2063,8 +2069,8 @@
       <Name>Inputs\PC Inputs\r key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3043</SheetX>
-      <SheetY>254</SheetY>
+      <SheetX>1569</SheetX>
+      <SheetY>994</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2072,8 +2078,8 @@
       <Name>Inputs\PC Inputs\right arrow</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3043</SheetX>
-      <SheetY>177</SheetY>
+      <SheetX>1836</SheetX>
+      <SheetY>312</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2081,8 +2087,8 @@
       <Name>Inputs\PC Inputs\right click</Name>
       <Width>80</Width>
       <Height>111</Height>
-      <SheetX>1681</SheetX>
-      <SheetY>1101</SheetY>
+      <SheetX>1013</SheetX>
+      <SheetY>1486</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2090,8 +2096,8 @@
       <Name>Inputs\PC Inputs\s key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1714</SheetX>
-      <SheetY>1454</SheetY>
+      <SheetX>1556</SheetX>
+      <SheetY>1071</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2099,8 +2105,8 @@
       <Name>Inputs\PC Inputs\scroll down</Name>
       <Width>79</Width>
       <Height>111</Height>
-      <SheetX>1769</SheetX>
-      <SheetY>1181</SheetY>
+      <SheetX>1267</SheetX>
+      <SheetY>1480</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2108,8 +2114,8 @@
       <Name>Inputs\PC Inputs\scroll up</Name>
       <Width>79</Width>
       <Height>111</Height>
-      <SheetX>1206</SheetX>
-      <SheetY>1042</SheetY>
+      <SheetX>1164</SheetX>
+      <SheetY>747</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2117,8 +2123,8 @@
       <Name>Inputs\PC Inputs\shift key</Name>
       <Width>95</Width>
       <Height>63</Height>
-      <SheetX>2879</SheetX>
-      <SheetY>512</SheetY>
+      <SheetX>1461</SheetX>
+      <SheetY>651</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2126,8 +2132,8 @@
       <Name>Inputs\PC Inputs\space bar</Name>
       <Width>129</Width>
       <Height>65</Height>
-      <SheetX>2245</SheetX>
-      <SheetY>471</SheetY>
+      <SheetX>858</SheetX>
+      <SheetY>1261</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2135,8 +2141,8 @@
       <Name>Inputs\PC Inputs\t key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1791</SheetX>
-      <SheetY>1377</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1421</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2144,8 +2150,8 @@
       <Name>Inputs\PC Inputs\tab key</Name>
       <Width>105</Width>
       <Height>65</Height>
-      <SheetX>3029</SheetX>
-      <SheetY>67</SheetY>
+      <SheetX>1480</SheetX>
+      <SheetY>812</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2153,8 +2159,8 @@
       <Name>Inputs\PC Inputs\u key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1714</SheetX>
-      <SheetY>1377</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1344</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2162,8 +2168,8 @@
       <Name>Inputs\PC Inputs\up arrow</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1637</SheetX>
-      <SheetY>1464</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1267</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2171,8 +2177,8 @@
       <Name>Inputs\PC Inputs\v key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1637</SheetX>
-      <SheetY>1387</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1190</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2180,8 +2186,8 @@
       <Name>Inputs\PC Inputs\w key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1560</SheetX>
-      <SheetY>1488</SheetY>
+      <SheetX>1492</SheetX>
+      <SheetY>994</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2189,8 +2195,8 @@
       <Name>Inputs\PC Inputs\x key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>1560</SheetX>
-      <SheetY>1411</SheetY>
+      <SheetX>1479</SheetX>
+      <SheetY>1113</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2198,7 +2204,7 @@
       <Name>Inputs\PC Inputs\y key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3825</SheetX>
+      <SheetX>1903</SheetX>
       <SheetY>4</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
@@ -2207,8 +2213,17 @@
       <Name>Inputs\PC Inputs\z key</Name>
       <Width>69</Width>
       <Height>69</Height>
-      <SheetX>3671</SheetX>
-      <SheetY>4</SheetY>
+      <SheetX>1948</SheetX>
+      <SheetY>81</SheetY>
+      <CategoryName>ui_group1_2</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>SPGeneral\EscapeMenu\escape_panel</Name>
+      <Width>544</Width>
+      <Height>731</Height>
+      <SheetX>4</SheetX>
+      <SheetY>1092</SheetY>
       <CategoryName>ui_group1_2</CategoryName>
     </SpritePart>
     <SpritePart>
@@ -2357,6 +2372,10 @@
     </SpritePart>
   </SpriteParts>
   <Sprites>
+    <GenericSprite>
+      <Name>CharacterCreation\Culture\galactic_republic</Name>
+      <SpritePartName>CharacterCreation\Culture\galactic_republic</SpritePartName>
+    </GenericSprite>
     <GenericSprite>
       <Name>FaceGen\BodyBtn1</Name>
       <SpritePartName>FaceGen\BodyBtn1</SpritePartName>
@@ -2772,10 +2791,6 @@
     <GenericSprite>
       <Name>HUD elements\notification container</Name>
       <SpritePartName>HUD elements\notification container</SpritePartName>
-    </GenericSprite>
-    <GenericSprite>
-      <Name>HUD elements\pause menu column</Name>
-      <SpritePartName>HUD elements\pause menu column</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>HUD elements\pop-up frame</Name>
@@ -3324,6 +3339,10 @@
     <GenericSprite>
       <Name>Inputs\PC Inputs\z key</Name>
       <SpritePartName>Inputs\PC Inputs\z key</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>SPGeneral\EscapeMenu\escape_panel</Name>
+      <SpritePartName>SPGeneral\EscapeMenu\escape_panel</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>arrow left button 1</Name>
