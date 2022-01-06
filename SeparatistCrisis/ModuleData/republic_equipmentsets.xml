@@ -119,8 +119,8 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
 <EquipmentRoster id="rep_501rex_bat_template"
                    culture="Culture.galactic_republic">
     <EquipmentSet>
-<!--      <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />-->
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
