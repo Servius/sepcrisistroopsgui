@@ -29,29 +29,47 @@
              value="4" />
     </Traits>
     <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.anakin_lightsaber" />
-        <equipment slot="Item1"
-                   id="Item.fortified_kite_shield" />
-        <equipment slot="Body"
-                   id="Item.p1rex_armor" />
-        <equipment slot="Cape"
-                   id="Item.p1rex_pauldrons" />
-        <equipment slot="Leg"
-                   id="Item.p1rex_greaves" />
-        <equipment slot="Gloves"
-                   id="Item.p1rex_gauntlets" />
-      </EquipmentRoster>
-      <EquipmentSet id="bat_civ_template_default"
+      <EquipmentRoster />
+      <EquipmentRoster civilian="true" />
+      <EquipmentSet id="rep_senator_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
                     civilian="true" />
-      <equipment slot="Horse"
-                 id="Item.noble_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.battania_horse_harness_scaled" />
     </Equipments>
-  </NPCCharacter>
- 
+</NPCCharacter>
+
+<NPCCharacter id="captain_rex"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Rex"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_501rex_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+  
 <NPCCharacter id="mando_awaud_nam"
                 default_group="Cavalry"
                 age="50"

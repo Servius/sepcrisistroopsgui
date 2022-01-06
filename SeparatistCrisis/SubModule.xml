@@ -24,6 +24,15 @@
 	</SubModule>
   </SubModules>
   <Xmls>
+  		<XmlNode>                
+			<XmlName id="EquipmentRosters" path="republic_equipmentsets"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
 	<XmlNode>                
       <XmlName id="NPCCharacters" path="lords"/>
       <IncludedGameTypes>
@@ -101,6 +110,9 @@
 				<GameType value = "CustomGame"/>
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="WeaponDescriptions" path="weapon_descriptions"/>
 		</XmlNode>
   </Xmls>
 </Module>

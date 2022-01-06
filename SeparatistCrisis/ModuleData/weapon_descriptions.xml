@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<WeaponDescriptions>
+  <WeaponDescription id="lightsaber"
+                     weapon_class="OneHandedSword"
+                     item_usage_features="onehanded:block:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="anakin_blade"/>
+      <AvailablePiece id="anakin_hilt"/>
+      <AvailablePiece id="red_blade"/>
+      <AvailablePiece id="black_blade"/>
+      <!-- AvailablePieces,OneHandedBastardSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+</WeaponDescriptions>

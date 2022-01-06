@@ -1,0 +1,174 @@
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+ <EquipmentRosters>
+ <EquipmentRoster id="rep_senator_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.empire_noble_sword_1_t5" />
+      <Equipment slot="Item1"
+                 id="Item.reinforced_kite_shield" />
+      <Equipment slot="Head"
+                 id="Item.empire_lord_helmet" />
+      <Equipment slot="Body"
+                 id="Item.imperial_scale_armor" />
+      <Equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+      <Equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.empire_noble_sword_2_t5" />
+      <Equipment slot="Item1"
+                 id="Item.reinforced_kite_shield" />
+      <Equipment slot="Head"
+                 id="Item.empire_guarded_lord_helmet" />
+      <Equipment slot="Body"
+                 id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Item1"
+                 id="Item.chivalric_kite_shield" />
+      <Equipment slot="Head"
+                 id="Item.empire_jewelled_helmet" />
+      <Equipment slot="Body"
+                 id="Item.lamellar_with_scale_skirt" />
+      <Equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+      <Equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.empire_mace_4_t5" />
+      <Equipment slot="Item1"
+                 id="Item.chivalric_kite_shield" />
+      <Equipment slot="Head"
+                 id="Item.leatherlame_feathered_spangenhelm_over_mail" />
+      <Equipment slot="Body"
+                 id="Item.brass_lamellar_over_mail" />
+      <Equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true"
+           IsFlamboyantTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="rep_senator_civ_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_noble_sword_1_t5" />
+      <Equipment slot="Body"
+                 id="Item.imperial_robes" />
+      <Equipment slot="Leg"
+                 id="Item.fine_town_boots" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.fine_town_boots" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsCivilianTemplate="true"
+           IsFlamboyantTemplate="true"
+           IsCombatantTemplate="true" />
+  </EquipmentRoster>
+<EquipmentRoster id="rep_501rex_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+<!--      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />-->
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1rex_armor" />
+     <Equipment slot="Cape"
+                 id="Item.p1rex_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1rex_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1rex_gauntlets" />
+    <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+ <EquipmentRoster id="rep_commando_boss_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+      <Equipment slot="Head"
+                 id="Item.empire_lord_helmet" />
+      <Equipment slot="Body"
+                 id="Item.commando_armor2" />
+      <Equipment slot="Cape"
+                 id="Item.commando_pauldrons2" />
+      <Equipment slot="Leg"
+                 id="Item.commando_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.commando_gauntlets2" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+</EquipmentRosters>
+

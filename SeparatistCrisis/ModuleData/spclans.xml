@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Factions>
   <!--player faction--><!--super_faction="Kingdom.mandalorian_loyalists"-->           <!--super_faction="Kingdom.mandalorian_loyalists"--><!-- super_faction="Kingdom.galactic_republic"-->
-  <Faction id="galactic_republic"
+  <Faction id="galactic_senate"
            owner="Hero.palpatine_republic"
-           banner_key="11.12.12.4345.4345.768.768.1.0.0.100.13.13.512.512.769.764.1.0.0"           
+           banner_key="11.147.147.1536.1536.764.764.1.0.0.215.155.155.442.442.764.764.0.0.0"    
            label_color="FFD2C0AA"
            color="FF8D5C44"
            color2="FFE9A74D"
@@ -11,15 +11,29 @@
            alternative_color2="FFB3A491"
            culture="Culture.galactic_republic"
            settlement_banner_mesh="encounter_flag_a"
-           is_minor_faction="true"
-           is_clan_type_mercenary="true"
-           name="Republic Senate"
-          
+           name="Galactic Senate"
+           super_faction="Kingdom.galactic_republic"        
            tier="3"
-           text="{=bhxVA9w7}The Last Legion was created after the Emperor Arenicos abolished the last of the Empire's standing armies in the wake of the battle of Pendraic, relying instead on the archons' private retinues which were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regularly, and they take contracts from imperial and foreign lords alike."></Faction>
-  <Faction id="mandalorians"
+           text="{=bhxVA9w7}The Galactic Republic, also known as the Grand Republic or simply as the Republic, was a democratic union comprised of various member worlds spread across light-years of space."></Faction>
+
+  <Faction id="republic_501st"
+           owner="Hero.captain_rex"
+           banner_key="11.147.147.1536.1536.764.764.1.0.0.215.155.155.442.442.764.764.0.0.0"    
+           label_color="FFD2C0AA"
+           color="FF8D5C44"
+           color2="FFE9A74D"
+           alternative_color="FF6C5749"
+           alternative_color2="FFB3A491"
+           culture="Culture.galactic_republic"
+           settlement_banner_mesh="encounter_flag_a"
+           name="501st Regiment"
+           super_faction="Kingdom.galactic_republic"        
+           tier="3"
+           text="{=bhxVA9w7}The Galactic Republic, also known as the Grand Republic or simply as the Republic, was a democratic union comprised of various member worlds spread across light-years of space."></Faction>
+
+  <Faction id="clan_katan"
            owner="Hero.bo_katan"
-           banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0"           
+           banner_key="11.147.147.1536.1536.764.764.1.0.0.215.155.155.442.442.764.764.0.0.0"           
            label_color="FFD2C0AA"
            color="FF8D5C44"
            color2="FFE9A74D"
@@ -28,14 +42,12 @@
            culture="Culture.mandalorians"
            settlement_banner_mesh="encounter_flag_a"
            name="Clan Katan"
-           is_minor_faction="true"
-           is_clan_type_mercenary="true"
-
            tier="3"
            text="{=bhxVA9w7}The Last Legion was created after the Emperor Arenicos abolished the last of the Empire's standing armies in the wake of the battle of Pendraic, relying instead on the archons' private retinues which were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regularly, and they take contracts from imperial and foreign lords alike."></Faction>
+  
   <Faction id="mando_awaud"
            owner="Hero.mando_awaud_nam"
-           banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0"           
+           banner_key="11.147.147.1536.1536.764.764.1.0.0.215.155.155.442.442.764.764.0.0.0"          
            label_color="FFD2C0AA"
            color="FF8D5C44"
            color2="FFE9A74D"
@@ -43,9 +55,7 @@
            alternative_color2="FFB3A491"
            culture="Culture.mandalorians"
            settlement_banner_mesh="encounter_flag_a"
-           name="Clan Awaud"
-           is_minor_faction="true"
-           is_clan_type_mercenary="true"           
+           name="Clan Awaud"   
            tier="1"
            text="{=bhxVA9w7}The Last Legion was created after the Emperor Arenicos abolished the last of the Empire's standing armies in the wake of the battle of Pendraic, relying instead on the archons' private retinues which were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regularly, and they take contracts from imperial and foreign lords alike."></Faction>
 </Factions>

@@ -15,9 +15,7 @@
                  build_order="2" />
     </PieceDatas>
     <WeaponDescriptions>
-      <WeaponDescription id="OneHandedBastardSword" />
-      <WeaponDescription id="TwoHandedSword" />
-      <WeaponDescription id="OneHandedBastardSwordAlternative" />
+      <WeaponDescription id="lightsaber" />
     </WeaponDescriptions>
     <StatsData>
       <StatData stat_type="Weight"
