@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomBattleScenes>
+  <Scene id="geonosis_battlemap_1a"
+         name="{=!}geonosis_battlemap_1a (Desert)"
+         terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Dune" />
+    </TerrainTypes>
+    </Scene>
+   <Scene id="geonosis_battlemap_02a"
+         name="{=!}geonosis_battlemap_02a (Desert)"
+         terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Dune" />
+    </TerrainTypes>
+    </Scene>
+  <Scene id="geonosis_battlemap_03a"
+         name="{=!}geonosis_battlemap_03a (Desert)"
+         terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Dune" />
+    </TerrainTypes>
+    </Scene>
+</CustomBattleScenes>

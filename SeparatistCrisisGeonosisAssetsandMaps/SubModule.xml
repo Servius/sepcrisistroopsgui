@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Separatist Crisis Geonosis Assets and Maps"/>
+	<Id value="SeparatistCrisisGeonosisAssetsandMaps"/>
+  <Version value="v0.0.0.9"/>
+	<DefaultModule value="false"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Official value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" DependentVersion="e1.5.9"/>
+    <DependedModule Id="SandBoxCore" DependentVersion="e1.5.9"/>
+    <DependedModule Id="Sandbox" DependentVersion="e1.5.9"/>
+		<DependedModule Id="CustomBattle" DependentVersion="e1.5.9"/>
+    <DependedModule Id="StoryMode" DependentVersion="e1.5.9"/>
+  </DependedModules>
+	<SubModules/>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="Items" path="items"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="SPCultures" path="spcultures"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="spnpccharacters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="partyTemplates" path="partyTemplates"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Kingdoms" path="spkingdoms"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="spclans"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="Scene" path="custom_battle_scenes"/>
+		</XmlNode> 
+	</Xmls>
+</Module>
+
