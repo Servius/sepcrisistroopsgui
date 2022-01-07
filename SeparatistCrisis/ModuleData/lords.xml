@@ -37,6 +37,40 @@
     </Equipments>
 </NPCCharacter>
 
+<NPCCharacter id="count_dooku"
+                default_group="Cavalry"
+                age="45"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.separatistalliance"
+                occupation="Lord"
+                name="Count Dooku"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentRoster civilian="true" />
+      <EquipmentSet id="rep_senator_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
 <NPCCharacter id="captain_rex"
                 default_group="Cavalry"
                 age="25"
@@ -69,15 +103,15 @@
                     civilian="true" />
     </Equipments>
 </NPCCharacter>
-  
-<NPCCharacter id="mando_awaud_nam"
+
+<NPCCharacter id="commander_cody"
                 default_group="Cavalry"
-                age="50"
+                age="25"
                 voice="earnest"
                 is_hero="true"
-                culture="Culture.mandalorians"
+                culture="Culture.galactic_republic"
                 occupation="Lord"
-                name="Nam Beroya"
+                name="Cody"
                 face_mesh_cache="true">
     <face>
       <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
@@ -96,26 +130,458 @@
              value="4" />
     </Traits>
     <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.anakin_lightsaber" />
-        <equipment slot="Item1"
-                   id="Item.fortified_kite_shield" />
-        <equipment slot="Body"
-                   id="Item.p1rex_armor" />
-        <equipment slot="Cape"
-                   id="Item.p1rex_pauldrons" />
-        <equipment slot="Leg"
-                   id="Item.p1rex_greaves" />
-        <equipment slot="Gloves"
-                   id="Item.p1rex_gauntlets" />
-      </EquipmentRoster>
-      <EquipmentSet id="bat_civ_template_default"
+      <EquipmentRoster />
+      <EquipmentSet id="rep_cody_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
                     civilian="true" />
-      <equipment slot="Horse"
-                 id="Item.noble_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.battania_horse_harness_scaled" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="commander_wolffe"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Wolffe"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_wolffe_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="sergeant_boss"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Boss"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_commando_boss_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="commander_ganch"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Ganch"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_commando_ganch_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="commander_fox"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Fox"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_commando_fox_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="commander_thorn"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Thorn"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_commando_thorn_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="captain_delirious"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Delirious"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_commando_deli_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="captain_zade"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Zade"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_commando_zade_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="captain_psycho"
+                default_group="Cavalry"
+                age="25"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Psycho"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="rep_commando_psycho_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="jango_fett"
+                default_group="Cavalry"
+                age="35"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.separatistalliance"
+                occupation="Lord"
+                name="Jango Fett"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="sep_jangofett_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+ <NPCCharacter id="satine_kryze"
+                name="{=kadJAjaA}Satine Kryze"
+                default_group="Infantry"
+                age="42"
+                voice="earnest"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.mandalorians"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0000ae3e50fc30045948a3188a41766557598897843a8925a7e38f3985789874000a16580a737521000000000000000000000000000000000000000001fc1040" /-->
+      <BodyProperties version="4"
+                      weight="0.1"
+                      build="0.3"
+                      key="0000AC0E50FC30045948A3188A41766557598897843A8925A7E38F398578987400070656077375210000000000000000000000000000000000000000011C1040" />
+      <!-- Rhagaea needs to be at least in her mid-40s, as she has a grown daughter. She needs to be attractive, with searching eyes. -->
+    </face>
+    <Traits>
+      <!--NONCOMBATANT FEMALE. LEADER-->
+      <Trait id="BalancedFightingSkills"
+             value="0" />
+      <Trait id="Commander"
+             value="5" />
+      <Trait id="Politician"
+             value="10" />
+      <Trait id="Manager"
+             value="7" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Calculating"
+             value="1" />
+      <Trait id="Authoritarian"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="man_satine_bat_template" />
+      <EquipmentSet id="emp_noncom_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="pre_vizsla"
+                default_group="Cavalry"
+                age="35"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.mandalorians"
+                occupation="Lord"
+                name="Pre Vizsla"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="man_previzsla_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="bo_katan"
+                name="{=kadJAjaA}Bo Katan"
+                default_group="Infantry"
+                age="22"
+                voice="earnest"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.mandalorians"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0000ae3e50fc30045948a3188a41766557598897843a8925a7e38f3985789874000a16580a737521000000000000000000000000000000000000000001fc1040" /-->
+      <BodyProperties version="4"
+                      weight="0.1"
+                      build="0.3"
+                      key="0000AC0E50FC30045948A3188A41766557598897843A8925A7E38F398578987400070656077375210000000000000000000000000000000000000000011C1040" />
+      <!-- Rhagaea needs to be at least in her mid-40s, as she has a grown daughter. She needs to be attractive, with searching eyes. -->
+    </face>
+    <Traits>
+      <!--NONCOMBATANT FEMALE. LEADER-->
+      <Trait id="BalancedFightingSkills"
+             value="10" />
+      <Trait id="Commander"
+             value="5" />
+      <Trait id="Politician"
+             value="10" />
+      <Trait id="Manager"
+             value="7" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Calculating"
+             value="1" />
+      <Trait id="Authoritarian"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="man_bokatan_bat_template" />
+      <EquipmentSet id="emp_noncom_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
+  
+<NPCCharacter id="mando_awaud_nam"
+                default_group="Cavalry"
+                age="35"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.mandalorians"
+                occupation="Lord"
+                name="Nam Beroya"
+                face_mesh_cache="true">
+    <face>
+      
+      <BodyProperties version="4"
+                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="man_previzsla_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
     </Equipments>
   </NPCCharacter>
 

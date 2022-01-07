@@ -215,24 +215,14 @@
       <name name="{=AccBcEIt}Zoana" />
     </female_names>
     <clan_names>
-      <name name="{=pRA9EzNv}Acapanos" />
-      <name name="{=ogq9oxDn}Angarys" />
-      <name name="{=MgDUudOx}Balastisos" />
-      <name name="{=Rvww4Kxi}Corstases" />
-      <name name="{=kWiQaFLM}Delicos" />
-      <name name="{=DiB4ukeK}Elysos" />
-      <name name="{=pUvrTrHT}Gessios" />
-      <name name="{=fsOUhzLv}Jalos" />
-      <name name="{=CuocGtTq}Lestharos" />
-      <name name="{=FVl3D2qT}Meones" />
-      <name name="{=fAKa9JfU}Nathanys" />
-      <name name="{=RhwPmahK}Opynates" />
-      <name name="{=OL6fbZRY}Paltos" />
-      <name name="{=HPrHkie6}Phenigos" />
-      <name name="{=DYdI0faN}Stracanasthes" />
-      <name name="{=g7etVhSO}Sumessos" />
-      <name name="{=oGf1fUpP}Therycos" />
-      <name name="{=AeNqteUX}Zebales" />
+      <name name="{=pRA9EzNv}501st Regiment" />
+      <name name="{=ogq9oxDn}104th Battalion" />
+      <name name="{=MgDUudOx}Galactic Senate" />
+      <name name="{=Rvww4Kxi}7th Sky Corps" />
+      <name name="{=kWiQaFLM}Grand Army of the Republic" />
+      <name name="{=DiB4ukeK}Delta Squad" />
+      <name name="{=pUvrTrHT}612th Attack Battalion" />
+      <name name="{=fsOUhzLv}Coruscant Guard" />
     </clan_names>
     <tournament_team_templates_one_participant>
       <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
@@ -604,17 +594,10 @@
       <name name="{=8RolYmff}Zuwaira" />
     </female_names>
     <clan_names>
-      <name name="{=By82n3gR}Bani Aska" />
-      <name name="{=uwalgjVy}Bani Dhamin" />
-      <name name="{=86LT9H6v}Bani Fasus" />
-      <name name="{=c39lybQJ}Bani Julul" />
-      <name name="{=Iwe7Xpke}Bani Kinyan" />
-      <name name="{=irccq0qs}Bani Laikh" />
-      <name name="{=DygS1Bef}Bani Mushala" />
-      <name name="{=bgNQtbS7}Bani Nir" />
-      <name name="{=sAa3o3vw}Bani Tharuq" />
-      <name name="{=L4XUK5n4}Bani Yatash" />
-      <name name="{=WFfbxYu5}Bani Zus" />
+      <name name="{=By82n3gR}Clan Vizsla" />
+      <name name="{=uwalgjVy}Nite Owls" />
+      <name name="{=86LT9H6v}Clan Awaud" />
+      <name name="{=c39lybQJ}House Kryze" />
     </clan_names>
     <tournament_team_templates_one_participant>
       <template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />

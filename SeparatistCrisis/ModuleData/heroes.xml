@@ -1,9 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Heroes>
   <!--lords.xml-->
-  <Hero id="palpatine_republic" is_noble="true" faction="Faction.galactic_senate" text="Leader of the Galactic Senate" />
+
+  <Hero id="count_dooku" is_noble="true" faction="Faction.separatistalliance" text="Head of State, Controls the Separatist Alliance with an iron grip." />
+  <Hero id="jango_fett" is_noble="true" faction="Faction.separatistalliance" text="Blueprint for the clones of the grand army of the republic, general and bounty hunter of the separatist alliance." />
+  
+  <Hero id="palpatine_republic" is_noble="true" faction="Faction.galactic_senate" text="Leader of the Galactic Senate" /> 
   <Hero id="captain_rex" is_noble="true" faction="Faction.republic_501st" text="Leader of the 501st" />
-  <Hero id="mando_awaud_nam" is_noble="true" faction="Faction.mando_awaud" text="Is Nam Beroyas, Leader of Clan Awaud" />
+  <Hero id="sergeant_boss" is_noble="true" faction="Faction.republic_deltasquad" text="Leader of Delta Squad" />
+  <Hero id="commander_ganch" is_noble="true" faction="Faction.republic_612th" text="Leader of the 612th Attack Battalion" />
+  <Hero id="commander_cody" is_noble="true" faction="Faction.republic_7thsky" text="CC-2224, nicknamed `Cody`, was a Clone Marshal Commander in the Grand Army of the Republic who commanded the 7th Sky Corps—including the renowned 212th Attack Battalion—during the Clone Wars." />
+  <Hero id="commander_wolffe" is_noble="true" faction="Faction.republic_104th" text="CC-2224, nicknamed `Cody`, was a Clone Marshal Commander in the Grand Army of the Republic who commanded the 7th Sky Corps—including the renowned 212th Attack Battalion—during the Clone Wars." />
+  <Hero id="commander_fox" is_noble="true" faction="Faction.republic_cg" text="Leader of the Coruscant Guard" />
+  <Hero id="commander_thorn" is_noble="true" faction="Faction.republic_cg" text="2nd Leader of the Coruscant Guard" />
+  <Hero id="captain_delirious" is_noble="true" faction="Faction.republic_military" text="Captain in the Grand Army of the Republic" />
+  <Hero id="captain_zade" is_noble="true" faction="Faction.republic_military" text="Captain in the Grand Army of the Republic" />
+  <Hero id="captain_psycho" is_noble="true" faction="Faction.republic_military" text="Captain in the Grand Army of the Republic" />
+
+  <Hero id="mando_awaud_nam" is_noble="true" faction="Faction.clan_awaud" text="Is Nam Beroyas, Leader of Clan Awaud" />
+  <Hero id="satine_kryze" is_noble="true" faction="Faction.house_kryze" text="Leader of the New Mandalorians, and House Kryze" />
+  <Hero id="pre_vizsla" is_noble="true" faction="Faction.clan_vizsla" text="Pre Vizsla was a human male Mandalorian warrior who led a terrorist organization, known as Death Watch, during the final years of the Galactic Republic. Formerly the governor of Concordia, Vizsla longed to restore the warrior heritage of his homeworld, the planet Mandalore, by overthrowing Duchess Satine Kryze's pacifist regime." />
+  <Hero id="bo_katan" is_noble="true" faction="Faction.clan_vizsla" text="Leader of the Nite Owls" />
   <!--<Hero id="mando_awaud_kad" is_noble="true" faction="Faction.mando_awaud" father="Hero.mando_awaud_avin" text="Adopted by Avin Solus" />
   <Hero id="mando_awaud_avin" is_noble="true" faction="Faction.mando_awaud" text="Mandalorian mercenary" />
   <Hero id="mando_awaud_teroch" is_noble="true" faction="Faction.mando_awaud" text="Well seasoned mercenary with no interest in politics" />-->

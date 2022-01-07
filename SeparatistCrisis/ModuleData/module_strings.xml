@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <!--WARBAND-->
+    <!--WARBAND-->
+  <string id="str_culture_rich_name.galactic_republic" text="{=8HMyTKF6}Galatic Republic" />
+  <string id="str_faction_formal_name_for_culture.galactic_republic" text="{=lAWwcO6b}Galatic Republic" />
+  <string id="str_culture_rich_name.separatistalliance" text="{=8HMyTKF6}Separatist Alliance" />
+  <string id="str_faction_formal_name_for_culture.separatistalliance" text="{=lAWwcO6b}Separatist Alliance" />
+  <string id="str_culture_rich_name.mandalorians" text="{=8HMyTKF6}Mandalorians" />  
+  <string id="str_faction_formal_name_for_culture.mandalorians" text="{=lAWwcO6b}Mandalorians" /> 
+  <string id="str_culture_description.galactic_republic" text="{=ZPaw3WuO}The Galactic Republic, also known as the Grand Republic or simply as the Republic, was a democratic union comprised of various member worlds spread across light-years of space." />
+  <string id="str_culture_description.separatistalliance" text="{=ZPaw3WuO}The Confederacy was founded from a belief of excessive taxation and corruption within the Republic's Galactic Senate, as well as a general feeling of dissatisfaction towards and neglect by the Republic-centric Core Worlds region of the galaxy." />
+  <string id="str_culture_description.mandalorians" text="{=ZPaw3WuO}The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common creed, language and code. They originated on the desert planet of Mandalore in the galaxy's Outer Rim Territories and had a particularly important role in galactic history as legendary warriors against the Jedi. From their homeworld, Mandalorians had flourished across Mandalorian Space and the galaxy at large." />
+  </strings>
+</base>

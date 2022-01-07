@@ -1,0 +1,54 @@
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+ <EquipmentRosters>
+<EquipmentRoster id="sep_jangofett_bat_template"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.red_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.a280_blaster_rifle_test" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_red_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.jango_armor" />
+  <!--    <Equipment slot="Cape"
+                 id="Item.p1psycho_pauldrons" />-->
+      <Equipment slot="Leg"
+                 id="Item.jango_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.jango_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="sep_nimbuscommando_bat_template"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.red_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.a280_blaster_rifle_test" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_red_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.nimbusbody" />
+      <Equipment slot="Cape"
+                 id="Item.nimbusshoulders" />
+      <Equipment slot="Leg"
+                 id="Item.nimbusgreaves" />
+      <Equipment slot="Gloves"
+                 id="Item.nimbusgauntlets" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true" />
+</EquipmentRoster>
+
+</EquipmentRosters>
+

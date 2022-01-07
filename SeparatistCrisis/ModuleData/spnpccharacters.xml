@@ -412,7 +412,8 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>
-       <NPCCharacter id="nimbus_commando_troop" default_group="Ranged" level="21" name="Nimbus Commando" occupation="Soldier" culture="Culture.mandalorians">
+       
+       <NPCCharacter id="nimbus_commando_troop" default_group="Ranged" level="21" name="Nimbus Commando" occupation="Soldier" culture="Culture.separatistalliance">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
               </face>
@@ -469,7 +470,7 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>-->
-<!--       <NPCCharacter id="sergeant_boss" name="Sergeant Boss" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       <!--       <NPCCharacter id="sergeant_boss" name="Sergeant Boss" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
 
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
@@ -500,10 +501,10 @@
               </Equipments>
        </NPCCharacter> -->
 
-
+ <!--
        <NPCCharacter id="commander_ganch" name="Commander Ganch" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -530,11 +531,11 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
+       </NPCCharacter>-->
 
-       <NPCCharacter id="commander_fox" name="Commander Fox" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       <!--<NPCCharacter id="commander_fox" name="Commander Fox" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -561,11 +562,10 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
+       </NPCCharacter>-->
 
-       <NPCCharacter id="commander_thorn" name="Commander Thorn" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+         <!--<NPCCharacter id="commander_thorn" name="Commander Thorn" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -592,11 +592,11 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
+       </NPCCharacter>-->
 
-       <NPCCharacter id="captain_delirious" name="Captain Delirious" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       <!--<NPCCharacter id="captain_delirious" name="Captain Delirious" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                    
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -623,10 +623,10 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
-       <NPCCharacter id="captain_zade" name="Captain Zadeinator" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       </NPCCharacter>-->
+       <!--<NPCCharacter id="captain_zade" name="Captain Zadeinator" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -653,11 +653,11 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
+       </NPCCharacter>-->
 
-       <NPCCharacter id="captain_psycho" name="Captain Psycho" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       <!--<NPCCharacter id="captain_psycho" name="Captain Psycho" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -684,11 +684,11 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
-
+       </NPCCharacter>-->
+<!--
        <NPCCharacter id="jango_fett" name="Jango Fett" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -714,7 +714,7 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
+       </NPCCharacter>-->
 
 
 
@@ -747,9 +747,9 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>-->
-       <NPCCharacter id="pre_vizsla" name="Pre Vizsla" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+      <!-- <NPCCharacter id="pre_vizsla" name="Pre Vizsla" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -775,10 +775,10 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
-       <NPCCharacter id="bo_katan" name="Bo Katan" is_female="true" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       </NPCCharacter>-->
+       <!--<NPCCharacter id="bo_katan" name="Bo Katan" is_female="true" default_group="cavalry" age="50" voice="curt" culture="Culture.mandalorians" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                    
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -805,10 +805,10 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
-       <NPCCharacter id="commander_cody" name="Commander Cody" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       </NPCCharacter>-->
+      <!-- <NPCCharacter id="commander_cody" name="Commander Cody" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -835,10 +835,10 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
-       <NPCCharacter id="commander_wolffe" name="Commander Wolffe" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
+       </NPCCharacter>-->
+  <!--     <NPCCharacter id="commander_wolffe" name="Commander Wolffe" default_group="cavalry" age="50" voice="curt" culture="Culture.galactic_republic" occupation="Lord" skill_template="SkillSet.custombattle_commander_1_template_skills" is_hero="true">
               <face>
-                     <!--face_key value="00005b71400033428944379867387744234d77960961467cda55555a80e8c059000d869df6ca8d5500001105000030a30000001f0000000000000000019c5000" /-->
+                     
                      <BodyProperties version="4" age="29.86" weight="0.2904" build="0.2993" key="00005801400033428944379867347744234D77960961467CDA55555A80E8C0590004469304CA8D5500001105000030A30000001F000000000000000000F45000" />
               </face>
               <Traits>
@@ -865,7 +865,7 @@
                             <equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
+       </NPCCharacter>-->
 </NPCCharacters><!--
 <NPCCharacter id="new_troop_unique_id"
                 default_group="Ranged"

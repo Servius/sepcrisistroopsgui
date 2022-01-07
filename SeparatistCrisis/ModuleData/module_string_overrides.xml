@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SCTextStorage>
+	<Overrides>
+
+		<!--Vale-->
+		<!--Name+Description-->
+		<SCTextOverride>
+			<id>str_culture_rich_name.galactic_republic</id>
+			<text>Galatic Republic</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_faction_formal_name_for_culture.galactic_republic</id>
+			<text>{=AIh1Ik4A}Galatic Republic</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_culture_description.galactic_republic</id>
+			<text>The Galactic Republic, also known as the Grand Republic or simply as the Republic, was a democratic union comprised of various member worlds spread across light-years of space.</text>
+		</SCTextOverride>
+
+		<!--Titles
+		<SCTextOverride>
+			<id>str_faction_noble_name_with_title.empire</id>
+			<text>{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_faction_official.empire</id>
+			<text>Lord</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_faction_official.empire_f</id>
+			<text>Lady</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_faction_ruler_name_with_title.empire</id>
+			<text>{?RULER.GENDER}Queen{?}Warden{\?} {RULER.NAME}</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_faction_ruler.empire</id>
+			<text>King</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_faction_ruler.empire_f</id>
+			<text>Queen</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_faction_ruler_term_in_speech.empire</id>
+			<text>{?RULER.GENDER}the Queen{?}the Warden{\?} {RULER.NAME}</text>
+		</SCTextOverride>-->
+
+		<!--Terms for Faction
+		<SCTextOverride>
+			<id>str_adjective_for_faction.empire</id>
+			<text>Westerosi</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_short_term_for_faction.empire</id>
+			<text>Westerosi</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_neutral_term_for_culture.empire</id>
+			<text>{=CXUXk5ai}Andal</text>
+		</SCTextOverride>-->
+
+		
+
+		<!--Misc
+
+		<SCTextOverride>
+			<id>str_adjective_for_faction.empire_w</id>
+			<text>reachman</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_adjective_for_faction.empire_s</id>
+			<text>stormlander</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_short_term_for_faction.empire_w</id>
+			<text>The Reach</text>
+		</SCTextOverride>
+		<SCTextOverride>
+			<id>str_short_term_for_faction.empire_s</id>
+			<text>The Stormlands</text>
+		</SCTextOverride>-->
+
+	</Overrides>
+</SCTextStorage>

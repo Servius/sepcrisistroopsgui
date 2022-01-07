@@ -119,8 +119,8 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
 <EquipmentRoster id="rep_501rex_bat_template"
                    culture="Culture.galactic_republic">
     <EquipmentSet>
-<!--      <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />-->
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -142,6 +142,61 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
     <Flags IsEquipmentTemplate="true"
            IsNobleTemplate="true" />
 </EquipmentRoster>
+
+<EquipmentRoster id="rep_cody_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.cody_armor" />
+     <Equipment slot="Cape"
+                 id="Item.cody_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.cody_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.cody_gauntlets" />
+    <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_wolffe_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1wolffe_armor" />
+     <Equipment slot="Cape"
+                 id="Item.p1wolffe_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1wolffe_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1wolffe_gauntlets" />
+    <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
  <EquipmentRoster id="rep_commando_boss_bat_template"
                    culture="Culture.galactic_republic">
     <EquipmentSet>
@@ -151,8 +206,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
                  id="Item.blaster_beam_blue_medium" />
-      <Equipment slot="Head"
-                 id="Item.empire_lord_helmet" />
+
       <Equipment slot="Body"
                  id="Item.commando_armor2" />
       <Equipment slot="Cape"
@@ -161,6 +215,168 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                  id="Item.commando_greaves" />
       <Equipment slot="Gloves"
                  id="Item.commando_gauntlets2" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_ganch_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1ganch_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1ganch_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1ganch_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1ganch_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_fox_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1fox_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1fox_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1fox_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1fox_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_thorn_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1thorn_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1thorn_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1thorn_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1thorn_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_deli_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1fangs_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1fangs_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1fangs_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1fangs_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_zade_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1zade_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1zade_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1zade_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1zade_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_psycho_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1psycho_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1psycho_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1psycho_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1psycho_gauntlets" />
       <Equipment slot="Horse"
                  id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness"

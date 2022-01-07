@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Kingdoms>
   <!--kingdom factions-->
-  <Kingdom 
-    id="galactic_republic" 
+  <Kingdom id="galactic_republic" 
     owner="Hero.palpatine_republic" 
     banner_key="11.4.4.4345.4345.768.768.1.0.0.163.5.5.512.512.769.764.1.0.0" 
     primary_banner_color="0xff793191" 
@@ -28,10 +27,34 @@
     </policies>
   </Kingdom>
 
+  <Kingdom id="confederacy_independant_systems" 
+    owner="Hero.count_dooku" 
+    banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0" 
+    primary_banner_color="0xff793191" 
+    secondary_banner_color="0xffFCDE90" 
+    label_color="FF850C6D" 
+    color="FF4E3A55" 
+    color2="FFDE9953" 
+    alternative_color="FFffffff" 
+    alternative_color2="FF660653" 
+    culture="Culture.separatistalliance" 
+    settlement_banner_mesh="encounter_flag_a" 
+    flag_mesh="info_screen_flags_b" 
+    name="{=!}Confederacy of Independent Systems" 
+    short_name="{=!}CIS" 
+    title="{=!}Confederacy" 
+    ruler_title="{=!}Head of State" 
+    text="{=!}The Confederacy of Independent Systems, abbreviated to CIS, and otherwise known as the Separatist Alliance, the Separatist State, the Separatist Confederacy, or simply referred to as the Separatists, was a confederate government formed from thousands of star systems of the Inner Rim, Mid Rim and Outer Rim Territories which had declared a state of independence from the Galactic Republic, whom the Confederacy had opposed from 24 BBY until 19 BBY following their uprising. Established by fallen Jedi Master Count Dooku of the planet Serenno, who served as the government's Head of State, the Confederacy was founded from a belief of excessive taxation and corruption within the Republic's Galactic Senate, as well as a general feeling of dissatisfaction towards and neglect by the Republic-centric Core Worlds region of the galaxy.">
+    <relationships>      
+    </relationships>
+    <policies>
+      <policy id="policy_senate" />
+      <policy id="policy_feudal_inheritance" />
+    </policies>
+  </Kingdom>
   
-  <Kingdom 
-    id="mandalorian_loyalists" 
-    owner="Hero.bo_katan" 
+  <Kingdom id="mandalorian_loyalists" 
+    owner="Hero.satine_kryze" 
     banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0" 
     primary_banner_color="0xff793191" 
     secondary_banner_color="0xffFCDE90" 
@@ -43,9 +66,35 @@
     culture="Culture.mandalorians" 
     settlement_banner_mesh="encounter_flag_a" 
     flag_mesh="info_screen_flags_b" 
-    name="{=!}Mandalorian Loyalists" 
-    short_name="{=!}Mandalorians" 
+    name="{=!}New Mandalorians" 
+    short_name="{=!}Mandalorian" 
     title="{=!}Mandalorian" 
+    ruler_title="{=!}Dutchess" 
+    text="{=!}Many of the oldest families of the Empire live in the north. They came here as marcher lords, granted vast tracts of land by their colleagues in the Senate to keep 'pacified' northern tribes in check and hold the frontiers against Battanian, Sturgian, and Khuzait raiders. They drained marshes and turned the river floodplains into wheatfields, cut back forests and turned the hillsides into pasture. But as the republic became an empire and as emperors became more and more dependent on money and lands to reward their loyal soldiers, the nobility here began to fear that their estates would one day be seized by some cash-starved tyrant. Consequently, in the ongoing imperial civil war they have become some of the strongest champions of Lucon, who sees a Senate of established property-holders as the supreme authority and the emperor as its servant.">
+    <relationships>      
+    </relationships>
+    <policies>
+      <policy id="policy_senate" />
+      <policy id="policy_feudal_inheritance" />
+    </policies>
+  </Kingdom>
+
+<Kingdom id="deathwatch" 
+    owner="Hero.pre_vizsla" 
+    banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0" 
+    primary_banner_color="0xff793191" 
+    secondary_banner_color="0xffFCDE90" 
+    label_color="FF850C6D" 
+    color="FF4E3A55" 
+    color2="FFDE9953" 
+    alternative_color="FFffffff" 
+    alternative_color2="FF660653" 
+    culture="Culture.mandalorians" 
+    settlement_banner_mesh="encounter_flag_a" 
+    flag_mesh="info_screen_flags_b" 
+    name="{=!}Deathwatch" 
+    short_name="{=!}Deathwatch" 
+    title="{=!}Deathwatch" 
     ruler_title="{=!}Mandalore" 
     text="{=!}Many of the oldest families of the Empire live in the north. They came here as marcher lords, granted vast tracts of land by their colleagues in the Senate to keep 'pacified' northern tribes in check and hold the frontiers against Battanian, Sturgian, and Khuzait raiders. They drained marshes and turned the river floodplains into wheatfields, cut back forests and turned the hillsides into pasture. But as the republic became an empire and as emperors became more and more dependent on money and lands to reward their loyal soldiers, the nobility here began to fear that their estates would one day be seized by some cash-starved tyrant. Consequently, in the ongoing imperial civil war they have become some of the strongest champions of Lucon, who sees a Senate of established property-holders as the supreme authority and the emperor as its servant.">
     <relationships>      
