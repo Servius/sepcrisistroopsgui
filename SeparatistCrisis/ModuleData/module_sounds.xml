@@ -40,7 +40,7 @@
 		}
   -->
   
-    <module_sound name="aco_repeater_gun" is_2d="false" sound_category="mission_foley" path="aco_repeater_gun.wav" />
+    <module_sound name="aco_repeater_gun" is_2d="false" sound_category="mission_combat" path="aco_repeater_gun.wav" />
     <module_sound name="aco_repeater_gun2" is_2d="fasle" sound_category="mission_ambient_3d_big" path="crossbowrelease.wav" />
     <module_sound name="musket_1_bm168" is_2d="true" sound_category="mission_ambient_3d_small" path="musket_1_bm168.wav" />
     <module_sound name="musket_2_bm168" is_2d="true" sound_category="mission_ambient_3d_small" path="musket_2_bm168.wav" />

@@ -5,71 +5,15 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.empire_noble_sword_1_t5" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
-                 id="Item.reinforced_kite_shield" />
+                 id="Item.riotshield" />
       <Equipment slot="Head"
                  id="Item.empire_lord_helmet" />
       <Equipment slot="Body"
                  id="Item.imperial_scale_armor" />
       <Equipment slot="Cape"
                  id="Item.pauldron_cape_a" />
-      <Equipment slot="Leg"
-                 id="Item.decorated_imperial_boots" />
-      <Equipment slot="Gloves"
-                 id="Item.decorated_imperial_gauntlets" />
-      <Equipment slot="Horse"
-                 id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness"
-                 id="Item.imperial_scale_barding" />
-    </EquipmentSet>
-    <EquipmentSet>
-      <Equipment slot="Item0"
-                 id="Item.empire_noble_sword_2_t5" />
-      <Equipment slot="Item1"
-                 id="Item.reinforced_kite_shield" />
-      <Equipment slot="Head"
-                 id="Item.empire_guarded_lord_helmet" />
-      <Equipment slot="Body"
-                 id="Item.imperial_lamellar_over_leather" />
-      <Equipment slot="Leg"
-                 id="Item.decorated_imperial_boots" />
-      <Equipment slot="Gloves"
-                 id="Item.decorated_imperial_gauntlets" />
-      <Equipment slot="Horse"
-                 id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness"
-                 id="Item.imperial_scale_barding" />
-    </EquipmentSet>
-    <EquipmentSet>
-      <Equipment slot="Item0"
-                 id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Item1"
-                 id="Item.chivalric_kite_shield" />
-      <Equipment slot="Head"
-                 id="Item.empire_jewelled_helmet" />
-      <Equipment slot="Body"
-                 id="Item.lamellar_with_scale_skirt" />
-      <Equipment slot="Cape"
-                 id="Item.pauldron_cape_a" />
-      <Equipment slot="Leg"
-                 id="Item.decorated_imperial_boots" />
-      <Equipment slot="Gloves"
-                 id="Item.decorated_imperial_gauntlets" />
-      <Equipment slot="Horse"
-                 id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness"
-                 id="Item.imperial_scale_barding" />
-    </EquipmentSet>
-    <EquipmentSet>
-      <Equipment slot="Item0"
-                 id="Item.empire_mace_4_t5" />
-      <Equipment slot="Item1"
-                 id="Item.chivalric_kite_shield" />
-      <Equipment slot="Head"
-                 id="Item.leatherlame_feathered_spangenhelm_over_mail" />
-      <Equipment slot="Body"
-                 id="Item.brass_lamellar_over_mail" />
       <Equipment slot="Leg"
                  id="Item.decorated_imperial_boots" />
       <Equipment slot="Gloves"
@@ -87,7 +31,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet civilian="true">
       <Equipment slot="Item0"
-                 id="Item.empire_noble_sword_1_t5" />
+                 id="Item.vibrosword" />
       <Equipment slot="Body"
                  id="Item.imperial_robes" />
       <Equipment slot="Leg"
@@ -120,7 +64,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -147,7 +91,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -174,7 +118,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -201,7 +145,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -228,7 +172,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -255,7 +199,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -282,7 +226,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -309,7 +253,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -336,7 +280,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"
@@ -363,7 +307,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.anakin_lightsaber" />
+                 id="Item.vibrosword" />
       <Equipment slot="Item1"
                  id="Item.dc15s_blaster_carbine" />
       <Equipment slot="Item2"

@@ -20,7 +20,7 @@
     <skills></skills>
     <Traits>
       <Trait id="BalancedFightingSkills"
-             value="6" />
+             value="10" />
       <Trait id="Commander"
              value="6" />
       <Trait id="Politician"
@@ -39,7 +39,7 @@
 
 <NPCCharacter id="count_dooku"
                 default_group="Cavalry"
-                age="45"
+                age="58"
                 voice="earnest"
                 is_hero="true"
                 culture="Culture.separatistalliance"
@@ -49,9 +49,12 @@
     <face>
       <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
       <BodyProperties version="4"
-                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+                      key="0000440C0FFC360D26870C0FF139117045F990002E7CA0049068C60F7C9004663A9276570B7A310686660000670300780000000000005B7900000000337C60C3" />
     </face>
-    <skills></skills>
+    <skills>
+            <skill id="Athletics"
+             value="200" />
+    </skills>
     <Traits>
       <Trait id="BalancedFightingSkills"
              value="6" />
@@ -65,7 +68,7 @@
     <Equipments>
       <EquipmentRoster />
       <EquipmentRoster civilian="true" />
-      <EquipmentSet id="rep_senator_bat_template" />
+      <EquipmentSet id="sep_dooku_bat_template" />
       <EquipmentSet id="rep_senator_civ_template"
                     civilian="true" />
     </Equipments>

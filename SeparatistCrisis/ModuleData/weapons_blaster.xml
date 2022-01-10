@@ -406,28 +406,6 @@
     </ItemComponent>
     <Flags />
   </Item>
-  <CraftedItem id="anakin_lightsaber" name="Anakin's Lightsaber" crafting_template="lightsaber" culture="Culture.galactic_republic" is_merchandise="true" >
-     <Pieces>
-       <Piece id="anakin_blade" Type="Blade" scale_factor="100" />
-       <Piece id="anakin_hilt" Type="Handle" scale_factor="100" />
-     </Pieces>
-   </CraftedItem>
-   <CraftedItem id="red_lightsaber" name="Red Lightsaber" crafting_template="lightsaber" culture="Culture.galactic_republic" is_merchandise="true" >
-      <Pieces>
-        <Piece id="red_blade" Type="Blade" scale_factor="100" />
-        <Piece id="anakin_hilt" Type="Handle" scale_factor="100" />
-      </Pieces>
-    </CraftedItem>
-    <CraftedItem id="darksaber" name="Darksaber" crafting_template="lightsaber" culture="Culture.galactic_republic" is_merchandise="true" >
-       <Pieces>
-         <Piece id="black_blade" Type="Blade" scale_factor="100" />
-         <Piece id="anakin_hilt" Type="Handle" scale_factor="100" />
-       </Pieces>
-     </CraftedItem>
-
-
-
-
 
   <!-- #endregion -->
 </Items>

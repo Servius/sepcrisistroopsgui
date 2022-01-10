@@ -19,7 +19,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1trooper_armor" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
@@ -28,7 +28,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15a_blaster_Rifle" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1trooper_armor" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
@@ -36,6 +36,42 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>
+
+       <NPCCharacter id="republic_riottrooper" default_group="Infantry" level="21" name="Riot Trooper" occupation="Soldier" culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="150" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item1" id="Item.riotshield" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
+                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item1" id="Item.riotshield" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
+                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
        <NPCCharacter id="republic_comando" default_group="Ranged" level="21" name="Clone Commando" occupation="Soldier" culture="Culture.galactic_republic">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
@@ -55,7 +91,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.commando_armor" />
                             <equipment slot="Cape" id="Item.commando_pauldrons" />
                             <equipment slot="Gloves" id="Item.commando_gauntlets" />
@@ -82,7 +118,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1arf_armor" />
                             <equipment slot="Cape" id="Item.p1arf_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1arf_gauntlets" />
@@ -109,7 +145,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.barc_armor" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
@@ -136,7 +172,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.shadowspartan_armor" />
                             <equipment slot="Cape" id="Item.shadowspartan_pauldrons" />
                             <equipment slot="Gloves" id="Item.shadowspartan_gauntlets" />
@@ -163,7 +199,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p2troop_armor" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
@@ -190,7 +226,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1arfhound_armor" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
@@ -217,7 +253,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1cpt_armor" />
                             <equipment slot="Cape" id="Item.p1cpt_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1cpt_gauntlets" />
@@ -244,7 +280,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1cmd_armor" />
                             <equipment slot="Cape" id="Item.p1cmd_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1cmd_gauntlets" />
@@ -271,7 +307,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1cpt_armor" />
                             <equipment slot="Cape" id="Item.p1cpt_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1cpt_gauntlets" />
@@ -298,7 +334,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1lt_armor" />
                             <equipment slot="Cape" id="Item.p1lt_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1lt_gauntlets" />
@@ -325,7 +361,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.p1sgt_armor" />
                             <equipment slot="Cape" id="Item.p1sgt_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1sgt_gauntlets" />
@@ -352,7 +388,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.commando_armor2" />
                             <equipment slot="Cape" id="Item.commando_pauldrons2" />
                             <equipment slot="Gloves" id="Item.commando_gauntlets2" />
@@ -379,7 +415,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
                             <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.death_watch_armor" />
                             <equipment slot="Gloves" id="Item.death_watch_gauntlets" />
                             <equipment slot="Leg" id="Item.death_watch_greaves" />
@@ -405,7 +441,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
                             <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.death_watch_maul_armor" />
                             <equipment slot="Gloves" id="Item.death_watch_maul_gauntlets" />
                             <equipment slot="Leg" id="Item.death_watch_maul_greaves" />
@@ -432,7 +468,7 @@
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
                             <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
-                            <equipment slot="Item3" id="Item.short_sword_t3" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.nimbusbody" />
                             <equipment slot="Cape" id="Item.nimbusshoulders" />
                             <equipment slot="Gloves" id="Item.nimbusgauntlets" />

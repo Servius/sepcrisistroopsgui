@@ -19,9 +19,11 @@
                 count="12" />
     </Materials>
   </CraftingPiece>
+
   <CraftingPiece id="anakin_blade" 
     name="Anakin Lightsaber Blade" 
-    tier="5" piece_type="Blade" 
+    tier="5" 
+    piece_type="Blade" 
     mesh="anakin_lightsaber_blade" 
     culture="Culture.galactic_republic" 
     length="86.2" 
@@ -37,8 +39,9 @@
     <Materials>
       <Material id="Iron4"
                 count="12" />
-    </Materials>
-  </CraftingPiece>
+      </Materials>
+    </CraftingPiece>
+
   <CraftingPiece id="red_blade" 
     name="Red Lightsaber Blade" 
     tier="5" 
@@ -79,7 +82,142 @@
     </Materials>
   </CraftingPiece>
 
+<!--Ancient VibroBlade-->
 
+  <CraftingPiece id="vibro_sword2b_grip_geo"
+                 name="{=RWljioj5}Vibro Blade Hilt"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="vibro_sword2b_grip"
+                 culture="Culture.neutral"
+                 length="15.05"
+                 weight="0.1">
+    <BuildData piece_offset="-0.02"
+               previous_piece_offset="0.2"
+               next_piece_offset="-2" />
+    <Materials>
+      <Material id="Iron2"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="vibro_sword2b_blade"
+                 name="{=Ld1nfdj4}Vibro Blade"
+                 tier="1"
+                 piece_type="Blade"
+                 mesh="vibro_sword2b_blade"
+                 culture="Culture.neutral"
+                 length="92.4"
+                 weight="0.93">
+    <BladeData stack_amount="3"
+               physics_material="metal_weapon"
+               body_name="bo_sword_one_handed"
+               holster_mesh="empire_blade_3_scabbard_3">
+      <Thrust damage_type="Pierce"
+              damage_factor="2.4" />
+      <Swing damage_type="Cut"
+             damage_factor="3.8" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian"
+            type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron5"
+                count="3" />
+    </Materials>
+  </CraftingPiece>
+
+ <CraftingPiece id="vibro_sword2b_pommel"
+                 name="{=joN8ZeJ6}Vibro Blade Pommel"
+                 tier="2"
+                 piece_type="Pommel"
+                 mesh="vibro_sword2b_pommel"
+                 culture="Culture.neutral"
+                 length="5.189"
+                 weight="0.2">
+    <Materials>
+      <Material id="Iron2"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="vibro_sword2b_guard"
+                 name="{=cuxuEx40}Vibro Blade Guard"
+                 tier="3"
+                 piece_type="Guard"
+                 mesh="vibro_sword2b_guard"
+                 culture="Culture.neutral"
+                 length="4.017"
+                 weight="0.201">
+    <BuildData next_piece_offset="-4.4" />
+    <StatContributions armor_bonus="3" />
+    <Materials>
+      <Material id="Iron3"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <!-- Vibro Sword -->
+  <CraftingPiece id="vibrosword_grip"
+                 name="{=RWljioj5}Vibrosword Grip"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="vibrosword_grip"
+                 culture="Culture.neutral"
+                 length="15.05"
+                 weight="0.1">
+    <BuildData piece_offset="-5.5"
+               previous_piece_offset="0"
+               next_piece_offset="-14" />
+    <Materials>
+      <Material id="Iron2"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="vibrosword_blade"
+                 name="{=Ld1nfdj4}Vibrosword Blade"
+                 tier="1"
+                 piece_type="Blade"
+                 mesh="vibrosword_blade"
+                 culture="Culture.neutral"
+                 length="92.4"
+                 weight="0.93">
+    <BladeData stack_amount="3"
+               physics_material="metal_weapon"
+               body_name="bo_sword_one_handed"
+               holster_mesh="empire_blade_3_scabbard_3">
+      <Thrust damage_type="Pierce"
+              damage_factor="2.4" />
+      <Swing damage_type="Cut"
+             damage_factor="3.8" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian"
+            type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron5"
+                count="3" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="vibrosword_guard"
+                 name="{=cuxuEx40}Vibrosword Guard"
+                 tier="3"
+                 piece_type="Guard"
+                 mesh="vibrosword_guard"
+                 culture="Culture.neutral"
+                 length="4.017"
+                 weight="0.201">
+    <BuildData next_piece_offset="4.9" />
+    <StatContributions armor_bonus="3" />
+    <Materials>
+      <Material id="Iron3"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
 
 
   <!-- #endregion -->

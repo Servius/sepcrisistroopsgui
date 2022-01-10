@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <WeaponDescriptions>
-  <WeaponDescription id="lightsaber"
+
+<WeaponDescription id="lightsaber"
                      weapon_class="OneHandedSword"
                      item_usage_features="onehanded:block:shield:swing:thrust">
     <WeaponFlags>
@@ -16,4 +17,64 @@
     </AvailablePieces>
   </WeaponDescription>
 
+<WeaponDescription id="ancient_vibroblade"
+                     weapon_class="OneHandedSword"
+                     item_usage_features="onehanded:block:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="vibro_sword2b_blade"/>
+      <AvailablePiece id="vibro_sword2b_guard"/>
+      <AvailablePiece id="vibro_sword2b_grip_geo"/>
+      <AvailablePiece id="vibro_sword2b_pommel"/>
+      <!-- AvailablePieces,OneHandedBastardSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+<WeaponDescription id="vibrosword"
+                     weapon_class="OneHandedSword"
+                    item_usage_features="onehanded:block:rshield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="vibrosword_blade"/>
+      <AvailablePiece id="vibrosword_guard"/>
+      <AvailablePiece id="vibrosword_grip"/>
+      <!-- AvailablePieces,OneHandedBastardSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+<WeaponDescription id="1HBastardSwordAltVibroSword"
+                     weapon_class="OneHandedSword"
+                     item_usage_features="onehanded:block:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="vibrosword_blade"/>
+      <AvailablePiece id="vibrosword_guard"/>
+      <AvailablePiece id="vibrosword_grip"/>
+      <!-- AvailablePieces,OneHandedBastardSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+<WeaponDescription id="TwoHandedVibroSword"
+                     weapon_class="TwoHandedSword"
+                     item_usage_features="twohanded:block:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="NotUsableWithOneHand"/>
+    </WeaponFlags>
+      <AvailablePieces>
+      <AvailablePiece id="vibrosword_blade"/>
+      <AvailablePiece id="vibrosword_guard"/>
+      <AvailablePiece id="vibrosword_grip"/>
+      <!-- AvailablePieces,OneHandedBastardSword -->
+    </AvailablePieces>
+  </WeaponDescription>
 </WeaponDescriptions>

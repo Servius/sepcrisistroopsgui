@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- #region Weapons -->
+  <CraftedItem id="anakin_lightsaber" 
+    name="Anakin's Lightsaber" 
+    crafting_template="lightsaber" 
+    culture="Culture.galactic_republic" 
+    is_merchandise="true" >
+     <Pieces>
+       <Piece id="anakin_blade" Type="Blade" scale_factor="100" />
+       <Piece id="anakin_hilt" Type="Handle" scale_factor="100" />
+     </Pieces>
+   </CraftedItem>
+
+
+  <CraftedItem id="red_lightsaber" 
+    name="Red Lightsaber" 
+    crafting_template="lightsaber" 
+    culture="Culture.separatistalliance" 
+    is_merchandise="true" >
+      <Pieces>
+        <Piece id="red_blade" Type="Blade" scale_factor="100" />
+        <Piece id="anakin_hilt" Type="Handle" scale_factor="100" />
+      </Pieces>
+    </CraftedItem>
+
+  <CraftedItem id="darksaber" 
+      name="Darksaber" 
+      crafting_template="lightsaber" 
+      culture="Culture.mandalorians" 
+      is_merchandise="true" >
+       <Pieces>
+         <Piece id="black_blade" Type="Blade" scale_factor="100" />
+         <Piece id="anakin_hilt" Type="Handle" scale_factor="100" />
+       </Pieces>
+     </CraftedItem>
+
+  <CraftedItem id="ancient_vibroblade" name="Vibroblade" crafting_template="ancient_vibroblade" culture="Culture.neutral" is_merchandise="true" >
+       <Pieces>
+         <Piece id="vibro_sword2b_blade" Type="Blade" scale_factor="100" />
+         <Piece id="vibro_sword2b_guard" Type="Guard" scale_factor="100" />
+         <Piece id="vibro_sword2b_grip_geo" Type="Handle" scale_factor="100" />
+         <Piece id="vibro_sword2b_pommel" Type="Pommel" scale_factor="100" />
+       </Pieces>
+     </CraftedItem>
+
+  <CraftedItem id="vibrosword" name="Vibrosword" crafting_template="vibrosword" culture="Culture.neutral" is_merchandise="true" >
+       <Pieces>
+         <Piece id="vibrosword_blade" Type="Blade" scale_factor="100" />
+         <Piece id="vibrosword_guard" Type="Guard" scale_factor="100" />
+         <Piece id="vibrosword_grip" Type="Handle" scale_factor="100" />
+       </Pieces>
+     </CraftedItem>
+
+ <Item id="riotshield"
+        name="{=wAcc9SX4}Republic Riot Shield"
+        body_name="bo_riotshield"
+        shield_body_name="bo_riotshield"
+        recalculate_body="false"
+        mesh="riotshield_low"
+        culture="Culture.galactic_republic"
+        using_tableau="true"
+        weight="3.5"
+        appearance="0.5"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="0.0,0.1,0,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="1"
+              thrust_speed="82"
+              thrust_damage="5"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="metal_shield"
+              item_usage="hand_shield"
+              position="0.01, 0.0, -0.01"
+              rotation="254.50,-68.80,8.70"
+              weapon_length="70"
+              center_of_mass="0.0,0.065,0.05"
+              hit_points="390"
+              item_modifier_group="metal_shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="false" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true" /></Item>
+
+
+
+
+
+  <!-- #endregion -->
+</Items>
