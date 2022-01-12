@@ -16,7 +16,7 @@
            tier="3"
            text="{=bhxVA9w7}The Galactic Republic, also known as the Grand Republic or simply as the Republic, was a democratic union comprised of various member worlds spread across light-years of space."></Faction>
 
-  <Faction id="separatist_alliance"
+  <Faction id="separatistalliance"
            owner="Hero.count_dooku"
            banner_key="11.101.75.4345.4345.764.764.1.0.0.427.1.0.415.388.695.764.0.0.270.521.1.0.293.298.822.764.0.0.324"    
            label_color="FFD2C0AA"
@@ -165,7 +165,7 @@
            super_faction="Kingdom.mandalorian_loyalists" 
            tier="3"
            text="{=bhxVA9w7}House Kryze was under the leadership of Duchess Satine Kryze during the Clone Wars, who led the New Mandalorian government."></Faction>
-
+<!--
   <Faction id="clan_vizsla"
            owner="Hero.pre_vizsla"
            banner_key="11.147.147.1536.1536.764.764.1.0.0.215.155.155.442.442.764.764.0.0.0"           
@@ -195,7 +195,7 @@
            super_faction="Kingdom.deathwatch" 
            tier="3"
            text="{=bhxVA9w7}The Nite Owls were an elite Mandalorian unit made up of warriors led by Bo-Katan Kryze. When Bo-Katan joined Death Watch, the Nite Owls sided with the group and with its leader, Pre Vizsla."></Faction>
-
+-->
   <Faction id="clan_awaud"
            owner="Hero.mando_awaud_nam"
            banner_key="11.147.147.1536.1536.764.764.1.0.0.215.155.155.442.442.764.764.0.0.0"          
