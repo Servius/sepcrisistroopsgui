@@ -7,6 +7,7 @@
            color2="FFDE9953"
            elite_basic_troop="NPCCharacter.arf_clone"
            basic_troop="NPCCharacter.clone_cadet"
+		   basic_mercenary_troop="NPCCharacter.mercenary_1"
            melee_militia_troop="NPCCharacter.clone_cadet"
            ranged_militia_troop="NPCCharacter.clone_cadet"
            melee_elite_militia_troop="NPCCharacter.republic_clone_sergeant_troop"
