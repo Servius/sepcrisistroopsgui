@@ -132,5 +132,26 @@
 		<XmlNode>                
 			<XmlName id="WeaponDescriptions" path="weapon_descriptions"/>
 		</XmlNode>
+			  <XmlNode>                
+		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
+		  <XmlNode>
+		  <XmlName id="Factions" path="spclans"/>
+		  <IncludedGameTypes>
+			  <GameType value = "Campaign"/>
+			  <GameType value = "CampaignStoryMode"/>
+		  </IncludedGameTypes>
+	  </XmlNode>
+	  <XmlNode>                
+		<XmlName id="Settlements" path="settlements"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
   </Xmls>
 </Module>

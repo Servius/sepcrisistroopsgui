@@ -79,6 +79,7 @@
     </policies>
   </Kingdom>
 
+ <!--
 <Kingdom id="deathwatch" 
     owner="Hero.pre_vizsla" 
     banner_key="11.152.152.1536.1536.768.768.1.0.0.102.149.15.555.555.769.764.1.0.0" 
@@ -104,4 +105,5 @@
       <policy id="policy_feudal_inheritance" />
     </policies>
   </Kingdom>
+  -->
 </Kingdoms>

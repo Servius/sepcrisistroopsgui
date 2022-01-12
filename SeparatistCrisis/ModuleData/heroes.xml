@@ -20,9 +20,11 @@
 
   <Hero id="mando_awaud_nam" is_noble="true" faction="Faction.clan_awaud" text="Is Nam Beroyas, Leader of Clan Awaud" />
   <Hero id="satine_kryze" is_noble="true" faction="Faction.house_kryze" text="Leader of the New Mandalorians, and House Kryze" />
-  <Hero id="pre_vizsla" is_noble="true" faction="Faction.clan_vizsla" text="Pre Vizsla was a human male Mandalorian warrior who led a terrorist organization, known as Death Watch, during the final years of the Galactic Republic. Formerly the governor of Concordia, Vizsla longed to restore the warrior heritage of his homeworld, the planet Mandalore, by overthrowing Duchess Satine Kryze's pacifist regime." />
-  <Hero id="bo_katan" is_noble="true" faction="Faction.clan_vizsla" text="Leader of the Nite Owls" />
-  <!--<Hero id="mando_awaud_kad" is_noble="true" faction="Faction.mando_awaud" father="Hero.mando_awaud_avin" text="Adopted by Avin Solus" />
+  <Hero id="pre_vizsla" is_noble="true" faction="Faction.house_kryze" text="Pre Vizsla was a human male Mandalorian warrior who led a terrorist organization, known as Death Watch, during the final years of the Galactic Republic. Formerly the governor of Concordia, Vizsla longed to restore the warrior heritage of his homeworld, the planet Mandalore, by overthrowing Duchess Satine Kryze's pacifist regime." />
+  <Hero id="bo_katan" is_noble="true" faction="Faction.house_kryze" text="Leader of the Nite Owls" />
+  <!--
+  <Hero id="mando_awaud_kad" is_noble="true" faction="Faction.mando_awaud" father="Hero.mando_awaud_avin" text="Adopted by Avin Solus" />
   <Hero id="mando_awaud_avin" is_noble="true" faction="Faction.mando_awaud" text="Mandalorian mercenary" />
-  <Hero id="mando_awaud_teroch" is_noble="true" faction="Faction.mando_awaud" text="Well seasoned mercenary with no interest in politics" />-->
+  <Hero id="mando_awaud_teroch" is_noble="true" faction="Faction.mando_awaud" text="Well seasoned mercenary with no interest in politics" />
+  -->
 </Heroes>
