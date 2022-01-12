@@ -7,7 +7,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
       <Equipment slot="Item0"
                  id="Item.vibrosword" />
       <Equipment slot="Item1"
-                 id="Item.a280_blaster_rifle_test" />
+                 id="Item.e5_blaster" />
       <Equipment slot="Item2"
                  id="Item.blaster_beam_red_medium" />
 

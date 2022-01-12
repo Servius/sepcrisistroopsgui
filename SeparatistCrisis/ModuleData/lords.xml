@@ -37,6 +37,40 @@
     </Equipments>
 </NPCCharacter>
 
+<NPCCharacter id="anakin"
+                default_group="Cavalry"
+                age="22"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Anakin Skywalker"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="001B04040000000E7C06748039A749A449CC866254C6964360E50F0F8601713100A076030AA74A62000000000000000000000000000000000000000067644002" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="10" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentRoster civilian="true" />
+      <EquipmentSet id="rep_jedi_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
 <NPCCharacter id="count_dooku"
                 default_group="Cavalry"
                 age="58"

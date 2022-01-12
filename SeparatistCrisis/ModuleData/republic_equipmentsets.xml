@@ -5,9 +5,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.vibrosword" />
-      <Equipment slot="Item1"
-                 id="Item.riotshield" />
+                 id="Item.shockbaton_weapon" />
       <Equipment slot="Head"
                  id="Item.empire_lord_helmet" />
       <Equipment slot="Body"
@@ -19,7 +17,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
       <Equipment slot="Gloves"
                  id="Item.decorated_imperial_gauntlets" />
       <Equipment slot="Horse"
-                 id="Item.noble_horse_imperial" />
+                 id="Item.noble_horse_imperial" />  
       <Equipment slot="HorseHarness"
                  id="Item.imperial_scale_barding" />
     </EquipmentSet>
@@ -27,6 +25,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
            IsNobleTemplate="true"
            IsFlamboyantTemplate="true" />
   </EquipmentRoster>
+
   <EquipmentRoster id="rep_senator_civ_template"
                    culture="Culture.galactic_republic">
     <EquipmentSet civilian="true">
@@ -60,6 +59,31 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
            IsFlamboyantTemplate="true"
            IsCombatantTemplate="true" />
   </EquipmentRoster>
+
+ <EquipmentRoster id="rep_jedi_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.anakin_lightsaber" />
+      <Equipment slot="Body"
+                 id="Item.imperial_scale_armor" />
+      <Equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+      <Equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />  
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true"
+           IsFlamboyantTemplate="true" />
+  </EquipmentRoster>
+
+
 <EquipmentRoster id="rep_501rex_bat_template"
                    culture="Culture.galactic_republic">
     <EquipmentSet>

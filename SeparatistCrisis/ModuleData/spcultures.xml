@@ -6,9 +6,9 @@
            color="FF4E3A55"
            color2="FFDE9953"
            elite_basic_troop="NPCCharacter.arf_clone"
-           basic_troop="NPCCharacter.republic_clone"
-           melee_militia_troop="NPCCharacter.republic_clone"
-           ranged_militia_troop="NPCCharacter.republic_clone"
+           basic_troop="NPCCharacter.clone_cadet"
+           melee_militia_troop="NPCCharacter.clone_cadet"
+           ranged_militia_troop="NPCCharacter.clone_cadet"
            melee_elite_militia_troop="NPCCharacter.republic_clone_sergeant_troop"
            ranged_elite_militia_troop="NPCCharacter.republic_clone_sergeant_troop"
            can_have_settlement="true"
@@ -72,6 +72,12 @@
            weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_empire"
            gear_dummy="NPCCharacter.gear_dummy_empire"
            board_game_type="Tablut">
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
     <male_names>
       <name name="{=aeLgc0cU}Acthon" />
       <name name="{=tWDyWroN}Amnon" />
@@ -224,6 +230,65 @@
       <name name="{=pUvrTrHT}612th Attack Battalion" />
       <name name="{=fsOUhzLv}Coruscant Guard" />
     </clan_names>
+    <cultural_feats>
+      <feat id="empire_decreased_garrison_wage" />
+      <feat id="empire_army_influence" />
+      <feat id="empire_slower_hearth_production" />
+    </cultural_feats>
+    <child_character_templates>
+      <template name="NPCCharacter.child_template_empire_townsman_male" />
+      <template name="NPCCharacter.child_template_empire_townsman_female" />
+      <template name="NPCCharacter.child_template_empire_villager_male" />
+      <template name="NPCCharacter.child_template_empire_villager_female" />
+      <template name="NPCCharacter.child_template_empire_noble_male" />
+      <template name="NPCCharacter.child_template_empire_noble_female" />
+      <template name="NPCCharacter.teenager_template_empire_townsman_female" />
+      <template name="NPCCharacter.teenager_template_empire_townsman_male" />
+      <template name="NPCCharacter.teenager_template_empire_villager_male" />
+      <template name="NPCCharacter.teenager_template_empire_villager_female" />
+      <template name="NPCCharacter.teenager_template_empire_noble_male" />
+      <template name="NPCCharacter.teenager_template_empire_noble_female" />
+    </child_character_templates>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_empire_0" />
+      <template name="NPCCharacter.spc_wanderer_empire_1" />
+      <template name="NPCCharacter.spc_wanderer_empire_2" />
+      <template name="NPCCharacter.spc_wanderer_empire_3" />
+      <template name="NPCCharacter.spc_wanderer_empire_4" />
+      <template name="NPCCharacter.spc_wanderer_empire_5" />
+      <template name="NPCCharacter.spc_wanderer_empire_6" />
+      <template name="NPCCharacter.spc_wanderer_empire_7" />
+      <template name="NPCCharacter.spc_wanderer_empire_8" />
+      <template name="NPCCharacter.spc_wanderer_empire_9" />
+      <template name="NPCCharacter.spc_wanderer_empire_10" />
+      <template name="NPCCharacter.spc_wanderer_empire_11" />
+      <template name="NPCCharacter.spc_notable_empire_0" />
+      <template name="NPCCharacter.spc_notable_empire_0b" />
+      <template name="NPCCharacter.spc_notable_empire_1" />
+      <template name="NPCCharacter.spc_notable_empire_1b" />
+      <template name="NPCCharacter.spc_notable_empire_2" />
+      <template name="NPCCharacter.spc_notable_empire_2b" />
+      <template name="NPCCharacter.spc_notable_empire_3" />
+      <template name="NPCCharacter.spc_notable_empire_3b" />
+      <template name="NPCCharacter.spc_notable_empire_4" />
+      <template name="NPCCharacter.spc_notable_empire_4b" />
+      <template name="NPCCharacter.spc_notable_empire_5" />
+      <template name="NPCCharacter.spc_notable_empire_6" />
+      <template name="NPCCharacter.spc_notable_empire_7" />
+      <template name="NPCCharacter.spc_notable_empire_8" />
+      <template name="NPCCharacter.spc_notable_empire_9" />
+      <template name="NPCCharacter.spc_notable_empire_10" />
+      <template name="NPCCharacter.spc_notable_empire_11" />
+      <template name="NPCCharacter.spc_notable_empire_12" />
+      <template name="NPCCharacter.spc_notable_empire_13" />
+      <template name="NPCCharacter.spc_notable_empire_21" />
+      <template name="NPCCharacter.spc_notable_empire_22" />
+      <template name="NPCCharacter.spc_notable_empire_gl1" />
+      <template name="NPCCharacter.spc_notable_empire_gl4" />
+      <template name="NPCCharacter.spc_empire_headman_1" />
+      <template name="NPCCharacter.spc_empire_headman_2" />
+      <template name="NPCCharacter.spc_empire_headman_3" />
+    </notable_and_wanderer_templates>
     <tournament_team_templates_one_participant>
       <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
     </tournament_team_templates_one_participant>
@@ -239,12 +304,12 @@
     </tournament_team_templates_four_participant>
   </Culture>
   <Culture id="separatistalliance"
-           name="{=separatist_alliance_text}Separatist Alliance"
+           name="{=separatistalliance_text}Separatist Alliance"
            is_main_culture="true"
            color="FF965228"
            color2="FF4F2212"
            elite_basic_troop="NPCCharacter.aserai_youth"
-           basic_troop="NPCCharacter.aserai_recruit"
+           basic_troop="NPCCharacter.b1battledroid"
            melee_militia_troop="NPCCharacter.aserai_militia_spearman"
            ranged_militia_troop="NPCCharacter.aserai_militia_archer"
            melee_elite_militia_troop="NPCCharacter.aserai_militia_veteran_spearman"
@@ -258,6 +323,7 @@
            caravan_party_template="PartyTemplate.caravan_template_aserai"
            militia_party_template="PartyTemplate.militia_aserai_template"
            rebels_party_template="PartyTemplate.rebels_aserai_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
            default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
            text="{=a2AjI8nc}The Aserai are the principal inhabitants of the Nahasa, the Bronze Desert, in the south of Calradia. To the outsider it would appear a desolate place, fields of dunes broken by gravel plains and volcanic outcrops. But there is water underground, trapped in depressions or beneath the wadis where the occasional flash flood rumbles by, and in these oases people have settled. They are divided into dozens of clans and sub-clans, each with its elaborate genealogy, but are collectively known as the Banu Asera, the sons of Asera. Their sense of nationhood, such as it is, comes from tracing their lineage to this legendary patriarch. Their wealth and power, which is considerable, comes from controlling the isolated water-sources that allow caravans from distant lands to cross the desert."
            tournament_master="NPCCharacter.tournament_master_aserai"
@@ -266,10 +332,10 @@
            armed_trader="NPCCharacter.armed_trader_aserai"
            caravan_guard="NPCCharacter.caravan_guard_aserai"
            veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
+           basic_mercenary_troop="NPCCharacter.mercenary_1"
            duel_preset="NPCCharacter.aserai_duel_preset"
            prison_guard="NPCCharacter.prison_guard_aserai"
            guard="NPCCharacter.guard_aserai"
-           steward="NPCCharacter.steward_aserai"
            blacksmith="NPCCharacter.blacksmith_aserai"
            weaponsmith="NPCCharacter.weaponsmith_aserai"
            townswoman="NPCCharacter.townswoman_aserai"
@@ -309,6 +375,13 @@
            weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_aserai"
            gear_dummy="NPCCharacter.gear_dummy_aserai"
            board_game_type="Seega">
+    <vassal_reward_items>
+      <item id="Item.noble_horse_khamseen" />
+    </vassal_reward_items>
+    <default_policies>
+      <policy id="policy_council_of_the_commons" />
+      <policy id="policy_senate" />
+    </default_policies>
     <male_names>
       <name name="{=n2FdWOtE}Adram" />
       <name name="{=HEGo3ArK}Atis" />
@@ -360,6 +433,13 @@
       <name name="{=xUSeJEd6}Wahan" />
       <name name="{=EKUSZBBj}Wusur" />
       <name name="{=5LY1iQWh}Yaqus" />
+      <name name="{=aU9Cbb7j}Athrar" />
+      <name name="{=at4MdVBJ}Fathid" />
+      <name name="{=NJvui1La}Iskar" />
+      <name name="{=FyVS24JZ}Khundal" />
+      <name name="{=7Gt27Agy}Malub" />
+      <name name="{=t63KuB1X}Suthain" />
+      <name name="{=u3ZpGN5e}Yuha" />
     </male_names>
     <female_names>
       <name name="{=vAKB54zO}Arwa" />
@@ -407,9 +487,116 @@
       <name name="{=8RolYmff}Zuwaira" />
     </female_names>
     <clan_names>
-      <name name="{=By82n3gR}501st Regiment" />
-      <name name="{=uwalgjVy}Galactic Senate" />
+      <name name="{=By82n3gR}Separatist Alliance" />
+      <name name="{=uwalgjVy}Droid Army" />
     </clan_names>
+    <cultural_feats>
+      <feat id="aserai_cheaper_caravans" />
+      <feat id="aserai_desert_speed" />
+      <feat id="aserai_increased_wages" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="110" />
+      <icon id="155" />
+      <icon id="156" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="204" />
+      <icon id="212" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="321" /> 
+      <icon id="400" />
+      <icon id="401" />
+      <icon id="403" />
+      <icon id="404" />
+      <icon id="405" />
+      <icon id="425" />
+      <icon id="426" />
+      <icon id="427" />
+      <icon id="428" />
+      <icon id="430" />
+      <icon id="309" />
+    </possible_clan_banner_icon_ids>
+    <child_character_templates>
+      <template name="NPCCharacter.child_template_aserai_townsman_male" />
+      <template name="NPCCharacter.child_template_aserai_townsman_female" />
+      <template name="NPCCharacter.child_template_aserai_villager_male" />
+      <template name="NPCCharacter.child_template_aserai_villager_female" />
+      <template name="NPCCharacter.child_template_aserai_noble_male" />
+      <template name="NPCCharacter.child_template_aserai_noble_female" />
+      <template name="NPCCharacter.teenager_template_aserai_townsman_female" />
+      <template name="NPCCharacter.teenager_template_aserai_townsman_male" />
+      <template name="NPCCharacter.teenager_template_aserai_villager_male" />
+      <template name="NPCCharacter.teenager_template_aserai_villager_female" />
+      <template name="NPCCharacter.teenager_template_aserai_noble_male" />
+      <template name="NPCCharacter.teenager_template_aserai_noble_female" />
+    </child_character_templates>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_aserai_0" />
+      <template name="NPCCharacter.spc_wanderer_aserai_1" />
+      <template name="NPCCharacter.spc_wanderer_aserai_2" />
+      <template name="NPCCharacter.spc_wanderer_aserai_3" />
+      <template name="NPCCharacter.spc_wanderer_aserai_4" />
+      <template name="NPCCharacter.spc_wanderer_aserai_5" />
+      <template name="NPCCharacter.spc_wanderer_aserai_6" />
+      <template name="NPCCharacter.spc_wanderer_aserai_7" />
+      <template name="NPCCharacter.spc_wanderer_aserai_8" />
+      <template name="NPCCharacter.spc_wanderer_aserai_9" />
+      <template name="NPCCharacter.spc_wanderer_aserai_10" />
+      <template name="NPCCharacter.spc_notable_aserai_0" />
+      <template name="NPCCharacter.spc_notable_aserai_0b" />
+      <template name="NPCCharacter.spc_notable_aserai_1" />
+      <template name="NPCCharacter.spc_notable_aserai_1b" />
+      <template name="NPCCharacter.spc_notable_aserai_2" />
+      <template name="NPCCharacter.spc_notable_aserai_2b" />
+      <template name="NPCCharacter.spc_notable_aserai_3" />
+      <template name="NPCCharacter.spc_notable_aserai_3b" />
+      <template name="NPCCharacter.spc_notable_aserai_4" />
+      <template name="NPCCharacter.spc_notable_aserai_5" />
+      <template name="NPCCharacter.spc_notable_aserai_6" />
+      <template name="NPCCharacter.spc_notable_aserai_7" />
+      <template name="NPCCharacter.spc_notable_aserai_8" />
+      <template name="NPCCharacter.spc_notable_aserai_9" />
+      <template name="NPCCharacter.spc_notable_aserai_10" />
+      <template name="NPCCharacter.spc_notable_aserai_11" />
+      <template name="NPCCharacter.spc_notable_aserai_12" />
+      <template name="NPCCharacter.spc_aserai_headman_1" />
+      <template name="NPCCharacter.spc_aserai_headman_2" />
+      <template name="NPCCharacter.spc_aserai_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_0" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_1" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_2" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_3" />
+      <template name="NPCCharacter.spc_jawwal_leader_0" />
+      <template name="NPCCharacter.spc_jawwal_leader_1" />
+      <template name="NPCCharacter.spc_jawwal_leader_2" />
+      <template name="NPCCharacter.spc_jawwal_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_0" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_1" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_2" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_3" />
+      <template name="NPCCharacter.spc_jawwal_leader_0" />
+      <template name="NPCCharacter.spc_jawwal_leader_1" />
+      <template name="NPCCharacter.spc_jawwal_leader_2" />
+      <template name="NPCCharacter.spc_jawwal_leader_3" />
+    </rebellion_hero_templates>
     <tournament_team_templates_one_participant>
       <template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />
     </tournament_team_templates_one_participant>
@@ -430,12 +617,12 @@
            is_main_culture="true"
            color="FF965228"
            color2="FF4F2212"
-           elite_basic_troop="NPCCharacter.mando_death_watch_troop"
-           basic_troop="NPCCharacter.mando_death_watch_troop"
-           melee_militia_troop="NPCCharacter.mando_death_watch_troop"
-           ranged_militia_troop="NPCCharacter.mando_death_watch_troop"
-           melee_elite_militia_troop="NPCCharacter.mando_maul_death_watch_troop"
-           ranged_elite_militia_troop="NPCCharacter.mando_maul_death_watch_troop"
+           elite_basic_troop="NPCCharacter.aserai_youth"
+           basic_troop="NPCCharacter.clanfighter"
+           melee_militia_troop="NPCCharacter.aserai_militia_spearman"
+           ranged_militia_troop="NPCCharacter.aserai_militia_archer"
+           melee_elite_militia_troop="NPCCharacter.aserai_militia_veteran_spearman"
+           ranged_elite_militia_troop="NPCCharacter.aserai_militia_veteran_archer"
            can_have_settlement="true"
            town_edge_number="16"
            villager_party_template="PartyTemplate.villager_aserai_template"
@@ -445,6 +632,7 @@
            caravan_party_template="PartyTemplate.caravan_template_aserai"
            militia_party_template="PartyTemplate.militia_aserai_template"
            rebels_party_template="PartyTemplate.rebels_aserai_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
            default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
            text="{=a2AjI8nc}The Aserai are the principal inhabitants of the Nahasa, the Bronze Desert, in the south of Calradia. To the outsider it would appear a desolate place, fields of dunes broken by gravel plains and volcanic outcrops. But there is water underground, trapped in depressions or beneath the wadis where the occasional flash flood rumbles by, and in these oases people have settled. They are divided into dozens of clans and sub-clans, each with its elaborate genealogy, but are collectively known as the Banu Asera, the sons of Asera. Their sense of nationhood, such as it is, comes from tracing their lineage to this legendary patriarch. Their wealth and power, which is considerable, comes from controlling the isolated water-sources that allow caravans from distant lands to cross the desert."
            tournament_master="NPCCharacter.tournament_master_aserai"
@@ -453,10 +641,10 @@
            armed_trader="NPCCharacter.armed_trader_aserai"
            caravan_guard="NPCCharacter.caravan_guard_aserai"
            veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
+           basic_mercenary_troop="NPCCharacter.mercenary_1"
            duel_preset="NPCCharacter.aserai_duel_preset"
            prison_guard="NPCCharacter.prison_guard_aserai"
            guard="NPCCharacter.guard_aserai"
-           steward="NPCCharacter.steward_aserai"
            blacksmith="NPCCharacter.blacksmith_aserai"
            weaponsmith="NPCCharacter.weaponsmith_aserai"
            townswoman="NPCCharacter.townswoman_aserai"
@@ -496,6 +684,13 @@
            weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_aserai"
            gear_dummy="NPCCharacter.gear_dummy_aserai"
            board_game_type="Seega">
+    <vassal_reward_items>
+      <item id="Item.noble_horse_khamseen" />
+    </vassal_reward_items>
+    <default_policies>
+      <policy id="policy_council_of_the_commons" />
+      <policy id="policy_senate" />
+    </default_policies>
     <male_names>
       <name name="{=n2FdWOtE}Adram" />
       <name name="{=HEGo3ArK}Atis" />
@@ -547,6 +742,13 @@
       <name name="{=xUSeJEd6}Wahan" />
       <name name="{=EKUSZBBj}Wusur" />
       <name name="{=5LY1iQWh}Yaqus" />
+      <name name="{=aU9Cbb7j}Athrar" />
+      <name name="{=at4MdVBJ}Fathid" />
+      <name name="{=NJvui1La}Iskar" />
+      <name name="{=FyVS24JZ}Khundal" />
+      <name name="{=7Gt27Agy}Malub" />
+      <name name="{=t63KuB1X}Suthain" />
+      <name name="{=u3ZpGN5e}Yuha" />
     </male_names>
     <female_names>
       <name name="{=vAKB54zO}Arwa" />
@@ -594,11 +796,118 @@
       <name name="{=8RolYmff}Zuwaira" />
     </female_names>
     <clan_names>
-      <name name="{=By82n3gR}Clan Vizsla" />
+      <name name="{=By82n3gR}House Kryze" />
+      <name name="{=uwalgjVy}Clan Vizsla" />
       <name name="{=uwalgjVy}Nite Owls" />
-      <name name="{=86LT9H6v}Clan Awaud" />
-      <name name="{=c39lybQJ}House Kryze" />
+      <name name="{=uwalgjVy}Clan Awaud" />
     </clan_names>
+    <cultural_feats>
+      <feat id="aserai_cheaper_caravans" />
+      <feat id="aserai_desert_speed" />
+      <feat id="aserai_increased_wages" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="110" />
+      <icon id="155" />
+      <icon id="156" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="204" />
+      <icon id="212" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="321" /> 
+      <icon id="400" />
+      <icon id="401" />
+      <icon id="403" />
+      <icon id="404" />
+      <icon id="405" />
+      <icon id="425" />
+      <icon id="426" />
+      <icon id="427" />
+      <icon id="428" />
+      <icon id="430" />
+      <icon id="309" />
+    </possible_clan_banner_icon_ids>
+    <child_character_templates>
+      <template name="NPCCharacter.child_template_aserai_townsman_male" />
+      <template name="NPCCharacter.child_template_aserai_townsman_female" />
+      <template name="NPCCharacter.child_template_aserai_villager_male" />
+      <template name="NPCCharacter.child_template_aserai_villager_female" />
+      <template name="NPCCharacter.child_template_aserai_noble_male" />
+      <template name="NPCCharacter.child_template_aserai_noble_female" />
+      <template name="NPCCharacter.teenager_template_aserai_townsman_female" />
+      <template name="NPCCharacter.teenager_template_aserai_townsman_male" />
+      <template name="NPCCharacter.teenager_template_aserai_villager_male" />
+      <template name="NPCCharacter.teenager_template_aserai_villager_female" />
+      <template name="NPCCharacter.teenager_template_aserai_noble_male" />
+      <template name="NPCCharacter.teenager_template_aserai_noble_female" />
+    </child_character_templates>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_aserai_0" />
+      <template name="NPCCharacter.spc_wanderer_aserai_1" />
+      <template name="NPCCharacter.spc_wanderer_aserai_2" />
+      <template name="NPCCharacter.spc_wanderer_aserai_3" />
+      <template name="NPCCharacter.spc_wanderer_aserai_4" />
+      <template name="NPCCharacter.spc_wanderer_aserai_5" />
+      <template name="NPCCharacter.spc_wanderer_aserai_6" />
+      <template name="NPCCharacter.spc_wanderer_aserai_7" />
+      <template name="NPCCharacter.spc_wanderer_aserai_8" />
+      <template name="NPCCharacter.spc_wanderer_aserai_9" />
+      <template name="NPCCharacter.spc_wanderer_aserai_10" />
+      <template name="NPCCharacter.spc_notable_aserai_0" />
+      <template name="NPCCharacter.spc_notable_aserai_0b" />
+      <template name="NPCCharacter.spc_notable_aserai_1" />
+      <template name="NPCCharacter.spc_notable_aserai_1b" />
+      <template name="NPCCharacter.spc_notable_aserai_2" />
+      <template name="NPCCharacter.spc_notable_aserai_2b" />
+      <template name="NPCCharacter.spc_notable_aserai_3" />
+      <template name="NPCCharacter.spc_notable_aserai_3b" />
+      <template name="NPCCharacter.spc_notable_aserai_4" />
+      <template name="NPCCharacter.spc_notable_aserai_5" />
+      <template name="NPCCharacter.spc_notable_aserai_6" />
+      <template name="NPCCharacter.spc_notable_aserai_7" />
+      <template name="NPCCharacter.spc_notable_aserai_8" />
+      <template name="NPCCharacter.spc_notable_aserai_9" />
+      <template name="NPCCharacter.spc_notable_aserai_10" />
+      <template name="NPCCharacter.spc_notable_aserai_11" />
+      <template name="NPCCharacter.spc_notable_aserai_12" />
+      <template name="NPCCharacter.spc_aserai_headman_1" />
+      <template name="NPCCharacter.spc_aserai_headman_2" />
+      <template name="NPCCharacter.spc_aserai_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_0" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_1" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_2" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_3" />
+      <template name="NPCCharacter.spc_jawwal_leader_0" />
+      <template name="NPCCharacter.spc_jawwal_leader_1" />
+      <template name="NPCCharacter.spc_jawwal_leader_2" />
+      <template name="NPCCharacter.spc_jawwal_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_0" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_1" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_2" />
+      <template name="NPCCharacter.spc_beni_zilal_leader_3" />
+      <template name="NPCCharacter.spc_jawwal_leader_0" />
+      <template name="NPCCharacter.spc_jawwal_leader_1" />
+      <template name="NPCCharacter.spc_jawwal_leader_2" />
+      <template name="NPCCharacter.spc_jawwal_leader_3" />
+    </rebellion_hero_templates>
     <tournament_team_templates_one_participant>
       <template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />
     </tournament_team_templates_one_participant>

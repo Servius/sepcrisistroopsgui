@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+
+
+  <NPCCharacter id="clone_cadet"
+                default_group="Infantry"
+                level="6"
+                name="{=s3IJIFUw}Clone Cadet"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.galactic_republic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="0" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.republic_riottrooper" />
+      <upgrade_target id="NPCCharacter.republic_clone" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_pitchfork_2_t1" />
+        <equipment slot="Head"
+                   id="Item.leather_cap" />
+        <equipment slot="Body"
+                   id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
        <NPCCharacter id="republic_clone" default_group="Ranged" level="21" name="Clone Trooper" occupation="Soldier" culture="Culture.galactic_republic">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
@@ -55,7 +131,7 @@
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item1" id="Item.riotshield" />
-                            <equipment slot="Item3" id="Item.vibrosword" />
+                            <equipment slot="Item3" id="Item.shockbaton_weapon" />
                             <equipment slot="Body" id="Item.p1trooper_armor" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
@@ -63,7 +139,7 @@
                      </EquipmentRoster>
                      <EquipmentRoster>
                             <equipment slot="Item1" id="Item.riotshield" />
-                            <equipment slot="Item3" id="Item.vibrosword" />
+                            <equipment slot="Item3" id="Item.shockbaton_weapon" />
                             <equipment slot="Body" id="Item.p1trooper_armor" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
@@ -396,6 +472,110 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter> Now sergeant_boss-->
+
+  <NPCCharacter id="clanfighter"
+                default_group="Infantry"
+                level="6"
+                name="{=s3IJIFUw}Clan Fighter"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.mandalorians">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="0" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.mando_dw_riot_troop" />
+      <upgrade_target id="NPCCharacter.mando_death_watch_troop" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_pitchfork_2_t1" />
+        <equipment slot="Head"
+                   id="Item.leather_cap" />
+        <equipment slot="Body"
+                   id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+       <NPCCharacter id="mando_dw_riot_troop" default_group="Ranged" level="21" name="Death Watch" occupation="Soldier" culture="Culture.mandalorians">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+                  <upgrade_targets>
+           </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
+                            <equipment slot="Body" id="Item.death_watch_armor" />
+                            <equipment slot="Gloves" id="Item.death_watch_gauntlets" />
+                            <equipment slot="Leg" id="Item.death_watch_greaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
        <NPCCharacter id="mando_death_watch_troop" default_group="Ranged" level="21" name="Death Watch" occupation="Soldier" culture="Culture.mandalorians">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
@@ -410,7 +590,9 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+                  <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.mando_maul_death_watch_troop" />
+           </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
@@ -448,7 +630,81 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>
-       
+ 
+  <NPCCharacter id="b1battledroid"
+                default_group="Infantry"
+                level="6"
+                name="{=s3IJIFUw}B1 Battledroid"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.separatistalliance">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="0" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.nimbus_commando_shield" />
+      <upgrade_target id="NPCCharacter.nimbus_commando_troop" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_pitchfork_2_t1" />
+        <equipment slot="Head"
+                   id="Item.leather_cap" />
+        <equipment slot="Body"
+                   id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
        <NPCCharacter id="nimbus_commando_troop" default_group="Ranged" level="21" name="Nimbus Commando" occupation="Soldier" culture="Culture.separatistalliance">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
@@ -466,8 +722,35 @@
               <upgrade_targets></upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
-                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item0" id="Item.e5_blaster" />
                             <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
+                            <equipment slot="Item3" id="Item.vibrosword" />
+                            <equipment slot="Body" id="Item.nimbusbody" />
+                            <equipment slot="Cape" id="Item.nimbusshoulders" />
+                            <equipment slot="Gloves" id="Item.nimbusgauntlets" />
+                            <equipment slot="Leg" id="Item.nimbusgreaves" />
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+
+       <NPCCharacter id="nimbus_commando_shield" default_group="Infantry" level="21" name="Nimbus Commando Shield" occupation="Soldier" culture="Culture.separatistalliance">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_battania" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="100" />
+                     <skill id="Riding" value="25" />
+                     <skill id="OneHanded" value="60" />
+                     <skill id="TwoHanded" value="110" />
+                     <skill id="Polearm" value="40" />
+                     <skill id="Bow" value="130" />
+                     <skill id="Crossbow" value="15" />
+                     <skill id="Throwing" value="15" />
+              </skills>
+              <upgrade_targets></upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item1" id="Item.riotshield" />
                             <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.nimbusbody" />
                             <equipment slot="Cape" id="Item.nimbusshoulders" />

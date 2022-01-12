@@ -158,7 +158,7 @@
     </Materials>
   </CraftingPiece>
 
-  <!-- Vibro Sword -->
+<!-- Vibro Sword -->
   <CraftingPiece id="vibrosword_grip"
                  name="{=RWljioj5}Vibrosword Grip"
                  tier="2"
@@ -218,8 +218,108 @@
                 count="1" />
     </Materials>
   </CraftingPiece>
+<!-- Vibro Blade -->
+  <CraftingPiece id="vibroblade_grip"
+                 name="{=RWljioj5}Vibroblade Grip"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="vibroblade_grip"
+                 culture="Culture.neutral"
+                 length="15.05"
+                 weight="0.1">
+    <BuildData piece_offset="-5.5"
+               previous_piece_offset="0"
+               next_piece_offset="-10" />
+    <Materials>
+      <Material id="Iron2"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="vibroblade_blade"
+                 name="{=Ld1nfdj4}Vibroblade Blade"
+                 tier="1"
+                 piece_type="Blade"
+                 mesh="vibroblade_blade"
+                 culture="Culture.neutral"
+                 length="92.4"
+                 weight="0.93">
+    <BladeData stack_amount="3"
+               physics_material="metal_weapon"
+               body_name="bo_sword_one_handed"
+               holster_mesh="empire_blade_3_scabbard_3">
+      <Thrust damage_type="Pierce"
+              damage_factor="2.4" />
+      <Swing damage_type="Cut"
+             damage_factor="3.8" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian"
+            type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron5"
+                count="3" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="vibroblade_guard"
+                 name="{=cuxuEx40}Vibroblade Guard"
+                 tier="3"
+                 piece_type="Guard"
+                 mesh="vibroblade_guard"
+                 culture="Culture.neutral"
+                 length="4.017"
+                 weight="0.201">
+    <BuildData next_piece_offset="-26.5" />
+    <StatContributions armor_bonus="3" />
+    <Materials>
+      <Material id="Iron3"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
+<!-- Stun Baton -->
+
+  <CraftingPiece id="shockbaton_head"
+                 name="{=lZoqaYmx}Shock Baton Head"
+                 tier="2"
+                 piece_type="Blade"
+                 mesh="shockbaton_head"
+                 distance_to_next_piece="0"
+                 distance_to_previous_piece= "20"
+                 weight="0.8"
+                 full_scale="true">
+    <BladeData stack_amount="3"
+               physics_material="wood_weapon"
+               body_name="bo_mace_a">
+      <Thrust damage_type="Pierce"
+              damage_factor="0.8" />
+      <Swing damage_type="Blunt"
+             damage_factor="2.3" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron2"
+                count="2" />
+    </Materials>
+  </CraftingPiece>
 
 
-  <!-- #endregion -->
+  <CraftingPiece id="shockbaton_handle"
+                 name="{=kjw9c4M2}Shock Baton Handle"
+                 tier="4"
+                 piece_type="Handle"
+                 mesh="shockbaton_handle"
+                 length="52"
+                 weight="1.100"
+                 item_holster_pos_shift="0,0,0.05"
+                 CraftingCost="80">
+    <BuildData piece_offset="4" />
+    <Materials>
+      <Material id="Iron4"
+                count="3" />
+    </Materials>
+  </CraftingPiece>
+
+<!-- #endregion -->
   <!-- #endregion -->
 </CraftingPieces>

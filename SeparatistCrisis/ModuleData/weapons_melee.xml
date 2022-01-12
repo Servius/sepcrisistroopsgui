@@ -52,6 +52,28 @@
        </Pieces>
      </CraftedItem>
 
+  <CraftedItem id="vibroblade" name="Vibroblade" crafting_template="vibroblade" culture="Culture.neutral" is_merchandise="true" >
+       <Pieces>
+         <Piece id="vibroblade_blade" Type="Blade" scale_factor="100" />
+         <Piece id="vibroblade_guard" Type="Guard" scale_factor="100" />
+         <Piece id="vibroblade_grip" Type="Handle" scale_factor="100" />
+       </Pieces>
+     </CraftedItem>
+
+  <CraftedItem id="shockbaton_weapon"
+               name="{=mzvtFPPi}Shock Baton"
+               crafting_template="ShockBaton"
+               is_merchandise="false">
+    <Pieces>
+      <Piece id="shockbaton_head"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="shockbaton_handle"
+             Type="Handle"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
  <Item id="riotshield"
         name="{=wAcc9SX4}Republic Riot Shield"
         body_name="bo_riotshield"

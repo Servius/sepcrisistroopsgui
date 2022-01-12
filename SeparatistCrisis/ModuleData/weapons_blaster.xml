@@ -325,6 +325,46 @@
     <Flags />
   </Item>
 
+<Item id="e5_blaster"
+        name="E-5 Blaster Rifle"
+        body_name="bo_cross_bow_heavy"
+        mesh="e_5_rifle"
+        culture="Culture.separatistalliance"
+        weight="2.0"
+        appearance="0.8"
+        difficulty="0"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.22975"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,.01,-0.4"> <!--left/right,forward/backward,up/down -->
+    <ItemComponent>
+      <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+              ammo_limit="10"
+              thrust_speed="75"
+              speed_rating="63"
+              missile_speed="200"
+              weapon_length="90"
+              accuracy="100"
+              thrust_damage="100"
+              thrust_damage_type="Pierce"
+              item_usage="crossbow_fast"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4"
+              item_modifier_group="crossbow"
+        position="0.0, .01, -2"
+          rotation="0, 0.0, 180.0">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     CanPenetrateShield="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+           MultiplePenetration="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
 <Item id="dc15a_blaster_Rifle"
         name="DC15a Blaster Rifle"
         body_name="bo_cross_bow_heavy"

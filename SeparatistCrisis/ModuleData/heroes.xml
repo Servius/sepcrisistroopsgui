@@ -6,6 +6,7 @@
   <Hero id="jango_fett" is_noble="true" faction="Faction.separatistalliance" text="Blueprint for the clones of the grand army of the republic, general and bounty hunter of the separatist alliance." />
   
   <Hero id="palpatine_republic" is_noble="true" faction="Faction.galactic_senate" text="Leader of the Galactic Senate" /> 
+  <Hero id="anakin" is_noble="true" faction="Faction.republic_501st" text="Jedi General of the 501st" />
   <Hero id="captain_rex" is_noble="true" faction="Faction.republic_501st" text="Leader of the 501st" />
   <Hero id="sergeant_boss" is_noble="true" faction="Faction.republic_deltasquad" text="Leader of Delta Squad" />
   <Hero id="commander_ganch" is_noble="true" faction="Faction.republic_612th" text="Leader of the 612th Attack Battalion" />
