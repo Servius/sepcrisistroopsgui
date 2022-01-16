@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BodyProperties>
+  <BodyProperty id="fighter_galactic_republic">
+    <BodyPropertiesMin version="4"
+      age="25.57"
+      weight="0.3164"
+      build="0.2485"
+      key="0034EC0F00FC101AA6BC6898182879697A97A774788659697946D1725C99B5A5008776030899779700000000000000000000000000000000000000002B144085" />
+    <BodyPropertiesMax version="4"
+      age="39"
+      weight="0.7223"
+      build="0.7052"
+      key="0034D00D00FC1000A6BC6898182879697A97A774788659699946DF725C99B5A5008776030899779700000000000000000000000000000000000000002B144085" />
+  </BodyProperty>
+</BodyProperties>

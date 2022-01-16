@@ -5,37 +5,39 @@
            is_main_culture="true"
            color="FF4E3A55"
            color2="FFDE9953"
-           elite_basic_troop="NPCCharacter.arf_clone"
+           elite_basic_troop="NPCCharacter.imperial_vigla_recruit"
            basic_troop="NPCCharacter.clone_cadet"
-		   basic_mercenary_troop="NPCCharacter.mercenary_1"
-           melee_militia_troop="NPCCharacter.clone_cadet"
-           ranged_militia_troop="NPCCharacter.clone_cadet"
-           melee_elite_militia_troop="NPCCharacter.republic_clone_sergeant_troop"
-           ranged_elite_militia_troop="NPCCharacter.republic_clone_sergeant_troop"
+           melee_militia_troop="NPCCharacter.republic_riottrooper"
+           ranged_militia_troop="NPCCharacter.republic_clone"
+           melee_elite_militia_troop="NPCCharacter.republic_riottrooper"
+           ranged_elite_militia_troop="NPCCharacter.republic_clone"
            can_have_settlement="true"
            town_edge_number="16"
-           villager_party_template="PartyTemplate.villager_empire_template"
-           default_party_template="PartyTemplate.kingdom_hero_party_empire_template"
-           caravan_party_template="PartyTemplate.caravan_template_empire"
-           elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
-           militia_party_template="PartyTemplate.militia_empire_template"
-           rebels_party_template="PartyTemplate.rebels_empire_template"
+           villager_party_template="PartyTemplate.villager_galactic_republic_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_galactic_republic_template"
+           caravan_party_template="PartyTemplate.caravan_template_galactic_republic"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_galactic_republic"
+           militia_party_template="PartyTemplate.militia_galactic_republic_template"
+           rebels_party_template="PartyTemplate.rebels_galactic_republic_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_galactic_republic"
            prosperity_bonus="1"
            encounter_background_mesh="encounter_empire"
            default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
            text="{=X0kKBzsW}The Calradians are the people of the Empire, though by now they have given their name to the entire continent which they dominate. A thousand years ago, they were an undistinguished tribe living in the hill country between the southern sea and the Battanian woods. One tradition set them apart from their neighbors - the Calradoi had no kings. Their citizenry has always taken an intense interest in the art of self-government, the balance between protecting the liberty of individuals and the needs of the state. Perhaps this is why they had a slight edge in the endless wars between one town and another, keeping armies in the field just a little longer, bouncing back just a little more quickly from a defeat. Some of their neighbors federated with them; others were overrun. Eventually the Calradians formed an empire, which evolved into a monarchy in all but name. Their leaders are no longer distinguished civic elders but great landholders scattered across the continent; the striking force of their armies is no longer citizen-infantry but heavily armored cataphracts in the retinues of the wealthy. But they still take their civic traditions very seriously, believing that the Calradian ideal can unite a continent in peace, if only the ”barbarians” beyond their borders would agree to submit to it."
            tournament_master="NPCCharacter.tournament_master_empire"
-           villager="NPCCharacter.villager_empire"
-           caravan_master="NPCCharacter.caravan_master_empire"
-           armed_trader="NPCCharacter.armed_trader_empire"
-           caravan_guard="NPCCharacter.caravan_guard_empire"
-           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire"
+           
+           villager="NPCCharacter.villager_galactic_republic"
+           caravan_master="NPCCharacter.caravan_master_galactic_republic"
+           armed_trader="NPCCharacter.armed_trader_galactic_republic"
+           caravan_guard="NPCCharacter.caravan_guard_galactic_republic"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_galactic_republic"
+           basic_mercenary_troop="NPCCharacter.mercenary_1"
            duel_preset="NPCCharacter.empire_duel_preset"
            prison_guard="NPCCharacter.prison_guard_empire"
            guard="NPCCharacter.guard_empire"
-           steward="NPCCharacter.steward_empire"
-           blacksmith="NPCCharacter.blacksmith_empire"
-           weaponsmith="NPCCharacter.weaponsmith_empire"
+           blacksmith="NPCCharacter.blacksmith_galactic_republic"
+           weaponsmith="NPCCharacter.weaponsmith_galactic_republic"
+
            townswoman="NPCCharacter.townswoman_empire"
            townswoman_infant="NPCCharacter.townswoman_infant_empire"
            townswoman_child="NPCCharacter.townswoman_child_empire"
@@ -49,24 +51,30 @@
            villager_female_child="NPCCharacter.village_woman_child_empire"
            villager_female_teenager="NPCCharacter.village_woman_teenager_empire"
            townsman_teenager="NPCCharacter.townsman_teenager_empire"
-           ransom_broker="NPCCharacter.ransom_broker_empire"
-           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire"
-           merchant_notary="NPCCharacter.merchant_notary_empire"
-           artisan_notary="NPCCharacter.artisan_notary_empire"
-           preacher_notary="NPCCharacter.preacher_notary_empire"
-           rural_notable_notary="NPCCharacter.rural_notable_notary_empire"
-           shop_worker="NPCCharacter.shop_worker_empire"
-           tavernkeeper="NPCCharacter.tavernkeeper_empire"
-           taverngamehost="NPCCharacter.taverngamehost_empire"
+
+           ransom_broker="NPCCharacter.ransom_broker_galactic_republic"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_galactic_republic"
+           merchant_notary="NPCCharacter.merchant_notary_galactic_republic"
+           artisan_notary="NPCCharacter.artisan_notary_galactic_republic"
+           preacher_notary="NPCCharacter.preacher_notary_galactic_republic"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_galactic_republic"
+
+           shop_worker="NPCCharacter.shop_worker_galactic_republic"
+           tavernkeeper="NPCCharacter.tavernkeeper_galactic_republic"
+           taverngamehost="NPCCharacter.taverngamehost_galactic_republic"
+
            musician="NPCCharacter.musician_empire"
-           tavern_wench="NPCCharacter.tavern_wench_empire"
-           armorer="NPCCharacter.armorer_empire"
-           horseMerchant="NPCCharacter.horseMerchant_empire"
-           barber="NPCCharacter.barber_empire"
-           merchant="NPCCharacter.merchant_empire"
+           tavern_wench="NPCCharacter.tavern_wench_galactic_republic"
+
+           armorer="NPCCharacter.armorer_galactic_republic"
+           horseMerchant="NPCCharacter.horseMerchant_galactic_republic"
+           barber="NPCCharacter.barber_galactic_republic"
+           merchant="NPCCharacter.merchant_galactic_republic"
+
            beggar="NPCCharacter.beggar_empire"
            female_beggar="NPCCharacter.female_beggar_empire"
            female_dancer="NPCCharacter.female_dancer_empire"
+
            gear_practice_dummy="NPCCharacter.gear_practice_dummy_empire"
            weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_empire"
            weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_empire"
@@ -74,7 +82,7 @@
            gear_dummy="NPCCharacter.gear_dummy_empire"
            board_game_type="Tablut">
     <vassal_reward_items>
-      <item id="Item.justicier_2hsword" />
+      <item id="Item.vibrosword" />
     </vassal_reward_items>
     <default_policies>
       <policy id="policy_senate" />
@@ -236,7 +244,64 @@
       <feat id="empire_army_influence" />
       <feat id="empire_slower_hearth_production" />
     </cultural_feats>
+
+    <!--
     <child_character_templates>
+      <template name="NPCCharacter.child_template_galactic_republic_townsman_male" />
+      <template name="NPCCharacter.child_template_galactic_republic_townsman_female" />
+      <template name="NPCCharacter.child_template_galactic_republic_villager_male" />
+      <template name="NPCCharacter.child_template_galactic_republic_villager_female" />
+      <template name="NPCCharacter.child_template_galactic_republic_noble_male" />
+      <template name="NPCCharacter.child_template_galactic_republic_noble_female" />
+      <template name="NPCCharacter.teenager_template_galactic_republic_townsman_female" />
+      <template name="NPCCharacter.teenager_template_galactic_republic_townsman_male" />
+      <template name="NPCCharacter.teenager_template_galactic_republic_villager_male" />
+      <template name="NPCCharacter.teenager_template_galactic_republic_villager_female" />
+      <template name="NPCCharacter.teenager_template_galactic_republic_noble_male" />
+      <template name="NPCCharacter.teenager_template_galactic_republic_noble_female" />
+    </child_character_templates>
+    <notable_and_wanderer_templates>
+
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_0" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_1" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_2" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_3" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_4" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_5" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_6" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_7" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_8" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_9" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_10" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_11" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_0" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_0b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_1" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_1b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_2" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_2b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_3" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_3b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_4" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_4b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_5" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_6" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_7" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_8" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_9" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_10" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_11" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_12" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_13" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_21" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_22" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_gl1" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_gl4" />
+      <template name="NPCCharacter.spc_galactic_republic_headman_1" />
+      <template name="NPCCharacter.spc_galactic_republic_headman_2" />
+      <template name="NPCCharacter.spc_galactic_republic_headman_3" />
+    </notable_and_wanderer_templates>-->
+       <child_character_templates>
       <template name="NPCCharacter.child_template_empire_townsman_male" />
       <template name="NPCCharacter.child_template_empire_townsman_female" />
       <template name="NPCCharacter.child_template_empire_villager_male" />
@@ -251,44 +316,44 @@
       <template name="NPCCharacter.teenager_template_empire_noble_female" />
     </child_character_templates>
     <notable_and_wanderer_templates>
-      <template name="NPCCharacter.spc_wanderer_empire_0" />
-      <template name="NPCCharacter.spc_wanderer_empire_1" />
-      <template name="NPCCharacter.spc_wanderer_empire_2" />
-      <template name="NPCCharacter.spc_wanderer_empire_3" />
-      <template name="NPCCharacter.spc_wanderer_empire_4" />
-      <template name="NPCCharacter.spc_wanderer_empire_5" />
-      <template name="NPCCharacter.spc_wanderer_empire_6" />
-      <template name="NPCCharacter.spc_wanderer_empire_7" />
-      <template name="NPCCharacter.spc_wanderer_empire_8" />
-      <template name="NPCCharacter.spc_wanderer_empire_9" />
-      <template name="NPCCharacter.spc_wanderer_empire_10" />
-      <template name="NPCCharacter.spc_wanderer_empire_11" />
-      <template name="NPCCharacter.spc_notable_empire_0" />
-      <template name="NPCCharacter.spc_notable_empire_0b" />
-      <template name="NPCCharacter.spc_notable_empire_1" />
-      <template name="NPCCharacter.spc_notable_empire_1b" />
-      <template name="NPCCharacter.spc_notable_empire_2" />
-      <template name="NPCCharacter.spc_notable_empire_2b" />
-      <template name="NPCCharacter.spc_notable_empire_3" />
-      <template name="NPCCharacter.spc_notable_empire_3b" />
-      <template name="NPCCharacter.spc_notable_empire_4" />
-      <template name="NPCCharacter.spc_notable_empire_4b" />
-      <template name="NPCCharacter.spc_notable_empire_5" />
-      <template name="NPCCharacter.spc_notable_empire_6" />
-      <template name="NPCCharacter.spc_notable_empire_7" />
-      <template name="NPCCharacter.spc_notable_empire_8" />
-      <template name="NPCCharacter.spc_notable_empire_9" />
-      <template name="NPCCharacter.spc_notable_empire_10" />
-      <template name="NPCCharacter.spc_notable_empire_11" />
-      <template name="NPCCharacter.spc_notable_empire_12" />
-      <template name="NPCCharacter.spc_notable_empire_13" />
-      <template name="NPCCharacter.spc_notable_empire_21" />
-      <template name="NPCCharacter.spc_notable_empire_22" />
-      <template name="NPCCharacter.spc_notable_empire_gl1" />
-      <template name="NPCCharacter.spc_notable_empire_gl4" />
-      <template name="NPCCharacter.spc_empire_headman_1" />
-      <template name="NPCCharacter.spc_empire_headman_2" />
-      <template name="NPCCharacter.spc_empire_headman_3" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_0" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_1" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_2" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_3" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_4" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_5" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_6" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_7" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_8" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_9" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_10" />
+      <template name="NPCCharacter.spc_wanderer_galactic_republic_11" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_0" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_0b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_1" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_1b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_2" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_2b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_3" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_3b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_4" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_4b" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_5" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_6" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_7" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_8" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_9" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_10" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_11" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_12" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_13" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_21" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_22" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_gl1" />
+      <template name="NPCCharacter.spc_notable_galactic_republic_gl4" />
+      <template name="NPCCharacter.spc_galactic_republic_headman_1" />
+      <template name="NPCCharacter.spc_galactic_republic_headman_2" />
+      <template name="NPCCharacter.spc_galactic_republic_headman_3" />
     </notable_and_wanderer_templates>
     <tournament_team_templates_one_participant>
       <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />

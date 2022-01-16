@@ -354,5 +354,139 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
            IsNobleTemplate="true" />
 </EquipmentRoster>
 
+ <EquipmentRoster id="galactic_republic_troop_civilian_template_t1"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item2"
+                 id="Item.throwing_stone" />
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="npc_wanderer_equipment_template_galactic_republic"
+                   culture="Culture.empire">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.tundra_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.tunic_with_shoulder_pads" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.burlap_waistcoat" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.armwraps" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
 </EquipmentRosters>
 

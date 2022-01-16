@@ -7,6 +7,12 @@
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
+       <Item id="p1trooper_armor_nohelm" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1armor_nohelm" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+               <ItemComponent>
+                     <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="false" modifier_group="chain" material_type="Chainmail"></Armor>
+               </ItemComponent>
+               <Flags Civilian="true"></Flags>
+         </Item>
 		 <Item id="p1arf_armor" name="{=iAWzr8Q0}Phase 1 ARF Armor" mesh="arf_body" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
@@ -361,12 +367,12 @@
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
             </Item>
-   		 <Item id="barc_armor" name="{=iAWzr8Q0}Phase 1 BARC Armor" mesh="barc_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
-                  <ItemComponent>
-                        <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
-                  </ItemComponent>
-                  <Flags Civilian="true"></Flags>
-            </Item>
+            <Item id="barc_armor" name="{=iAWzr8Q0}Phase 1 BARC Armor" mesh="barc" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                      <ItemComponent>
+                            <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
+                      </ItemComponent>
+                      <Flags Civilian="true"></Flags>
+                </Item>
             <Item id="cody_armor" name="{=iAWzr8Q0}Phase 1 Commander Cody Armor" mesh="cody_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
                       <ItemComponent>
                             <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>

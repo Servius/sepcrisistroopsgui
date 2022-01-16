@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+   <NPCCharacter id="villager_galactic_republic"
+                default_group="Infantry"
+                level="1"
+                name="{=republicpeasantman}Republic Peasant"
+                occupation="Villager"
+                culture="Culture.galactic_republic"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key value="0009013000000000000000000000000000000000000000000000000000000000000a00050000000000000000000000000000000000000000fffffffffc880000" max_value="001cffffc000390ffff88affaa9efffffffffffffff7ffffffff9ffffffffffa0007effff7ffffff000000000000000000000000000000000000000001509181" /-->
+      <BodyProperties version="4"
+                      age="25.57"
+                      weight="0.3164"
+                      build="0.2485"
+                      key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" />
+      <BodyPropertiesMax version="4"
+                         age="69.94"
+                         weight="0.9923"
+                         build="0.7052"
+                         key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" />
+      <!--<hair_tags>
+        <hair_tag name="ShortAndThin" />
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyShortBeard" />
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>-->
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.clone_cadet" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Leg"
+                   id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Body"
+                   id="Item.tundra_tunic" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.hemp_tunic" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.fine_town_tunic" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.fine_town_tunic" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.burlap_waistcoat" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.cloth_tunic" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Body"
+                   id="Item.cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Leg"
+                   id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Body"
+                   id="Item.tundra_tunic" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_pitchfork_2_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.hemp_tunic" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_pitchfork_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Body"
+                   id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Body"
+                   id="Item.fine_town_tunic" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Body"
+                   id="Item.fine_town_tunic" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Body"
+                   id="Item.burlap_waistcoat" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Item1"
+                   id="Item.throwing_stone" />
+        <equipment slot="Body"
+                   id="Item.cloth_tunic" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>
