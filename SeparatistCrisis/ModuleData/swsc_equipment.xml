@@ -14,4 +14,1427 @@
         id="Item.highland_gloves" />
     </EquipmentSet>
   </EquipmentRoster>
+  
+  <EquipmentRoster id="player_char_creation_galactic_republic_10_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item0"
+                 id="Item.iron_spatha_sword_t2" />
+      <Equipment slot="Item2"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.iron_spatha_sword_t2" />
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_galactic_republic_10_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item0"
+                 id="Item.iron_spatha_sword_t2" />
+      <Equipment slot="Item2"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.iron_spatha_sword_t2" />
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--served as a baron's groom=> Vlandia Only, Parents Are Retainers-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_10_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_spear_2_t2" />
+      <Equipment slot="Cape"
+                 id="Item.hood" />
+      <Equipment slot="Body"
+                 id="Item.leather_coat" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_separatistalliance_10_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_spear_2_t2" />
+      <Equipment slot="Cape"
+                 id="Item.hood" />
+      <Equipment slot="Body"
+                 id="Item.leather_coat" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  
+  <!--trained with the cavalry=> Empire Khuzait Aserai Vlandia Only, Parents Are Retainers-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_9_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_shoulder_pads" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_galactic_republic_9_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_shoulder_pads" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_separatistalliance_9_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_spear_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.aseran_village_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_separatistalliance_9_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_spear_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.aseran_village_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trained with hearth guard=> Battania and Sturgia Only, Parents Are Retainers-->
+  <EquipmentRoster id="player_char_creation_mandalorians_9_m"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.sturgia_axe_2_t2" />
+      <Equipment slot="Item2"
+                 id="Item.northern_spear_1_t2" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.northern_noble_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_mandalorians_9_f"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item1"
+                 id="Item.sturgia_axe_2_t2" />
+      <Equipment slot="Item2"
+                 id="Item.northern_spear_1_t2" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.northern_noble_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--stood guard with the garrisons-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_1_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item1"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item2"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item3"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_shoulder_pads" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--stood guard with the garrisons-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_1_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item3"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_shoulder_pads" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.vlandian_dress" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--rode with the scouts-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_2_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_e" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_e" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--rode with the scouts-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_2_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_e" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.empire_warrior_padded_armor_e" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trained with the infantry-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_3_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trained with the infantry-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_3_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.empire_dress" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--joined the skirmishers-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_4_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--joined the skirmishers-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_4_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--marched with the camp followers-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_5_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Item1"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--marched with the camp followers-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_5_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.imperial_spear_t2" />
+      <Equipment slot="Item1"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Ignore 6th Option-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_6_m"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.peasant_hammer_1_t1" />
+      <Equipment slot="Item3"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.peasant_hammer_1_t1" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Ignore 6th Option-->
+  <EquipmentRoster id="player_char_creation_galactic_republic_6_f"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.empire_mace_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_mace_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Separatists Player Characters-->
+  <!--stood guard with the garrisons-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_1_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item2"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item3"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.padded_leather_shirt" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.padded_leather_shirt" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--stood guard with the garrisons-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_1_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item2"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item3"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.padded_leather_shirt" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.padded_leather_shirt" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--rode with the scouts-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_2_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.vlandia_mace_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.mountain_hunting_bow" />
+      <Equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.layered_leather_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.layered_leather_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--rode with the scouts-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_2_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.vlandia_mace_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.mountain_hunting_bow" />
+      <Equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.layered_leather_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.layered_leather_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trained with the infantry-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_3_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.western_spear_2_t2" />
+      <Equipment slot="Item0"
+                 id="Item.vlandia_mace_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_woolen_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.hood" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_woolen_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.hood" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trained with the infantry-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_3_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.western_spear_2_t2" />
+      <Equipment slot="Item0"
+                 id="Item.vlandia_mace_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_woolen_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.hood" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_woolen_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.hood" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--joined the skirmishers-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_4_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--joined the skirmishers-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_4_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg"
+                 id="Item.empire_horseman_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--marched with the camp followers-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_5_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.western_spear_1_t2" />
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--marched with the camp followers-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_5_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.western_spear_1_t2" />
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Ignore 6th Option-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_6_m"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.morningstar_mace_t3" />
+      <Equipment slot="Item3"
+                 id="Item.old_kite_shield" />
+      <Equipment slot="Body"
+                 id="Item.sleeveless_padded_coat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.morningstar_mace_t3" />
+      <Equipment slot="Body"
+                 id="Item.sleeveless_padded_coat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Ignore 6th Option-->
+  <EquipmentRoster id="player_char_creation_separatistalliance_6_f"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.morningstar_mace_t3" />
+      <Equipment slot="Item3"
+                 id="Item.old_kite_shield" />
+      <Equipment slot="Body"
+                 id="Item.sleeveless_padded_coat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.morningstar_mace_t3" />
+      <Equipment slot="Body"
+                 id="Item.sleeveless_padded_coat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Mandalorians Player Characters-->
+  <!--stood guard with the garrisons-->
+  <EquipmentRoster id="player_char_creation_mandalorians_1_m"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.sturgia_axe_2_t2" />
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item2"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item3"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.northern_padded_gambeson" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_padded_gambeson" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_mandalorians_1_f"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.sturgia_axe_2_t2" />
+      <Equipment slot="Item1"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item2"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item3"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.northern_padded_gambeson" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_padded_gambeson" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--rode with the scouts-->
+  <EquipmentRoster id="player_char_creation_mandalorians_2_m"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.sturgia_axe_2_t2" />
+      <Equipment slot="Item0"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--rode with the scouts-->
+  <EquipmentRoster id="player_char_creation_mandalorians_2_f"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.sturgia_axe_2_t2" />
+      <Equipment slot="Item0"
+                 id="Item.hunting_bow" />
+      <Equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Head"
+                 id="Item.nordic_fur_cap" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trained with the infantry-->
+  <EquipmentRoster id="player_char_creation_mandalorians_3_m"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.northern_spear_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.nordic_padded_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.nordic_padded_cloth" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trained with the infantry-->
+  <EquipmentRoster id="player_char_creation_mandalorians_3_f"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.northern_spear_1_t2" />
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.nordic_padded_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Body"
+                 id="Item.nordic_padded_cloth" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--joined the skirmishers-->
+  <EquipmentRoster id="player_char_creation_mandalorians_4_m"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.northern_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.northern_javelin_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--joined the skirmishers-->
+  <EquipmentRoster id="player_char_creation_mandalorians_4_f"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Item3"
+                 id="Item.northern_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.northern_javelin_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Cape"
+                 id="Item.female_scarf" />
+      <Equipment slot="Body"
+                 id="Item.northern_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--marched with the camp followers-->
+  <EquipmentRoster id="player_char_creation_mandalorians_5_m"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.northern_spear_1_t2" />
+      <Equipment slot="Item1"
+                 id="Item.western_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.heavy_nordic_coat" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.heavy_nordic_coat" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--marched with the camp followers-->
+  <EquipmentRoster id="player_char_creation_mandalorians_5_f"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.northern_spear_1_t2" />
+      <Equipment slot="Item1"
+                 id="Item.northern_javelin_1_t2" />
+      <Equipment slot="Item2"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Body"
+                 id="Item.heavy_nordic_coat" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body"
+                 id="Item.heavy_nordic_coat" />
+      <Equipment slot="Head"
+                 id="Item.northern_fur_cap" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Ignore 6th Option-->
+  <EquipmentRoster id="player_char_creation_mandalorians_6_m"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.northern_scouts_shield" />
+      <Equipment slot="Item3"
+                 id="Item.battania_mace_2_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.battania_mace_2_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Ignore 6th Option-->
+  <EquipmentRoster id="player_char_creation_mandalorians_6_f"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item2"
+                 id="Item.small_flat_heater_shield" />
+      <Equipment slot="Item3"
+                 id="Item.battania_mace_2_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <Equipment slot="Horse"
+                 id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.battania_mace_2_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--BEGINNER SETS END HERE-->
+  <!--CHARACTER CREATION SHOW ARMOR SET STARTS HERE-->
+  <EquipmentRoster id="player_char_creation_show_mandalorians"
+                 culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.nordic_lamellar_vest" />
+      <Equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.battania_mace_2_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_show_separatistalliance"
+               culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.banded_leather_over_mail" />
+      <Equipment slot="Gloves"
+                 id="Item.leather_gloves" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.battania_mace_2_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="player_char_creation_show_galactic_republic"
+             culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.basic_imperial_leather_armor" />
+      <Equipment slot="Gloves"
+                 id="Item.reinforced_padded_mitten" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.battania_mace_2_t2" />
+      <Equipment slot="Body"
+                 id="Item.northern_leather_vest" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
   </EquipmentRosters>
