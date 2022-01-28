@@ -77,7 +77,7 @@
            text="{=bhxVA9w7}The 104th Battalion was a unit under the command of Jedi General Plo Koon and Commander Wolffe. It included the Wolfpack, a specialized squad personally led by Wolffe. The Battalion was generally tasked with relief and recovery missions."></Faction>
 
   <Faction id="republic_7thsky"
-           owner="Hero.commander_cody"
+           owner="Hero.obiwan"
            banner_key="11.147.147.1536.1536.764.764.1.0.0.215.155.155.442.442.764.764.0.0.0"    
            label_color="FFD2C0AA"
            color="FF8D5C44"

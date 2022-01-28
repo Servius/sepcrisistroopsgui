@@ -36,6 +36,7 @@
     </StatsData>
     <UsablePieces>
 	  <UsablePiece piece_id="anakin_hilt"/>
+    <UsablePiece piece_id="windu_hilt"/>
 	  <UsablePiece piece_id="anakin_blade"/>
       <UsablePiece piece_id="red_blade" />
       <UsablePiece piece_id="black_blade" />
@@ -206,6 +207,46 @@
     <UsablePieces>
       <UsablePiece piece_id="shockbaton_head"/>
       <UsablePiece piece_id="shockbaton_handle"/>
+    </UsablePieces>
+  </CraftingTemplate>
+
+
+  <CraftingTemplate id="TwoHandedVibroAxe"
+                    item_modifier_group="axe"
+                    item_holsters="axe_back:axe_back_2:axe_back_3:axe_back_4"
+                    default_item_holster_position_offset="0,0,-0.65"
+                    use_weapon_as_holster_mesh="true">
+    <PieceDatas>
+      <PieceData piece_type="Handle"
+                 build_order="0" />
+      <PieceData piece_type="Blade"
+                 build_order="1" />
+    </PieceDatas>
+    <WeaponDescriptions>
+      <WeaponDescription id="OneHandedVibroAxe" />
+      <WeaponDescription id="TwoHandedVibroAxe" />
+      <WeaponDescription id="OneHandedVibroAxeAlternative" />
+    </WeaponDescriptions>
+    <StatsData>
+      <StatData stat_type="Weight"
+                max_value="7.0" />
+      <StatData stat_type="WeaponReach"
+                max_value="300" />
+      <StatData stat_type="ThrustSpeed"
+                max_value="200" />
+      <StatData stat_type="SwingSpeed"
+                max_value="200" />
+      <StatData stat_type="ThrustDamage"
+                max_value="500" />
+      <StatData stat_type="SwingDamage"
+                max_value="500" />
+      <StatData stat_type="Handling"
+                max_value="200" />
+      <!--<StatData stat_type="FollowUp" max_value="200" />-->
+    </StatsData>
+    <UsablePieces>
+      <UsablePiece piece_id="vibro_axe_head" />
+      <UsablePiece piece_id="vibro_axe_handle" />
     </UsablePieces>
   </CraftingTemplate>
 </CraftingTemplates>

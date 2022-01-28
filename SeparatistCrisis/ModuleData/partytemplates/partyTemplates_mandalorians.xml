@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <MBPartyTemplate id="villager_mandalorians_template" >
+      <stacks>
+        <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_mandalorians" />
+      </stacks>
+    </MBPartyTemplate>
+
+
+  <MBPartyTemplate id="kingdom_hero_party_mandalorians_template" >
+    <stacks>
+      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.clanfighter" />
+      <PartyTemplateStack min_value="8" max_value="60" troop="NPCCharacter.mando_death_watch_troop" />
+      <PartyTemplateStack min_value="8" max_value="60" troop="NPCCharacter.mando_maul_death_watch_troop" />
+    </stacks>
+  </MBPartyTemplate>
+
+  <MBPartyTemplate id="caravan_template_mandalorians" >
+    <stacks>
+      <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.armed_trader_mandalorians" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_mandalorians" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_mandalorians" />
+    </stacks>
+  </MBPartyTemplate>
+
+ <MBPartyTemplate id="elite_caravan_template_mandalorians" >
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_mandalorians" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_mandalorians" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_mandalorians" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_mandalorians" />
+    </stacks>
+  </MBPartyTemplate>
+
+  <MBPartyTemplate id="militia_mandalorians_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mando_dw_riot_troop" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mando_death_watch_troop" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <MBPartyTemplate id="rebels_mandalorians_template" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.clanfighter" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="vassal_reward_troops_mandalorians" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mando_maul_death_watch_troop" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.mando_death_watch_troop" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>

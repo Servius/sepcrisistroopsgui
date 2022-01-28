@@ -20,6 +20,24 @@
     </Materials>
   </CraftingPiece>
 
+  <CraftingPiece id="windu_hilt" 
+    name="{=longclaw_grip}Windu Lightsaber Hilt" 
+    tier="5" 
+    piece_type="Handle" 
+    mesh="lightsaber_macewindu" 
+    culture="Culture.galactic_republic" 
+    length="26.5" 
+    weight="0.20" 
+    item_holster_pos_shift="0,0,-0.0">
+
+    <BuildData piece_offset="0" 
+      next_piece_offset="1" />
+    <Materials>
+      <Material id="Iron4"
+                count="12" />
+    </Materials>
+  </CraftingPiece>
+
   <CraftingPiece id="anakin_blade" 
     name="Anakin Lightsaber Blade" 
     tier="5" 
@@ -317,6 +335,51 @@
     <Materials>
       <Material id="Iron4"
                 count="3" />
+    </Materials>
+  </CraftingPiece>
+
+<!-- Vibro Axe -->
+  <CraftingPiece id="vibro_axe_head"
+                 name="{=cEU66ABf}Vibro Axe Blade"
+                 tier="3"
+                 piece_type="Blade"
+                 mesh="VibroAx_head"
+                 distance_to_next_piece="10.4"
+                 distance_to_previous_piece="0"
+                 weight="0.632">
+    <BuildData piece_offset="-11" />
+    <BladeData stack_amount="3"
+               blade_length="15.764"
+               blade_width="16"
+               physics_material="metal_weapon"
+               body_name="bo_axe_longer_b">
+      <Swing damage_type="Cut"
+             damage_factor="3.6" />
+    </BladeData>
+    <Flags>
+      <Flag name="CanBePickedUpFromCorpse"
+            type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2"
+                count="3" />
+      <Material id="Iron3"
+                count="1" />
+    </Materials>
+  </CraftingPiece>
+
+    <CraftingPiece id="vibro_axe_handle"
+                 name="{=ibU7mZKx}Vibro Axe Axe Shaft"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="VibroAx_handle"
+                 length="150"
+                 weight="0.816">
+    <BuildData piece_offset="-22"
+               next_piece_offset="-6" />
+    <Materials>
+      <Material id="Wood"
+                count="1" />
     </Materials>
   </CraftingPiece>
 

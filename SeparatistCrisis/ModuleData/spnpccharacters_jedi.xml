@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+       <NPCCharacter id="jedi_padawan"
+              default_group="Infantry"
+              level="11"
+              name="{=Padawan}Padawan"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="50"/>
+                     <skill id="Riding" value="0"/>
+                     <skill id="OneHanded" value="50"/>
+                     <skill id="TwoHanded" value="50"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="0"/>
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.jedi_knight"/>
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.darksaber"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.darksaber"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.darksaber"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.darksaber"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="jedi_knight"
+              default_group="Infantry"
+              level="16"
+              name="{=Jedi Knight}Jedi Knight"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="90"/>
+                     <skill id="Riding" value="0"/>
+                     <skill id="OneHanded" value="90"/>
+                     <skill id="TwoHanded" value="90"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="0"/>
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.jedi_consular"/>
+                     <upgrade_target id="NPCCharacter.jedi_guardian"/>
+                     <upgrade_target id="NPCCharacter.jedi_sentinel"/>
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Body" id="Item.heavy_nordic_coat"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Body" id="Item.heavy_nordic_coat"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.heavy_nordic_coat"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.heavy_nordic_coat"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="jedi_consular"
+              default_group="Infantry"
+              level="21"
+              name="{=Jedi Consular}Jedi Consular"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="120"/>
+                     <skill id="Riding" value="0"/>
+                     <skill id="OneHanded" value="120"/>
+                     <skill id="TwoHanded" value="90"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="0"/>
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.jedi_consular_master"/>
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="jedi_sentinel"
+              default_group="Infantry"
+              level="21"
+              name="{=Jedi Sentinel}Jedi Sentinel"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="120"/>
+                     <skill id="Riding" value="0"/>
+                     <skill id="OneHanded" value="120"/>
+                     <skill id="TwoHanded" value="90"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="0"/>
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.jedi_sentinel_master"/>
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="jedi_guardian"
+              default_group="Infantry"
+              level="21"
+              name="{=Jedi Guardian}Jedi Guardian"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="120"/>
+                     <skill id="Riding" value="0"/>
+                     <skill id="OneHanded" value="120"/>
+                     <skill id="TwoHanded" value="90"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="0"/>
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.jedi_guardian_master"/>
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Body" id="Item.footmans_tunic"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Body" id="Item.footmans_tunic"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Body" id="Item.footmans_tunic"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Body" id="Item.footmans_tunic"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="jedi_guardian_master"
+              default_group="Infantry"
+              level="26"
+              name="{=Jedi Guardian Master}Jedi Guardian Master"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="170"/>
+                     <skill id="Riding" value="105"/>
+                     <skill id="OneHanded" value="130"/>
+                     <skill id="TwoHanded" value="135"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="85"/>
+              </skills>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.eastern_javelin_3_t4"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.decorated_short_tunic"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.decorated_short_tunic"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.decorated_short_tunic"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.thinhide_coif"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.decorated_short_tunic"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="jedi_sentinel_master"
+              default_group="Infantry"
+              level="26"
+              name="{=Jedi Master Sentinel}Jedi Master Sentinel"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="170"/>
+                     <skill id="Riding" value="140"/>
+                     <skill id="OneHanded" value="150"/>
+                     <skill id="TwoHanded" value="90"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="0"/>
+              </skills>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="jedi_consular_master"
+              default_group="Infantry"
+              level="26"
+              name="{=Jedi Master Consular}Jedi Master Consular"
+              occupation="Soldier"
+              culture="Culture.galactic_republic">
+              <face>
+                     <face_key_template value="BodyProperty.villager_galactic_republic"/>
+              </face>
+              <skills >
+                     <skill id="Athletics" value="170"/>
+                     <skill id="Riding" value="140"/>
+                     <skill id="OneHanded" value="150"/>
+                     <skill id="TwoHanded" value="90"/>
+                     <skill id="Polearm" value="0"/>
+                     <skill id="Bow" value="0"/>
+                     <skill id="Crossbow" value="0"/>
+                     <skill id="Throwing" value="0"/>
+              </skills>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.anakin_lightsaber"/>
+                            <equipment slot="Item1" id="Item.throwing_stone"/>
+                            <equipment slot="Head" id="Item.pilgrim_hood"/>
+                            <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+                            <equipment slot="Body" id="Item.monk_robe"/>
+                            <equipment slot="Gloves" id="Item.armwraps"/>
+                            <equipment slot="Leg" id="Item.leather_shoes"/>
+                     </EquipmentRoster>
+                     <EquipmentRoster civilian="true">
+                            <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                            <equipment slot="Item2" id="Item.throwing_stone"/>
+                            <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                            <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                     </EquipmentRoster>
+              </Equipments>
+       </NPCCharacter>
+</NPCCharacters>

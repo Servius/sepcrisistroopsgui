@@ -1,547 +1,547 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <Items>
 
-		 <Item id="p1trooper_armor" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1TROOParmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1trooper_armor" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1TROOParmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-       <Item id="p1trooper_armor_nohelm" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1armor_nohelm" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+       <Item id="p1trooper_armor_nohelm_equipped" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1armor_nohelm" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="false" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1arf_armor" name="{=iAWzr8Q0}Phase 1 ARF Armor" mesh="arf_body" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1arf_armor" name="{=iAWzr8Q0}Phase 1 ARF Armor" mesh="arf_body" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1cpt_armor" name="{=iAWzr8Q0}Phase 1 Clone Captain Armor" mesh="p1cptarmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1cpt_armor" name="{=iAWzr8Q0}Phase 1 Clone Captain Armor" mesh="p1cptarmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1cmd_armor" name="{=iAWzr8Q0}Phase 1 Clone Commander Armor" mesh="p1cmdarmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1cmd_armor" name="{=iAWzr8Q0}Phase 1 Clone Commander Armor" mesh="p1cmdarmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1fangs_armor" name="{=iAWzr8Q0}Phase 1 Delirious Armor" mesh="p1fangsarmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1fangs_armor" name="{=iAWzr8Q0}Phase 1 Delirious Armor" mesh="p1fangsarmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1lt_armor" name="{=iAWzr8Q0}Phase 1 Clone Lieutenant Armor" mesh="p1ltarmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1lt_armor" name="{=iAWzr8Q0}Phase 1 Clone Lieutenant Armor" mesh="p1ltarmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1rex_armor" name="{=iAWzr8Q0}Phase 1 Captain Rex Armor" mesh="p1rex_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1rex_armor" name="{=iAWzr8Q0}Phase 1 Captain Rex Armor" mesh="p1rex_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1sgt_armor" name="{=iAWzr8Q0}Phase 1 Clone Sergeant Armor" mesh="p1sgtarmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="p1sgt_armor" name="{=iAWzr8Q0}Phase 1 Clone Sergeant Armor" mesh="p1sgtarmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="commando_armor" name="{=iAWzr8Q0}Clone Commando Armor" mesh="commando_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="commando_armor" name="{=iAWzr8Q0}Clone Commando Armor" mesh="commando_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="commando_armor2" name="{=iAWzr8Q0}Clone Commando Boss Armor" mesh="commando_armor2" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="commando_armor2" name="{=iAWzr8Q0}Clone Commando Boss Armor" mesh="commando_armor2" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1trooper_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Trooper Gauntlets" mesh="p1TROOPgauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1trooper_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Trooper Gauntlets" mesh="p1TROOPgauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1cpt_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Captain Gauntlets" mesh="p1cptgauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1cpt_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Captain Gauntlets" mesh="p1cptgauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1cmd_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Commander Gauntlets" mesh="p1cmdgauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1cmd_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Commander Gauntlets" mesh="p1cmdgauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1fangs_gauntlets" name="{=iAWzr8Q0}Phase 1 Delirious Gauntlets" mesh="p1fangsgauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1fangs_gauntlets" name="{=iAWzr8Q0}Phase 1 Delirious Gauntlets" mesh="p1fangsgauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1lt_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Lieutenant Gauntlets" mesh="p1ltgauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1lt_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Lieutenant Gauntlets" mesh="p1ltgauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1rex_gauntlets" name="{=iAWzr8Q0}Phase 1 Captain Rex Gauntlets" mesh="rex_gauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1rex_gauntlets" name="{=iAWzr8Q0}Phase 1 Captain Rex Gauntlets" mesh="rex_gauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1sgt_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Sergeant Gauntlets" mesh="p1sgtgauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1sgt_gauntlets" name="{=iAWzr8Q0}Phase 1 Clone Sergeant Gauntlets" mesh="p1sgtgauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1arf_gauntlets" name="{=iAWzr8Q0}Phase 1 ARF Gauntlets" mesh="p1arfgauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="p1arf_gauntlets" name="{=iAWzr8Q0}Phase 1 ARF Gauntlets" mesh="p1arfgauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="commando_gauntlets" name="{=iAWzr8Q0}Clone Commando Gauntlets" mesh="commando_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="commando_gauntlets" name="{=iAWzr8Q0}Clone Commando Gauntlets" mesh="commando_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="commando_gauntlets2" name="{=iAWzr8Q0}Clone Commando Boss Gauntlets" mesh="commando_gauntlets2" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="commando_gauntlets2" name="{=iAWzr8Q0}Clone Commando Boss Gauntlets" mesh="commando_gauntlets2" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1_greaves" name="{=iAWzr8Q0}Phase 1 Clone greaves" mesh="p1TROOPgreaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="p1_greaves" name="{=iAWzr8Q0}Phase 1 Clone greaves" mesh="p1TROOPgreaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1fangs_greaves" name="{=iAWzr8Q0}Phase 1 Delirious greaves" mesh="p1fangsgreaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="p1fangs_greaves" name="{=iAWzr8Q0}Phase 1 Delirious greaves" mesh="p1fangsgreaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1rex_greaves" name="{=iAWzr8Q0}Phase 1 Captain Rex greaves" mesh="rex_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="p1rex_greaves" name="{=iAWzr8Q0}Phase 1 Captain Rex greaves" mesh="rex_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="commando_greaves" name="{=iAWzr8Q0}Clone Commando greaves" mesh="commando_boots" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="commando_greaves" name="{=iAWzr8Q0}Clone Commando greaves" mesh="commando_boots" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1arf_greaves" name="{=iAWzr8Q0}Phase 1 ARF greaves" mesh="p1arfgreaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="p1arf_greaves" name="{=iAWzr8Q0}Phase 1 ARF greaves" mesh="p1arfgreaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1trooper_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Trooper Pauldrons" mesh="p1TROOPshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1trooper_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Trooper Pauldrons" mesh="p1TROOPshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1cpt_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Captain Pauldrons" mesh="p1cptshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1cpt_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Captain Pauldrons" mesh="p1cptshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1cmd_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Commander Pauldrons" mesh="p1cmdshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1cmd_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Commander Pauldrons" mesh="p1cmdshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1fangs_pauldrons" name="{=iAWzr8Q0}Phase 1 Delirious Pauldrons" mesh="p1fangsshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1fangs_pauldrons" name="{=iAWzr8Q0}Phase 1 Delirious Pauldrons" mesh="p1fangsshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1lt_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Lieutenant Pauldrons" mesh="p1ltshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1lt_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Lieutenant Pauldrons" mesh="p1ltshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1rex_pauldrons" name="{=iAWzr8Q0}Phase 1 Captain Rex Pauldrons" mesh="rex_shoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1rex_pauldrons" name="{=iAWzr8Q0}Phase 1 Captain Rex Pauldrons" mesh="rex_shoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1sgt_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Sergeant Pauldrons" mesh="p1sgtshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1sgt_pauldrons" name="{=iAWzr8Q0}Phase 1 Clone Sergeant Pauldrons" mesh="p1sgtshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="commando_pauldrons" name="{=iAWzr8Q0}Commando Pauldrons" mesh="commando_shoulder" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="commando_pauldrons" name="{=iAWzr8Q0}Commando Pauldrons" mesh="commando_shoulder" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="commando_pauldrons2" name="{=iAWzr8Q0}Commando Boss Pauldrons" mesh="commando_shoulder2" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="commando_pauldrons2" name="{=iAWzr8Q0}Commando Boss Pauldrons" mesh="commando_shoulder2" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="p1arf_pauldrons" name="{=iAWzr8Q0}Phase 1 ARF Pauldrons" mesh="p1arfshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+		 <Item id="p1arf_pauldrons" name="{=iAWzr8Q0}Phase 1 ARF Pauldrons" mesh="p1arfshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="death_watch_armor" name="{=iAWzr8Q0}Death Watch Armor" mesh="death_watch_body" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="death_watch_armor" name="{=iAWzr8Q0}Death Watch Armor" mesh="death_watch_body" culture="Culture.mandalorians" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="jango_armor" name="{=iAWzr8Q0}Jango Fett's Armor" mesh="jango_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="jango_armor" name="{=iAWzr8Q0}Jango Fett's Armor" mesh="jango_armor" culture="Culture.separatistalliance" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="death_watch_maul_armor" name="{=iAWzr8Q0}Maul's Death Watch Armor" mesh="death_watch_maul_body" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="death_watch_maul_armor" name="{=iAWzr8Q0}Maul's Death Watch Armor" mesh="death_watch_maul_body" culture="Culture.mandalorians" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="pv_armor" name="{=iAWzr8Q0}Pre Vizsla's Armor" mesh="armorpv_low" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+		 <Item id="pv_armor" name="{=iAWzr8Q0}Pre Vizsla's Armor" mesh="armorpv_low" culture="Culture.mandalorians" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="death_watch_gauntlets" name="{=iAWzr8Q0}Death Watch Gauntlets" mesh="death_watch_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="death_watch_gauntlets" name="{=iAWzr8Q0}Death Watch Gauntlets" mesh="death_watch_gauntlets" culture="Culture.mandalorians" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="death_watch_maul_gauntlets" name="{=iAWzr8Q0}Maul's Death Watch Gauntlets" mesh="death_watch_maul_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="death_watch_maul_gauntlets" name="{=iAWzr8Q0}Maul's Death Watch Gauntlets" mesh="death_watch_maul_gauntlets" culture="Culture.mandalorians" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="jango_gauntlets" name="{=iAWzr8Q0}Jango Fett's Gauntlets" mesh="jango_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="jango_gauntlets" name="{=iAWzr8Q0}Jango Fett's Gauntlets" mesh="jango_gauntlets" culture="Culture.mandalorians" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="pv_gauntlets" name="{=iAWzr8Q0}Pre Vizsla's Gauntlets" mesh="death_watch_pv_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+		 <Item id="pv_gauntlets" name="{=iAWzr8Q0}Pre Vizsla's Gauntlets" mesh="death_watch_pv_gauntlets" culture="Culture.mandalorians" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="death_watch_greaves" name="{=iAWzr8Q0}Death Watch greaves" mesh="death_watch_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="death_watch_greaves" name="{=iAWzr8Q0}Death Watch greaves" mesh="death_watch_greaves" culture="Culture.mandalorians" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="death_watch_maul_greaves" name="{=iAWzr8Q0}Maul's Death Watch greaves" mesh="death_watch_maul_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="death_watch_maul_greaves" name="{=iAWzr8Q0}Maul's Death Watch greaves" mesh="death_watch_maul_greaves" culture="Culture.mandalorians" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="jango_greaves" name="{=iAWzr8Q0}Jango Fett's greaves" mesh="jango_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="jango_greaves" name="{=iAWzr8Q0}Jango Fett's greaves" mesh="jango_greaves" culture="Culture.separatistalliance" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-		 <Item id="pv_greaves" name="{=iAWzr8Q0}Pre Vizsla's greaves" mesh="death_watch_pv_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+		 <Item id="pv_greaves" name="{=iAWzr8Q0}Pre Vizsla's greaves" mesh="death_watch_pv_greaves" culture="Culture.mandalorians" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
          </Item>
-        <Item id="nimbusbody" name="{=iAWzr8Q0}Nimbus Commando Armor" mesh="nimbusbody" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+        <Item id="nimbusbody" name="{=iAWzr8Q0}Nimbus Commando Armor" mesh="nimbusbody" culture="Culture.separatistalliance" weight="2" appearance="3" Type="BodyArmor">
                   <ItemComponent>
                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="nimbusgauntlets" name="{=iAWzr8Q0}Nimbus Commando Gauntlets" mesh="nimbusgauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+        <Item id="nimbusgauntlets" name="{=iAWzr8Q0}Nimbus Commando Gauntlets" mesh="nimbusgauntlets" culture="Culture.separatistalliance" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="nimbusgreaves" name="{=iAWzr8Q0}Nimbus Commando Greaves" mesh="nimbusgreaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+        <Item id="nimbusgreaves" name="{=iAWzr8Q0}Nimbus Commando Greaves" mesh="nimbusgreaves" culture="Culture.separatistalliance" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="nimbusshoulders" name="{=iAWzr8Q0}Nimbus Commando Shoulders" mesh="nimbusshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+        <Item id="nimbusshoulders" name="{=iAWzr8Q0}Nimbus Commando Shoulders" mesh="nimbusshoulders" culture="Culture.separatistalliance" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="15" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="bokatanbody" name="{=iAWzr8Q0}Bo Katan Armor" mesh="bobody" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+        <Item id="bokatanbody" name="{=iAWzr8Q0}Bo Katan Armor" mesh="bobody" culture="Culture.mandalorians" weight="2" appearance="3" Type="BodyArmor">
                   <ItemComponent>
                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="bokatanbracers" name="{=iAWzr8Q0}Bo Katan Bracers" mesh="bobracers" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+        <Item id="bokatanbracers" name="{=iAWzr8Q0}Bo Katan Bracers" mesh="bobracers" culture="Culture.mandalorians" weight="2" appearance="3" Type="HandArmor">
                <ItemComponent>
                      <Armor arm_armor="25" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="bokatangreaves" name="{=iAWzr8Q0}Bo Katan Greaves" mesh="bogreaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+        <Item id="bokatangreaves" name="{=iAWzr8Q0}Bo Katan Greaves" mesh="bogreaves" culture="Culture.mandalorians" weight="2" appearance="3" Type="LegArmor">
                <ItemComponent>
                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="bokatanshoulders" name="{=iAWzr8Q0}Bo Katan Shoulders" mesh="boshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+        <Item id="bokatanshoulders" name="{=iAWzr8Q0}Bo Katan Shoulders" mesh="boshoulders" culture="Culture.mandalorians" weight="2" appearance="3" Type="Cape">
                <ItemComponent>
                      <Armor arm_armor="15" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>
                <Flags Civilian="true"></Flags>
         </Item>
-        <Item id="p1wolffe_armor" name="{=iAWzr8Q0}Phase 1 Wolffe Armor" mesh="wolffe_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+        <Item id="p1wolffe_armor" name="{=iAWzr8Q0}Phase 1 Wolffe Armor" mesh="wolffe_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                   <ItemComponent>
                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
             </Item>
-   		 <Item id="p1wolffe_gauntlets" name="{=iAWzr8Q0}Phase 1 Wolffe Gauntlets" mesh="wolffe_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+   		 <Item id="p1wolffe_gauntlets" name="{=iAWzr8Q0}Phase 1 Wolffe Gauntlets" mesh="wolffe_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                   <ItemComponent>
                         <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
             </Item>
-   		 <Item id="p1wolffe_greaves" name="{=iAWzr8Q0}Phase 1 Wolffe greaves" mesh="wolffe_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+   		 <Item id="p1wolffe_greaves" name="{=iAWzr8Q0}Phase 1 Wolffe greaves" mesh="wolffe_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                   <ItemComponent>
                         <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
             </Item>
-   		 <Item id="p1wolffe_pauldrons" name="{=iAWzr8Q0}Phase 1 Wolffe Pauldrons" mesh="wolffe_shoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+   		 <Item id="p1wolffe_pauldrons" name="{=iAWzr8Q0}Phase 1 Wolffe Pauldrons" mesh="wolffe_shoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                   <ItemComponent>
                         <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
             </Item>
-   		 <Item id="p1arfhound_armor" name="{=iAWzr8Q0}Phase 1 ARF Hound Armor" mesh="arfhound_body" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+   		 <Item id="p1arfhound_armor" name="{=iAWzr8Q0}Phase 1 ARF Hound Armor" mesh="arfhound_body" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                   <ItemComponent>
                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                   </ItemComponent>
                   <Flags Civilian="true"></Flags>
             </Item>
-            <Item id="barc_armor" name="{=iAWzr8Q0}Phase 1 BARC Armor" mesh="barc" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+            <Item id="barc_armor" name="{=iAWzr8Q0}Phase 1 BARC Armor" mesh="barc" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                       <ItemComponent>
                             <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                       </ItemComponent>
                       <Flags Civilian="true"></Flags>
                 </Item>
-            <Item id="cody_armor" name="{=iAWzr8Q0}Phase 1 Commander Cody Armor" mesh="cody_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+            <Item id="cody_armor" name="{=iAWzr8Q0}Phase 1 Commander Cody Armor" mesh="cody_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                       <ItemComponent>
                             <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                       </ItemComponent>
                       <Flags Civilian="true"></Flags>
                 </Item>
-       		 <Item id="cody_gauntlets" name="{=iAWzr8Q0}Phase 1 Commander Cody Gauntlets" mesh="cody_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+       		 <Item id="cody_gauntlets" name="{=iAWzr8Q0}Phase 1 Commander Cody Gauntlets" mesh="cody_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                       <ItemComponent>
                             <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                       </ItemComponent>
                       <Flags Civilian="true"></Flags>
                 </Item>
-       		 <Item id="cody_greaves" name="{=iAWzr8Q0}Phase 1 Commander Cody greaves" mesh="cody_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+       		 <Item id="cody_greaves" name="{=iAWzr8Q0}Phase 1 Commander Cody greaves" mesh="cody_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                       <ItemComponent>
                             <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                       </ItemComponent>
                       <Flags Civilian="true"></Flags>
                 </Item>
-       		 <Item id="cody_pauldrons" name="{=iAWzr8Q0}Phase 1 Commander Cody Pauldrons" mesh="cody_shoulder" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+       		 <Item id="cody_pauldrons" name="{=iAWzr8Q0}Phase 1 Commander Cody Pauldrons" mesh="cody_shoulder" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                       <ItemComponent>
                             <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                       </ItemComponent>
                       <Flags Civilian="true"></Flags>
                 </Item>
-                <Item id="shadowspartan_armor" name="{=iAWzr8Q0}Phase 1 Shadowspartan Cody Armor" mesh="shadowspartan_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                <Item id="shadowspartan_armor" name="{=iAWzr8Q0}Phase 1 Shadowspartan Cody Armor" mesh="shadowspartan_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                           <ItemComponent>
                                 <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                           </ItemComponent>
                           <Flags Civilian="true"></Flags>
                     </Item>
-           		 <Item id="shadowspartan_gauntlets" name="{=iAWzr8Q0}Phase 1 Shadowspartan Gauntlets" mesh="shadowspartan_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+           		 <Item id="shadowspartan_gauntlets" name="{=iAWzr8Q0}Phase 1 Shadowspartan Gauntlets" mesh="shadowspartan_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                           <ItemComponent>
                                 <Armor arm_armor="25" covers_hands="true" modifier_group="chain" material_type="Chainmail"></Armor>
                           </ItemComponent>
                           <Flags Civilian="true"></Flags>
                     </Item>
-           		 <Item id="shadowspartan_greaves" name="{=iAWzr8Q0}Phase 1 Shadowspartan greaves" mesh="shadowspartan_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+           		 <Item id="shadowspartan_greaves" name="{=iAWzr8Q0}Phase 1 Shadowspartan greaves" mesh="shadowspartan_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                           <ItemComponent>
                                 <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                           </ItemComponent>
                           <Flags Civilian="true"></Flags>
                     </Item>
-           		 <Item id="shadowspartan_pauldrons" name="{=iAWzr8Q0}Phase 1 Shadowspartan Pauldrons" mesh="shadowspartan_shoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+           		 <Item id="shadowspartan_pauldrons" name="{=iAWzr8Q0}Phase 1 Shadowspartan Pauldrons" mesh="shadowspartan_shoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                           <ItemComponent>
                                 <Armor arm_armor="25" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                           </ItemComponent>
                           <Flags Civilian="true"></Flags>
                     </Item>
-                    <Item id="p2troop_armor" name="{=iAWzr8Q0}Phase 2 Clone Trooper Armor" mesh="p2trooparmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                    <Item id="p2troop_armor" name="{=iAWzr8Q0}Phase 2 Clone Trooper Armor" mesh="p2trooparmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                               <ItemComponent>
                                     <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                               </ItemComponent>
                               <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="ganch_armor" name="{=iAWzr8Q0}Phase 1 Ganch Armor" mesh="ganch_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                        <Item id="ganch_armor" name="{=iAWzr8Q0}Phase 1 Ganch Armor" mesh="ganch_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                                   <ItemComponent>
                                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                   </ItemComponent>
                                   <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="ganch_gauntlets" name="{=iAWzr8Q0}Phase 1 Ganch Gauntlets" mesh="ganch_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+                        <Item id="ganch_gauntlets" name="{=iAWzr8Q0}Phase 1 Ganch Gauntlets" mesh="ganch_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                                <ItemComponent>
                                      <Armor arm_armor="25" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="ganch_greaves" name="{=iAWzr8Q0}Phase 1 Ganch Greaves" mesh="ganch_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+                        <Item id="ganch_greaves" name="{=iAWzr8Q0}Phase 1 Ganch Greaves" mesh="ganch_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                                <ItemComponent>
                                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="ganch_shoulders" name="{=iAWzr8Q0}Phase 1 Ganch Pauldrons" mesh="ganch_shoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+                        <Item id="ganch_shoulders" name="{=iAWzr8Q0}Phase 1 Ganch Pauldrons" mesh="ganch_shoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                                <ItemComponent>
                                      <Armor arm_armor="15" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="fox_armor" name="{=iAWzr8Q0}Phase 1 Commander Fox Armor" mesh="fox_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                        <Item id="fox_armor" name="{=iAWzr8Q0}Phase 1 Commander Fox Armor" mesh="fox_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                                   <ItemComponent>
                                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                   </ItemComponent>
                                   <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="fox_gauntlets" name="{=iAWzr8Q0}Phase 1 Commander Fox Gauntlets" mesh="fox_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+                        <Item id="fox_gauntlets" name="{=iAWzr8Q0}Phase 1 Commander Fox Gauntlets" mesh="fox_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                                <ItemComponent>
                                      <Armor arm_armor="25" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="fox_greaves" name="{=iAWzr8Q0}Phase 1 Commander Fox Greaves" mesh="fox_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+                        <Item id="fox_greaves" name="{=iAWzr8Q0}Phase 1 Commander Fox Greaves" mesh="fox_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                                <ItemComponent>
                                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="fox_shoulders" name="{=iAWzr8Q0}Phase 1 Commander Fox Pauldrons" mesh="fox_shoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+                        <Item id="fox_shoulders" name="{=iAWzr8Q0}Phase 1 Commander Fox Pauldrons" mesh="fox_shoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                                <ItemComponent>
                                      <Armor arm_armor="15" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="psycho_armor" name="{=iAWzr8Q0}Phase 1 Psycho Armor" mesh="psycho_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                        <Item id="psycho_armor" name="{=iAWzr8Q0}Phase 1 Psycho Armor" mesh="psycho_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                                   <ItemComponent>
                                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                   </ItemComponent>
                                   <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="psycho_gauntlets" name="{=iAWzr8Q0}Phase 1 Psycho Gauntlets" mesh="psycho_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+                        <Item id="psycho_gauntlets" name="{=iAWzr8Q0}Phase 1 Psycho Gauntlets" mesh="psycho_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                                <ItemComponent>
                                      <Armor arm_armor="25" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="psycho_greaves" name="{=iAWzr8Q0}Phase 1 Psycho Greaves" mesh="psycho_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+                        <Item id="psycho_greaves" name="{=iAWzr8Q0}Phase 1 Psycho Greaves" mesh="psycho_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                                <ItemComponent>
                                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="psycho_shoulders" name="{=iAWzr8Q0}Phase 1 Psycho Pauldrons" mesh="psycho_shoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+                        <Item id="psycho_shoulders" name="{=iAWzr8Q0}Phase 1 Psycho Pauldrons" mesh="psycho_shoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                                <ItemComponent>
                                      <Armor arm_armor="15" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="thorn_armor" name="{=iAWzr8Q0}Phase 1 Commander Thorn Armor" mesh="thorn_armor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                        <Item id="thorn_armor" name="{=iAWzr8Q0}Phase 1 Commander Thorn Armor" mesh="thorn_armor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                                   <ItemComponent>
                                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                   </ItemComponent>
                                   <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="thorn_gauntlets" name="{=iAWzr8Q0}Phase 1 Commander Thorn Gauntlets" mesh="thorn_gauntlets" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+                        <Item id="thorn_gauntlets" name="{=iAWzr8Q0}Phase 1 Commander Thorn Gauntlets" mesh="thorn_gauntlets" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                                <ItemComponent>
                                      <Armor arm_armor="25" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="thorn_greaves" name="{=iAWzr8Q0}Phase 1 Commander Thorn Greaves" mesh="thorn_greaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+                        <Item id="thorn_greaves" name="{=iAWzr8Q0}Phase 1 Commander Thorn Greaves" mesh="thorn_greaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                                <ItemComponent>
                                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="thorn_shoulders" name="{=iAWzr8Q0}Phase 1 Commander Thorn Pauldrons" mesh="thorn_shoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+                        <Item id="thorn_shoulders" name="{=iAWzr8Q0}Phase 1 Commander Thorn Pauldrons" mesh="thorn_shoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                                <ItemComponent>
                                      <Armor arm_armor="15" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="zade_armor" name="{=iAWzr8Q0}Phase 1 Zade Armor" mesh="p1zadearmor" culture="Culture.empire" weight="2" appearance="3" Type="BodyArmor">
+                        <Item id="zade_armor" name="{=iAWzr8Q0}Phase 1 Zade Armor" mesh="p1zadearmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                                   <ItemComponent>
                                         <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                   </ItemComponent>
                                   <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="zade_gauntlets" name="{=iAWzr8Q0}Phase 1 Zade Gauntlets" mesh="p1zadegauntlet" culture="Culture.empire" weight="2" appearance="3" Type="HandArmor">
+                        <Item id="zade_gauntlets" name="{=iAWzr8Q0}Phase 1 Zade Gauntlets" mesh="p1zadegauntlet" culture="Culture.galactic_republic" weight="2" appearance="3" Type="HandArmor">
                                <ItemComponent>
                                      <Armor arm_armor="25" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="zade_greaves" name="{=iAWzr8Q0}Phase 1 Zade Greaves" mesh="p1zadegreaves" culture="Culture.empire" weight="2" appearance="3" Type="LegArmor">
+                        <Item id="zade_greaves" name="{=iAWzr8Q0}Phase 1 Zade Greaves" mesh="p1zadegreaves" culture="Culture.galactic_republic" weight="2" appearance="3" Type="LegArmor">
                                <ItemComponent>
                                      <Armor leg_armor="25" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>
                                <Flags Civilian="true"></Flags>
                         </Item>
-                        <Item id="zade_shoulders" name="{=iAWzr8Q0}Phase 1 Zade Pauldrons" mesh="p1zadeshoulders" culture="Culture.empire" weight="2" appearance="3" Type="Cape">
+                        <Item id="zade_shoulders" name="{=iAWzr8Q0}Phase 1 Zade Pauldrons" mesh="p1zadeshoulders" culture="Culture.galactic_republic" weight="2" appearance="3" Type="Cape">
                                <ItemComponent>
                                      <Armor arm_armor="15" body_armor="10" modifier_group="chain" material_type="Chainmail"></Armor>
                                </ItemComponent>

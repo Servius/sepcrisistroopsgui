@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <MBPartyTemplate id="villager_separatistalliance_template" >
+      <stacks>
+        <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_separatistalliance" />
+      </stacks>
+    </MBPartyTemplate>
+
+
+  <MBPartyTemplate id="kingdom_hero_party_separatistalliance_template" >
+    <stacks>
+      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.separatist_conscript" />
+      <PartyTemplateStack min_value="8" max_value="60" troop="NPCCharacter.nimbus_commando_troop" />
+      <PartyTemplateStack min_value="8" max_value="60" troop="NPCCharacter.nimbus_commando_shield" />
+    </stacks>
+  </MBPartyTemplate>
+
+  <MBPartyTemplate id="caravan_template_separatistalliance" >
+    <stacks>
+      <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.armed_trader_separatistalliance" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_separatistalliance" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_separatistalliance" />
+    </stacks>
+  </MBPartyTemplate>
+
+ <MBPartyTemplate id="elite_caravan_template_separatistalliance" >
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_separatistalliance" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_separatistalliance" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_separatistalliance" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_separatistalliance" />
+    </stacks>
+  </MBPartyTemplate>
+
+  <MBPartyTemplate id="militia_separatistalliance_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nimbus_commando_troop" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nimbus_commando_shield" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <MBPartyTemplate id="rebels_separatistalliance_template" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.separatist_conscript" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="vassal_reward_troops_separatistalliance" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nimbus_commando_troop" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.nimbus_commando_shield" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>

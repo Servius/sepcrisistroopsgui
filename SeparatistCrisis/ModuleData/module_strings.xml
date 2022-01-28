@@ -12,5 +12,29 @@
   <string id="str_culture_description.galactic_republic" text="{=ZPaw3WuO}The Galactic Republic, also known as the Grand Republic or simply as the Republic, was a democratic union comprised of various member worlds spread across light-years of space." />
   <string id="str_culture_description.separatistalliance" text="{=ZPaw3WuO}The Confederacy was founded from a belief of excessive taxation and corruption within the Republic's Galactic Senate, as well as a general feeling of dissatisfaction towards and neglect by the Republic-centric Core Worlds region of the galaxy." />
   <string id="str_culture_description.mandalorians" text="{=ZPaw3WuO}The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common creed, language and code. They originated on the desert planet of Mandalore in the galaxy's Outer Rim Territories and had a particularly important role in galactic history as legendary warriors against the Jedi. From their homeworld, Mandalorians had flourished across Mandalorian Space and the galaxy at large." />
+
+  <string id="str_crafting_template.ancient_vibroblade" text="{=8HMyTKF6}Ancient Vibroblade" />
+  <string id="str_crafting_template.lightsaber" text="{=8HMyTKF6}Lightsaber" />
+  <string id="str_crafting_template.vibrosword" text="{=8HMyTKF6}Vibrosword" />
+  <string id="str_crafting_template.vibroblade" text="{=8HMyTKF6}Vibroblade" />
+  <string id="str_crafting_template.ShockBaton" text="{=8HMyTKF6}Shock Baton" />
+  <string id="str_crafting_template.TwoHandedVibroAxe" text="{=8HMyTKF6}Two Handed Vibro Axe" />
+
+  <string id="str_weapon_usage.lightsaber" text="{=8HMyTKF6}One Handed" />
+  <string id="str_weapon_usage.ancient_vibroblade" text="{=8HMyTKF6}One Handed" />
+  <string id="str_weapon_usage.vibrosword" text="{=8HMyTKF6}One Handed" />
+  <string id="str_weapon_usage.vibroblade" text="{=8HMyTKF6}One Handed" />
+  <string id="str_weapon_usage.1HBastardSwordAltVibroSword" text="{=8HMyTKF6}One Handed Bastard" />
+  <string id="str_weapon_usage.TwoHandedVibroSword" text="{=8HMyTKF6}Two Handed" />
+  <string id="str_weapon_usage.ShockBaton" text="{=8HMyTKF6}One Handed" />
+
+  <string id="str_weapon_usage.OneHandedVibroAxe" text="{=8HMyTKF6}One Handed Axe" />
+  <string id="str_weapon_usage.OneHandedVibroAxeAlternative" text="{=8HMyTKF6}One Handed Bastard Axe" />
+  <string id="str_weapon_usage.TwoHandedVibroAxe" text="{=8HMyTKF6}Two Handed Axe" />
+
+  <string id="str_faction_ruler.galactic_republic" text="{=8HMyTKF6}Supreme Chancellor" />
+  <string id="str_faction_ruler.separatistalliance" text="{=8HMyTKF6}Head of State" />
+  <string id="str_faction_ruler.mandalorians" text="{=8HMyTKF6}Dutchess" />
+
   </strings>
 </base>

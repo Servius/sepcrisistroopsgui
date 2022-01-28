@@ -11,6 +11,7 @@
     <AvailablePieces>
       <AvailablePiece id="anakin_blade"/>
       <AvailablePiece id="anakin_hilt"/>
+      <AvailablePiece id="windu_hilt"/>
       <AvailablePiece id="red_blade"/>
       <AvailablePiece id="black_blade"/>
       <!-- AvailablePieces,OneHandedBastardSword -->
@@ -108,5 +109,47 @@
       <AvailablePiece id="shockbaton_head"/>
       <AvailablePiece id="shockbaton_handle"/>
     </AvailablePieces>
-  </WeaponDescription>      
+  </WeaponDescription>  
+
+ <WeaponDescription id="OneHandedVibroAxe"
+                     weapon_class="OneHandedAxe"
+                     item_usage_features="onehanded:rshield:axe">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="BonusAgainstShield"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="vibro_axe_head"/>
+      <AvailablePiece id="vibro_axe_handle"/>
+    </AvailablePieces>
+  </WeaponDescription>
+
+  <WeaponDescription id="OneHandedVibroAxeAlternative"
+                     weapon_class="OneHandedAxe"
+                     item_usage_features="onehanded:axe">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="BonusAgainstShield"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="vibro_axe_head"/>
+      <AvailablePiece id="vibro_axe_handle"/>
+    </AvailablePieces>
+  </WeaponDescription>
+
+  <WeaponDescription id="TwoHandedVibroAxe"
+                     weapon_class="TwoHandedAxe"
+                     item_usage_features="twohanded:widegrip:axe">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="NotUsableWithOneHand"/>
+      <WeaponFlag value="BonusAgainstShield"/>
+      <WeaponFlag value="TwoHandIdleOnMount"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="vibro_axe_head"/>
+      <AvailablePiece id="vibro_axe_handle"/>
+    </AvailablePieces>
+  </WeaponDescription>
+
 </WeaponDescriptions>

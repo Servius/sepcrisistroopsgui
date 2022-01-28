@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <Items>
 
-		 <Item id="p1trooper_armor" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1TROOParmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
+        <Item id="barc_helmet"
+              name="{=zBRB0P5M}Barc Helmet"
+              mesh="barc_helmet"
+              culture="Culture.galactic_republic"
+              weight="3.8"
+              appearance="3"
+              Type="HeadArmor">
+          <ItemComponent>
+            <Armor head_armor="54"
+                   has_gender_variations="false"
+                   covers_head = "true"
+                   modifier_group="plate"
+                   material_type="Plate" />
+          </ItemComponent>
+          <Flags />
+        </Item>
+
+        <Item id="phase1_helmet"
+              name="{=zBRB0P5M}Trooper Helmet"
+              mesh="p1troop_helmet"
+              culture="Culture.galactic_republic"
+              weight="3.8"
+              appearance="3"
+              Type="HeadArmor">
+          <ItemComponent>
+            <Armor head_armor="54"
+                   has_gender_variations="false"
+                   covers_head = "true"
+                   modifier_group="plate"
+                   material_type="Plate" />
+          </ItemComponent>
+          <Flags />
+        </Item>
+
+        <Item id="arf_helmet_shiny"
+              name="{=zBRB0P5M}ARF Helmet Standard Issue"
+              mesh="arf_helmet_shiny"
+              culture="Culture.galactic_republic"
+              weight="3.8"
+              appearance="3"
+              Type="HeadArmor">
+          <ItemComponent>
+            <Armor head_armor="54"
+                   has_gender_variations="false"
+                   covers_head = "true"
+                   modifier_group="plate"
+                   material_type="Plate" />
+          </ItemComponent>
+          <Flags />
+        </Item>
+
+        <Item id="hound_helmet_shiny"
+              name="{=zBRB0P5M}Hound Helmet Standard Issue"
+              mesh="arfhound_helmet"
+              culture="Culture.galactic_republic"
+              weight="3.8"
+              appearance="3"
+              Type="HeadArmor">
+          <ItemComponent>
+            <Armor head_armor="54"
+                   has_gender_variations="false"
+                   covers_head = "true"
+                   modifier_group="plate"
+                   material_type="Plate" />
+          </ItemComponent>
+          <Flags />
+        </Item>
+
+		 <Item id="p1trooperarmor_nohelm" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1TROOParmor_nohelm" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
+               <ItemComponent>
+                     <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" modifier_group="chain" material_type="Chainmail"></Armor>
+               </ItemComponent>
+               <Flags Civilian="true"></Flags>
+         </Item>
+
+       <Item id="p1trooper_armor_nohelm" name="{=iAWzr8Q0}Phase 1 Clone Trooper Armor" mesh="p1TROOParmor" culture="Culture.galactic_republic" weight="2" appearance="3" Type="BodyArmor">
                <ItemComponent>
                      <Armor head_armor="35" body_armor="30" leg_armor="25" arm_armor="25" covers_body="true" covers_hands="true" covers_legs="true" covers_head="true" modifier_group="chain" material_type="Chainmail"></Armor>
                </ItemComponent>

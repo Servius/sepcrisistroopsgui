@@ -1,0 +1,517 @@
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+ <EquipmentRosters>
+ <EquipmentRoster id="rep_senator_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibroaxe" />
+      <Equipment slot="Head"
+                 id="Item.empire_lord_helmet" />
+      <Equipment slot="Body"
+                 id="Item.imperial_scale_armor" />
+      <Equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+      <Equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />  
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true"
+           IsFlamboyantTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="rep_senator_civ_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.imperial_robes" />
+      <Equipment slot="Leg"
+                 id="Item.fine_town_boots" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.fine_town_boots" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsCivilianTemplate="true"
+           IsFlamboyantTemplate="true"
+           IsCombatantTemplate="true" />
+  </EquipmentRoster>
+
+ <EquipmentRoster id="rep_jedi_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.windu_lightsaber" />
+      <Equipment slot="Body"
+                 id="Item.imperial_scale_armor" />
+      <Equipment slot="Cape"
+                 id="Item.pauldron_cape_a" />
+      <Equipment slot="Leg"
+                 id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />  
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true"
+           IsFlamboyantTemplate="true" />
+  </EquipmentRoster>
+
+
+<EquipmentRoster id="rep_501rex_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1rex_armor" />
+     <Equipment slot="Cape"
+                 id="Item.p1rex_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1rex_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1rex_gauntlets" />
+    <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_cody_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.cody_armor" />
+     <Equipment slot="Cape"
+                 id="Item.cody_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.cody_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.cody_gauntlets" />
+    <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_wolffe_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1wolffe_armor" />
+     <Equipment slot="Cape"
+                 id="Item.p1wolffe_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1wolffe_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1wolffe_gauntlets" />
+    <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+ <EquipmentRoster id="rep_commando_boss_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.commando_armor2" />
+      <Equipment slot="Cape"
+                 id="Item.commando_pauldrons2" />
+      <Equipment slot="Leg"
+                 id="Item.commando_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.commando_gauntlets2" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_ganch_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1ganch_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1ganch_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1ganch_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1ganch_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_fox_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1fox_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1fox_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1fox_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1fox_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_thorn_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1thorn_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1thorn_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1thorn_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1thorn_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_deli_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1fangs_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1fangs_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1fangs_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1fangs_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_zade_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1zade_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1zade_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1zade_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1zade_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="rep_commando_psycho_bat_template"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.dc15s_blaster_carbine" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_blue_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.p1psycho_armor" />
+      <Equipment slot="Cape"
+                 id="Item.p1psycho_pauldrons" />
+      <Equipment slot="Leg"
+                 id="Item.p1psycho_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.p1psycho_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+ <EquipmentRoster id="galactic_republic_troop_civilian_template_t1"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item2"
+                 id="Item.throwing_stone" />
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="npc_wanderer_equipment_template_galactic_republic"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.tundra_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.tunic_with_shoulder_pads" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.burlap_waistcoat" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.armwraps" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+
+  <EquipmentRoster id="galactic_republic_troop_civilian_template_t2"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.leather_bound_kite_shield" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.leather_bound_kite_shield" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+</EquipmentRosters>
+

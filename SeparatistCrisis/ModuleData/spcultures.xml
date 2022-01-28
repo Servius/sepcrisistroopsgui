@@ -5,7 +5,7 @@
            is_main_culture="true"
            color="FF4E3A55"
            color2="FFDE9953"
-           elite_basic_troop="NPCCharacter.imperial_vigla_recruit"
+           elite_basic_troop="NPCCharacter.galactic_republic_officer_recruit"
            basic_troop="NPCCharacter.clone_cadet"
            melee_militia_troop="NPCCharacter.republic_riottrooper"
            ranged_militia_troop="NPCCharacter.republic_clone"
@@ -372,38 +372,46 @@
   <Culture id="separatistalliance"
            name="{=separatistalliance_text}Separatist Alliance"
            is_main_culture="true"
-           color="FF965228"
-           color2="FF4F2212"
-           elite_basic_troop="NPCCharacter.aserai_youth"
-           basic_troop="NPCCharacter.b1battledroid"
-           melee_militia_troop="NPCCharacter.aserai_militia_spearman"
-           ranged_militia_troop="NPCCharacter.aserai_militia_archer"
-           melee_elite_militia_troop="NPCCharacter.aserai_militia_veteran_spearman"
-           ranged_elite_militia_troop="NPCCharacter.aserai_militia_veteran_archer"
+           color="FF949CCC"
+           color2="FF1C2A50"
+
+           elite_basic_troop="NPCCharacter.separatist_conscript"
+           basic_troop="NPCCharacter.separatist_conscript"
+           melee_militia_troop="NPCCharacter.nimbus_commando_shield"
+           ranged_militia_troop="NPCCharacter.nimbus_commando_troop"
+           melee_elite_militia_troop="NPCCharacter.nimbus_commando_shield"
+           ranged_elite_militia_troop="NPCCharacter.nimbus_commando_troop"
            can_have_settlement="true"
            town_edge_number="16"
-           villager_party_template="PartyTemplate.villager_aserai_template"
-           default_party_template="PartyTemplate.kingdom_hero_party_aserai_template"
-           encounter_background_mesh="encounter_aserai"
-           elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai"
-           caravan_party_template="PartyTemplate.caravan_template_aserai"
-           militia_party_template="PartyTemplate.militia_aserai_template"
-           rebels_party_template="PartyTemplate.rebels_aserai_template"
-           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
+
+           villager_party_template="PartyTemplate.villager_separatistalliance_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_separatistalliance_template"
+           encounter_background_mesh="encounter_separatistalliance"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_separatistalliance"
+           caravan_party_template="PartyTemplate.caravan_template_separatistalliance"
+           militia_party_template="PartyTemplate.militia_separatistalliance_template"
+           rebels_party_template="PartyTemplate.rebels_separatistalliance_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_separatistalliance"
+
            default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
            text="{=a2AjI8nc}The Aserai are the principal inhabitants of the Nahasa, the Bronze Desert, in the south of Calradia. To the outsider it would appear a desolate place, fields of dunes broken by gravel plains and volcanic outcrops. But there is water underground, trapped in depressions or beneath the wadis where the occasional flash flood rumbles by, and in these oases people have settled. They are divided into dozens of clans and sub-clans, each with its elaborate genealogy, but are collectively known as the Banu Asera, the sons of Asera. Their sense of nationhood, such as it is, comes from tracing their lineage to this legendary patriarch. Their wealth and power, which is considerable, comes from controlling the isolated water-sources that allow caravans from distant lands to cross the desert."
            tournament_master="NPCCharacter.tournament_master_aserai"
-           villager="NPCCharacter.villager_aserai"
-           caravan_master="NPCCharacter.caravan_master_aserai"
-           armed_trader="NPCCharacter.armed_trader_aserai"
-           caravan_guard="NPCCharacter.caravan_guard_aserai"
-           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
+
+           villager="NPCCharacter.villager_separatistalliance"
+
+           caravan_master="NPCCharacter.caravan_master_separatistalliance"
+           armed_trader="NPCCharacter.armed_trader_separatistalliance"
+           caravan_guard="NPCCharacter.caravan_guard_separatistalliance"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_separatistalliance"
+
            basic_mercenary_troop="NPCCharacter.mercenary_1"
            duel_preset="NPCCharacter.aserai_duel_preset"
            prison_guard="NPCCharacter.prison_guard_aserai"
            guard="NPCCharacter.guard_aserai"
-           blacksmith="NPCCharacter.blacksmith_aserai"
-           weaponsmith="NPCCharacter.weaponsmith_aserai"
+
+           blacksmith="NPCCharacter.blacksmith_separatistalliance"
+           weaponsmith="NPCCharacter.weaponsmith_separatistalliance"
+
            townswoman="NPCCharacter.townswoman_aserai"
            townswoman_infant="NPCCharacter.townswoman_infant_aserai"
            townswoman_child="NPCCharacter.townswoman_child_aserai"
@@ -417,21 +425,23 @@
            villager_male_teenager="NPCCharacter.villager_teenager_aserai"
            villager_female_child="NPCCharacter.village_woman_child_aserai"
            villager_female_teenager="NPCCharacter.village_woman_teenager_aserai"
-           ransom_broker="NPCCharacter.ransom_broker_aserai"
-           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_aserai"
-           merchant_notary="NPCCharacter.merchant_notary_aserai"
-           artisan_notary="NPCCharacter.artisan_notary_aserai"
-           preacher_notary="NPCCharacter.preacher_notary_aserai"
-           rural_notable_notary="NPCCharacter.rural_notable_notary_aserai"
-           shop_worker="NPCCharacter.shop_worker_aserai"
-           tavernkeeper="NPCCharacter.tavernkeeper_aserai"
-           taverngamehost="NPCCharacter.taverngamehost_aserai"
-           musician="NPCCharacter.musician_aserai"
-           tavern_wench="NPCCharacter.tavern_wench_aserai"
-           armorer="NPCCharacter.armorer_aserai"
-           horseMerchant="NPCCharacter.horseMerchant_aserai"
-           barber="NPCCharacter.barber_aserai"
-           merchant="NPCCharacter.merchant_aserai"
+
+           ransom_broker="NPCCharacter.ransom_broker_separatistalliance"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_separatistalliance"
+           merchant_notary="NPCCharacter.merchant_notary_separatistalliance"
+           artisan_notary="NPCCharacter.artisan_notary_separatistalliance"
+           preacher_notary="NPCCharacter.preacher_notary_separatistalliance"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_separatistalliance"
+           shop_worker="NPCCharacter.shop_worker_separatistalliance"
+           tavernkeeper="NPCCharacter.tavernkeeper_separatistalliance"
+           taverngamehost="NPCCharacter.taverngamehost_separatistalliance"
+           musician="NPCCharacter.musician_separatistalliance"
+           tavern_wench="NPCCharacter.tavern_wench_separatistalliance"
+           armorer="NPCCharacter.armorer_separatistalliance"
+           horseMerchant="NPCCharacter.horseMerchant_separatistalliance"
+           barber="NPCCharacter.barber_separatistalliance"
+           merchant="NPCCharacter.merchant_separatistalliance"
+
            beggar="NPCCharacter.beggar_aserai"
            female_beggar="NPCCharacter.female_beggar_aserai"
            female_dancer="NPCCharacter.female_dancer_aserai"
@@ -562,11 +572,26 @@
       <feat id="aserai_increased_wages" />
     </cultural_feats>
     <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
       <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
       <icon id="155" />
       <icon id="156" />
       <icon id="200" />
       <icon id="201" />
+      <icon id="203" />
       <icon id="204" />
       <icon id="212" />
       <icon id="218" />
@@ -589,51 +614,51 @@
       <icon id="309" />
     </possible_clan_banner_icon_ids>
     <child_character_templates>
-      <template name="NPCCharacter.child_template_aserai_townsman_male" />
-      <template name="NPCCharacter.child_template_aserai_townsman_female" />
-      <template name="NPCCharacter.child_template_aserai_villager_male" />
-      <template name="NPCCharacter.child_template_aserai_villager_female" />
-      <template name="NPCCharacter.child_template_aserai_noble_male" />
-      <template name="NPCCharacter.child_template_aserai_noble_female" />
-      <template name="NPCCharacter.teenager_template_aserai_townsman_female" />
-      <template name="NPCCharacter.teenager_template_aserai_townsman_male" />
-      <template name="NPCCharacter.teenager_template_aserai_villager_male" />
-      <template name="NPCCharacter.teenager_template_aserai_villager_female" />
-      <template name="NPCCharacter.teenager_template_aserai_noble_male" />
-      <template name="NPCCharacter.teenager_template_aserai_noble_female" />
+      <template name="NPCCharacter.child_template_separatistalliance_townsman_male" />
+      <template name="NPCCharacter.child_template_separatistalliance_townsman_female" />
+      <template name="NPCCharacter.child_template_separatistalliance_villager_male" />
+      <template name="NPCCharacter.child_template_separatistalliance_villager_female" />
+      <template name="NPCCharacter.child_template_separatistalliance_noble_male" />
+      <template name="NPCCharacter.child_template_separatistalliance_noble_female" />
+      <template name="NPCCharacter.teenager_template_separatistalliance_townsman_female" />
+      <template name="NPCCharacter.teenager_template_separatistalliance_townsman_male" />
+      <template name="NPCCharacter.teenager_template_separatistalliance_villager_male" />
+      <template name="NPCCharacter.teenager_template_separatistalliance_villager_female" />
+      <template name="NPCCharacter.teenager_template_separatistalliance_noble_male" />
+      <template name="NPCCharacter.teenager_template_separatistalliance_noble_female" />
     </child_character_templates>
     <notable_and_wanderer_templates>
-      <template name="NPCCharacter.spc_wanderer_aserai_0" />
-      <template name="NPCCharacter.spc_wanderer_aserai_1" />
-      <template name="NPCCharacter.spc_wanderer_aserai_2" />
-      <template name="NPCCharacter.spc_wanderer_aserai_3" />
-      <template name="NPCCharacter.spc_wanderer_aserai_4" />
-      <template name="NPCCharacter.spc_wanderer_aserai_5" />
-      <template name="NPCCharacter.spc_wanderer_aserai_6" />
-      <template name="NPCCharacter.spc_wanderer_aserai_7" />
-      <template name="NPCCharacter.spc_wanderer_aserai_8" />
-      <template name="NPCCharacter.spc_wanderer_aserai_9" />
-      <template name="NPCCharacter.spc_wanderer_aserai_10" />
-      <template name="NPCCharacter.spc_notable_aserai_0" />
-      <template name="NPCCharacter.spc_notable_aserai_0b" />
-      <template name="NPCCharacter.spc_notable_aserai_1" />
-      <template name="NPCCharacter.spc_notable_aserai_1b" />
-      <template name="NPCCharacter.spc_notable_aserai_2" />
-      <template name="NPCCharacter.spc_notable_aserai_2b" />
-      <template name="NPCCharacter.spc_notable_aserai_3" />
-      <template name="NPCCharacter.spc_notable_aserai_3b" />
-      <template name="NPCCharacter.spc_notable_aserai_4" />
-      <template name="NPCCharacter.spc_notable_aserai_5" />
-      <template name="NPCCharacter.spc_notable_aserai_6" />
-      <template name="NPCCharacter.spc_notable_aserai_7" />
-      <template name="NPCCharacter.spc_notable_aserai_8" />
-      <template name="NPCCharacter.spc_notable_aserai_9" />
-      <template name="NPCCharacter.spc_notable_aserai_10" />
-      <template name="NPCCharacter.spc_notable_aserai_11" />
-      <template name="NPCCharacter.spc_notable_aserai_12" />
-      <template name="NPCCharacter.spc_aserai_headman_1" />
-      <template name="NPCCharacter.spc_aserai_headman_2" />
-      <template name="NPCCharacter.spc_aserai_headman_3" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_0" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_1" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_2" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_3" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_4" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_5" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_6" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_7" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_8" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_9" />
+      <template name="NPCCharacter.spc_wanderer_separatistalliance_10" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_0" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_0b" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_1" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_1b" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_2" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_2b" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_3" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_3b" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_4" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_5" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_6" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_7" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_8" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_9" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_10" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_11" />
+      <template name="NPCCharacter.spc_notable_separatistalliance_12" />
+      <template name="NPCCharacter.spc_separatistalliance_headman_1" />
+      <template name="NPCCharacter.spc_separatistalliance_headman_2" />
+      <template name="NPCCharacter.spc_separatistalliance_headman_3" />
     </notable_and_wanderer_templates>
     <lord_templates>
       <template name="NPCCharacter.spc_ghilman_leader_0" />
@@ -681,8 +706,9 @@
   <Culture id="mandalorians"
            name="{=mandalorians_text}Mandalorians"
            is_main_culture="true"
-           color="FF965228"
+           color="FF1C2A50"
            color2="FF4F2212"
+
            elite_basic_troop="NPCCharacter.aserai_youth"
            basic_troop="NPCCharacter.clanfighter"
            melee_militia_troop="NPCCharacter.aserai_militia_spearman"
@@ -691,28 +717,37 @@
            ranged_elite_militia_troop="NPCCharacter.aserai_militia_veteran_archer"
            can_have_settlement="true"
            town_edge_number="16"
-           villager_party_template="PartyTemplate.villager_aserai_template"
-           default_party_template="PartyTemplate.kingdom_hero_party_aserai_template"
+
+           villager_party_template="PartyTemplate.villager_mandalorians_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_mandalorians_template"
+
            encounter_background_mesh="encounter_aserai"
-           elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai"
-           caravan_party_template="PartyTemplate.caravan_template_aserai"
-           militia_party_template="PartyTemplate.militia_aserai_template"
-           rebels_party_template="PartyTemplate.rebels_aserai_template"
-           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
+
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_mandalorians"
+           caravan_party_template="PartyTemplate.caravan_template_mandalorians"
+           militia_party_template="PartyTemplate.militia_mandalorians_template"
+           rebels_party_template="PartyTemplate.rebels_mandalorians_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_mandalorians"
+
            default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
            text="{=a2AjI8nc}The Aserai are the principal inhabitants of the Nahasa, the Bronze Desert, in the south of Calradia. To the outsider it would appear a desolate place, fields of dunes broken by gravel plains and volcanic outcrops. But there is water underground, trapped in depressions or beneath the wadis where the occasional flash flood rumbles by, and in these oases people have settled. They are divided into dozens of clans and sub-clans, each with its elaborate genealogy, but are collectively known as the Banu Asera, the sons of Asera. Their sense of nationhood, such as it is, comes from tracing their lineage to this legendary patriarch. Their wealth and power, which is considerable, comes from controlling the isolated water-sources that allow caravans from distant lands to cross the desert."
            tournament_master="NPCCharacter.tournament_master_aserai"
-           villager="NPCCharacter.villager_aserai"
-           caravan_master="NPCCharacter.caravan_master_aserai"
-           armed_trader="NPCCharacter.armed_trader_aserai"
-           caravan_guard="NPCCharacter.caravan_guard_aserai"
-           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
+
+           villager="NPCCharacter.villager_mandalorians"
+
+           caravan_master="NPCCharacter.caravan_master_mandalorians"
+           armed_trader="NPCCharacter.armed_trader_mandalorians"
+           caravan_guard="NPCCharacter.caravan_guard_mandalorians"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_mandalorians"
+
            basic_mercenary_troop="NPCCharacter.mercenary_1"
            duel_preset="NPCCharacter.aserai_duel_preset"
            prison_guard="NPCCharacter.prison_guard_aserai"
            guard="NPCCharacter.guard_aserai"
-           blacksmith="NPCCharacter.blacksmith_aserai"
-           weaponsmith="NPCCharacter.weaponsmith_aserai"
+
+           blacksmith="NPCCharacter.blacksmith_mandalorians"
+           weaponsmith="NPCCharacter.weaponsmith_mandalorians"
+
            townswoman="NPCCharacter.townswoman_aserai"
            townswoman_infant="NPCCharacter.townswoman_infant_aserai"
            townswoman_child="NPCCharacter.townswoman_child_aserai"
@@ -726,21 +761,23 @@
            villager_male_teenager="NPCCharacter.villager_teenager_aserai"
            villager_female_child="NPCCharacter.village_woman_child_aserai"
            villager_female_teenager="NPCCharacter.village_woman_teenager_aserai"
-           ransom_broker="NPCCharacter.ransom_broker_aserai"
-           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_aserai"
-           merchant_notary="NPCCharacter.merchant_notary_aserai"
-           artisan_notary="NPCCharacter.artisan_notary_aserai"
-           preacher_notary="NPCCharacter.preacher_notary_aserai"
-           rural_notable_notary="NPCCharacter.rural_notable_notary_aserai"
-           shop_worker="NPCCharacter.shop_worker_aserai"
-           tavernkeeper="NPCCharacter.tavernkeeper_aserai"
-           taverngamehost="NPCCharacter.taverngamehost_aserai"
-           musician="NPCCharacter.musician_aserai"
-           tavern_wench="NPCCharacter.tavern_wench_aserai"
-           armorer="NPCCharacter.armorer_aserai"
-           horseMerchant="NPCCharacter.horseMerchant_aserai"
-           barber="NPCCharacter.barber_aserai"
-           merchant="NPCCharacter.merchant_aserai"
+
+           ransom_broker="NPCCharacter.ransom_broker_mandalorians"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_mandalorians"
+           merchant_notary="NPCCharacter.merchant_notary_mandalorians"
+           artisan_notary="NPCCharacter.artisan_notary_mandalorians"
+           preacher_notary="NPCCharacter.preacher_notary_mandalorians"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_mandalorians"
+           shop_worker="NPCCharacter.shop_worker_mandalorians"
+           tavernkeeper="NPCCharacter.tavernkeeper_mandalorians"
+           taverngamehost="NPCCharacter.taverngamehost_mandalorians"
+           musician="NPCCharacter.musician_mandalorians"
+           tavern_wench="NPCCharacter.tavern_wench_mandalorians"
+           armorer="NPCCharacter.armorer_mandalorians"
+           horseMerchant="NPCCharacter.horseMerchant_mandalorians"
+           barber="NPCCharacter.barber_mandalorians"
+           merchant="NPCCharacter.merchant_mandalorians"
+
            beggar="NPCCharacter.beggar_aserai"
            female_beggar="NPCCharacter.female_beggar_aserai"
            female_dancer="NPCCharacter.female_dancer_aserai"
@@ -900,51 +937,51 @@
       <icon id="309" />
     </possible_clan_banner_icon_ids>
     <child_character_templates>
-      <template name="NPCCharacter.child_template_aserai_townsman_male" />
-      <template name="NPCCharacter.child_template_aserai_townsman_female" />
-      <template name="NPCCharacter.child_template_aserai_villager_male" />
-      <template name="NPCCharacter.child_template_aserai_villager_female" />
-      <template name="NPCCharacter.child_template_aserai_noble_male" />
-      <template name="NPCCharacter.child_template_aserai_noble_female" />
-      <template name="NPCCharacter.teenager_template_aserai_townsman_female" />
-      <template name="NPCCharacter.teenager_template_aserai_townsman_male" />
-      <template name="NPCCharacter.teenager_template_aserai_villager_male" />
-      <template name="NPCCharacter.teenager_template_aserai_villager_female" />
-      <template name="NPCCharacter.teenager_template_aserai_noble_male" />
-      <template name="NPCCharacter.teenager_template_aserai_noble_female" />
+      <template name="NPCCharacter.child_template_mandalorians_townsman_male" />
+      <template name="NPCCharacter.child_template_mandalorians_townsman_female" />
+      <template name="NPCCharacter.child_template_mandalorians_villager_male" />
+      <template name="NPCCharacter.child_template_mandalorians_villager_female" />
+      <template name="NPCCharacter.child_template_mandalorians_noble_male" />
+      <template name="NPCCharacter.child_template_mandalorians_noble_female" />
+      <template name="NPCCharacter.teenager_template_mandalorians_townsman_female" />
+      <template name="NPCCharacter.teenager_template_mandalorians_townsman_male" />
+      <template name="NPCCharacter.teenager_template_mandalorians_villager_male" />
+      <template name="NPCCharacter.teenager_template_mandalorians_villager_female" />
+      <template name="NPCCharacter.teenager_template_mandalorians_noble_male" />
+      <template name="NPCCharacter.teenager_template_mandalorians_noble_female" />
     </child_character_templates>
     <notable_and_wanderer_templates>
-      <template name="NPCCharacter.spc_wanderer_aserai_0" />
-      <template name="NPCCharacter.spc_wanderer_aserai_1" />
-      <template name="NPCCharacter.spc_wanderer_aserai_2" />
-      <template name="NPCCharacter.spc_wanderer_aserai_3" />
-      <template name="NPCCharacter.spc_wanderer_aserai_4" />
-      <template name="NPCCharacter.spc_wanderer_aserai_5" />
-      <template name="NPCCharacter.spc_wanderer_aserai_6" />
-      <template name="NPCCharacter.spc_wanderer_aserai_7" />
-      <template name="NPCCharacter.spc_wanderer_aserai_8" />
-      <template name="NPCCharacter.spc_wanderer_aserai_9" />
-      <template name="NPCCharacter.spc_wanderer_aserai_10" />
-      <template name="NPCCharacter.spc_notable_aserai_0" />
-      <template name="NPCCharacter.spc_notable_aserai_0b" />
-      <template name="NPCCharacter.spc_notable_aserai_1" />
-      <template name="NPCCharacter.spc_notable_aserai_1b" />
-      <template name="NPCCharacter.spc_notable_aserai_2" />
-      <template name="NPCCharacter.spc_notable_aserai_2b" />
-      <template name="NPCCharacter.spc_notable_aserai_3" />
-      <template name="NPCCharacter.spc_notable_aserai_3b" />
-      <template name="NPCCharacter.spc_notable_aserai_4" />
-      <template name="NPCCharacter.spc_notable_aserai_5" />
-      <template name="NPCCharacter.spc_notable_aserai_6" />
-      <template name="NPCCharacter.spc_notable_aserai_7" />
-      <template name="NPCCharacter.spc_notable_aserai_8" />
-      <template name="NPCCharacter.spc_notable_aserai_9" />
-      <template name="NPCCharacter.spc_notable_aserai_10" />
-      <template name="NPCCharacter.spc_notable_aserai_11" />
-      <template name="NPCCharacter.spc_notable_aserai_12" />
-      <template name="NPCCharacter.spc_aserai_headman_1" />
-      <template name="NPCCharacter.spc_aserai_headman_2" />
-      <template name="NPCCharacter.spc_aserai_headman_3" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_0" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_1" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_2" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_3" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_4" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_5" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_6" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_7" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_8" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_9" />
+      <template name="NPCCharacter.spc_wanderer_mandalorians_10" />
+      <template name="NPCCharacter.spc_notable_mandalorians_0" />
+      <template name="NPCCharacter.spc_notable_mandalorians_0b" />
+      <template name="NPCCharacter.spc_notable_mandalorians_1" />
+      <template name="NPCCharacter.spc_notable_mandalorians_1b" />
+      <template name="NPCCharacter.spc_notable_mandalorians_2" />
+      <template name="NPCCharacter.spc_notable_mandalorians_2b" />
+      <template name="NPCCharacter.spc_notable_mandalorians_3" />
+      <template name="NPCCharacter.spc_notable_mandalorians_3b" />
+      <template name="NPCCharacter.spc_notable_mandalorians_4" />
+      <template name="NPCCharacter.spc_notable_mandalorians_5" />
+      <template name="NPCCharacter.spc_notable_mandalorians_6" />
+      <template name="NPCCharacter.spc_notable_mandalorians_7" />
+      <template name="NPCCharacter.spc_notable_mandalorians_8" />
+      <template name="NPCCharacter.spc_notable_mandalorians_9" />
+      <template name="NPCCharacter.spc_notable_mandalorians_10" />
+      <template name="NPCCharacter.spc_notable_mandalorians_11" />
+      <template name="NPCCharacter.spc_notable_mandalorians_12" />
+      <template name="NPCCharacter.spc_mandalorians_headman_1" />
+      <template name="NPCCharacter.spc_mandalorians_headman_2" />
+      <template name="NPCCharacter.spc_mandalorians_headman_3" />
     </notable_and_wanderer_templates>
     <lord_templates>
       <template name="NPCCharacter.spc_ghilman_leader_0" />

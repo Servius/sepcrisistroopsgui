@@ -1,0 +1,262 @@
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+ <EquipmentRosters>
+<EquipmentRoster id="man_jangomando_bat_template"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.red_lightsaber" />
+      <Equipment slot="Item1"
+                 id="Item.a280_blaster_rifle_test" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_red_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.jango_armor" />
+  <!--    <Equipment slot="Cape"
+                 id="Item.p1psycho_pauldrons" />-->
+      <Equipment slot="Leg"
+                 id="Item.jango_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.jango_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="man_red_bat_template"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.a280_blaster_rifle_test" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_red_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.death_watch_maul_armor" />
+  <!--    <Equipment slot="Cape"
+                 id="Item.p1psycho_pauldrons" />-->
+      <Equipment slot="Leg"
+                 id="Item.death_watch_maul_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.death_watch_maul_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="man_previzsla_bat_template"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.darksaber" />
+      <Equipment slot="Item1"
+                 id="Item.a280_blaster_rifle_test" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_red_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.pv_armor" />
+  <!--    <Equipment slot="Cape"
+                 id="Item.p1psycho_pauldrons" />-->
+      <Equipment slot="Leg"
+                 id="Item.pv_greaves" />
+      <Equipment slot="Gloves"
+                 id="Item.pv_gauntlets" />
+      <Equipment slot="Horse"
+                 id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="man_bokatan_bat_template"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.darksaber" />
+      <Equipment slot="Item1"
+                 id="Item.a280_blaster_rifle_test" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_red_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.bokatanbody" />
+     <Equipment slot="Cape"
+                 id="Item.bokatanshoulders" />
+      <Equipment slot="Leg"
+                 id="Item.bokatangreaves" />
+      <Equipment slot="Gloves"
+                 id="Item.bokatanbracers" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+<EquipmentRoster id="man_satine_bat_template"
+                   culture="Culture.mandalorians">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.darksaber" />
+      <Equipment slot="Item1"
+                 id="Item.a280_blaster_rifle_test" />
+      <Equipment slot="Item2"
+                 id="Item.blaster_beam_red_medium" />
+
+      <Equipment slot="Body"
+                 id="Item.bokatanbody" />
+     <Equipment slot="Cape"
+                 id="Item.bokatanshoulders" />
+      <Equipment slot="Leg"
+                 id="Item.bokatangreaves" />
+      <Equipment slot="Gloves"
+                 id="Item.bokatanbracers" />
+     </EquipmentSet>
+    <Flags IsEquipmentTemplate="true"
+           IsNobleTemplate="true" />
+</EquipmentRoster>
+
+
+  <EquipmentRoster id="npc_wanderer_equipment_template_mandalorians"
+                   culture="Culture.mandalorians">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.tundra_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.hemp_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.tunic_with_shoulder_pads" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.fine_town_tunic" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.leather_boots" />
+      <Equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.burlap_waistcoat" />
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+      <Equipment slot="Gloves"
+                 id="Item.armwraps" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Cape"
+                 id="Item.scarf" />
+      <Equipment slot="Leg"
+                 id="Item.highland_leg_wrappings" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+
+  <EquipmentRoster id="mandalorians_troop_civilian_template_t2"
+                   culture="Culture.mandalorians">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.leather_bound_kite_shield" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0"
+                 id="Item.vibrosword" />
+      <Equipment slot="Item1"
+                 id="Item.leather_bound_kite_shield" />
+      <Equipment slot="Body"
+                 id="Item.footmans_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+</EquipmentRosters>
+

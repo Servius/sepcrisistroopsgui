@@ -40,8 +40,8 @@
                    id="Item.vibrosword" />
         <equipment slot="Head"
                    id="Item.leather_cap" />
-        <equipment slot="Body"
-                   id="Item.tunic_with_shoulder_pads" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
         <equipment slot="Leg"
                    id="Item.empire_horseman_boots" />
       </EquipmentRoster>
@@ -50,24 +50,98 @@
                    id="Item.vibroblade" />
         <equipment slot="Head"
                    id="Item.merchants_hat" />
-        <equipment slot="Body"
-                   id="Item.footmans_tunic" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
         <equipment slot="Leg"
                    id="Item.empire_horseman_boots" />
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
                    id="Item.shockbaton_weapon" />
-        <equipment slot="Body"
-                   id="Item.tied_cloth_tunic" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
         <equipment slot="Leg"
                    id="Item.empire_horseman_boots" />
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
                    id="Item.vibrosword" />
-        <equipment slot="Body"
-                   id="Item.tied_cloth_tunic" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="galactic_republic_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+    <NPCCharacter id="separatist_conscript"
+                default_group="Infantry"
+                level="6"
+                name="{=s3IJIFUw}Separatist Conscript"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.separatistalliance">
+    <face>
+      <face_key_template value="BodyProperty.fighter_galactic_republic" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="0" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.nimbus_commando_shield" />
+      <upgrade_target id="NPCCharacter.nimbus_commando_troop" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vibrosword" />
+        <equipment slot="Head"
+                   id="Item.leather_cap" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vibroblade" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.shockbaton_weapon" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vibrosword" />
+                            <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+                            <equipment slot="Body" id="Item.nordic_sloven"/>
         <equipment slot="Leg"
                    id="Item.empire_horseman_boots" />
       </EquipmentRoster>
@@ -90,13 +164,17 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+              <upgrade_targets>
+                           <upgrade_target id="NPCCharacter.arf_clone" />
+                           <upgrade_target id="NPCCharacter.republic_clone_p2" />
+              </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
                             <equipment slot="Item3" id="Item.vibrosword" />
-                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Head" id="Item.phase1_helmet" />
+                            <equipment slot="Body" id="Item.p1trooperarmor_nohelm" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
                             <equipment slot="Leg" id="Item.p1_greaves" />
@@ -105,7 +183,8 @@
                             <equipment slot="Item0" id="Item.dc15a_blaster_Rifle" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
                             <equipment slot="Item3" id="Item.vibrosword" />
-                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Head" id="Item.phase1_helmet" />
+                            <equipment slot="Body" id="Item.p1trooperarmor_nohelm" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
                             <equipment slot="Leg" id="Item.p1_greaves" />
@@ -132,7 +211,8 @@
                      <EquipmentRoster>
                             <equipment slot="Item1" id="Item.riotshield" />
                             <equipment slot="Item3" id="Item.shockbaton_weapon" />
-                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Head" id="Item.phase1_helmet" />
+                            <equipment slot="Body" id="Item.p1trooperarmor_nohelm" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
                             <equipment slot="Leg" id="Item.p1_greaves" />
@@ -140,7 +220,8 @@
                      <EquipmentRoster>
                             <equipment slot="Item1" id="Item.riotshield" />
                             <equipment slot="Item3" id="Item.shockbaton_weapon" />
-                            <equipment slot="Body" id="Item.p1trooper_armor" />
+                            <equipment slot="Head" id="Item.phase1_helmet" />
+                            <equipment slot="Body" id="Item.p1trooperarmor_nohelm" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
                             <equipment slot="Leg" id="Item.p1_greaves" />
@@ -189,16 +270,19 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.republic_arf_hound" />
+              </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
                             <equipment slot="Item3" id="Item.vibrosword" />
-                            <equipment slot="Body" id="Item.p1arf_armor" />
-                            <equipment slot="Cape" id="Item.p1arf_pauldrons" />
-                            <equipment slot="Gloves" id="Item.p1arf_gauntlets" />
-                            <equipment slot="Leg" id="Item.p1arf_greaves" />
+                            <equipment slot="Head" id="Item.arf_helmet_shiny" />
+                            <equipment slot="Body" id="Item.p1trooperarmor_nohelm" />
+                            <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
+                            <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
+                            <equipment slot="Leg" id="Item.p1_greaves" />
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>
@@ -222,7 +306,8 @@
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
                             <equipment slot="Item3" id="Item.vibrosword" />
-                            <equipment slot="Body" id="Item.p1trooper_armor_nohelm" />
+                            <equipment slot="Head" id="Item.barc_helmet" />
+                            <equipment slot="Body" id="Item.p1trooperarmor_nohelm" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
                             <equipment slot="Leg" id="Item.p1_greaves" />
@@ -297,13 +382,16 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+              <upgrade_targets>
+                            <upgrade_target id="NPCCharacter.shadow_clone" />
+              </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
                             <equipment slot="Item1" id="Item.blaster_beam_blue_medium" />
                             <equipment slot="Item3" id="Item.vibrosword" />
-                            <equipment slot="Body" id="Item.p1arfhound_armor" />
+                            <equipment slot="Head" id="Item.hound_helmet_shiny" />
+                            <equipment slot="Body" id="Item.p1trooperarmor_nohelm" />
                             <equipment slot="Cape" id="Item.p1trooper_pauldrons" />
                             <equipment slot="Gloves" id="Item.p1trooper_gauntlets" />
                             <equipment slot="Leg" id="Item.p1_greaves" />
@@ -324,7 +412,9 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.republic_clone_commander_troop" />
+              </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
@@ -351,7 +441,9 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+              <upgrade_targets>
+              
+              </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
@@ -364,7 +456,7 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>
-       <NPCCharacter id="republic_clone_captain_troop" default_group="Ranged" level="21" name="Clone Captain" occupation="Soldier" culture="Culture.galactic_republic">
+    <!--   <NPCCharacter id="republic_clone_captain_troop" default_group="Ranged" level="21" name="Clone Captain" occupation="Soldier" culture="Culture.galactic_republic">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
               </face>
@@ -390,7 +482,7 @@
                             <equipment slot="Leg" id="Item.p1_greaves" />
                      </EquipmentRoster>
               </Equipments>
-       </NPCCharacter>
+       </NPCCharacter>-->
        <NPCCharacter id="republic_clone_lieutenant_troop" default_group="Ranged" level="21" name="Clone Lieutenant" occupation="Soldier" culture="Culture.galactic_republic">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
@@ -405,7 +497,9 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.republic_clone_captain_troop" />
+              </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
@@ -432,7 +526,9 @@
                      <skill id="Crossbow" value="15" />
                      <skill id="Throwing" value="15" />
               </skills>
-              <upgrade_targets></upgrade_targets>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.republic_clone_lieutenant_troop" />
+              </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item0" id="Item.dc15s_blaster_carbine" />
@@ -445,6 +541,95 @@
                      </EquipmentRoster>
               </Equipments>
        </NPCCharacter>
+
+ <NPCCharacter id="galactic_republic_officer_recruit"
+                default_group="Infantry"
+                level="11"
+                name="{=n41jlEa3}Officer Recruit"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.galactic_republic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="5" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.republic_clone_sergeant_troop" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_spear_2_t2" />
+        <equipment slot="Item1"
+                   id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vibrosword" />
+        <equipment slot="Body"
+                   id="Item.empire_warrior_padded_armor_d" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.imperial_cloth_coif" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_spear_2_t2" />
+        <equipment slot="Item1"
+                   id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vibrosword" />
+        <equipment slot="Body"
+                   id="Item.empire_warrior_padded_armor_d" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.imperial_cloth_coif" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_spear_2_t2" />
+        <equipment slot="Item1"
+                   id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vibrosword" />
+        <equipment slot="Body"
+                   id="Item.leather_tunic" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.imperial_cloth_coif" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="galactic_republic_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
        <!-- <NPCCharacter id="republic_commando_boss_troop" default_group="Ranged" level="21" name="Commando Boss" occupation="Soldier" culture="Culture.galactic_republic">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
@@ -548,7 +733,7 @@
   </NPCCharacter>
 
 
-       <NPCCharacter id="mando_dw_riot_troop" default_group="Ranged" level="21" name="Death Watch" occupation="Soldier" culture="Culture.mandalorians">
+       <NPCCharacter id="mando_dw_riot_troop" default_group="Infantry" level="21" name="Death Watch CQB" occupation="Soldier" culture="Culture.mandalorians">
               <face>
                      <face_key_template value="BodyProperty.fighter_battania" />
               </face>
@@ -566,8 +751,7 @@
            </upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
-                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
-                            <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
+                            <equipment slot="Item1" id="Item.riotshield" />
                             <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.death_watch_armor" />
                             <equipment slot="Gloves" id="Item.death_watch_gauntlets" />
@@ -660,8 +844,6 @@
              value="10" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.nimbus_commando_shield" />
-      <upgrade_target id="NPCCharacter.nimbus_commando_troop" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>

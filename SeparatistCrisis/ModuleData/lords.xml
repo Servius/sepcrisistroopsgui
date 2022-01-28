@@ -71,9 +71,43 @@
     </Equipments>
 </NPCCharacter>
 
+<NPCCharacter id="obiwan"
+                default_group="Cavalry"
+                age="40"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.galactic_republic"
+                occupation="Lord"
+                name="Obi-Wan Kenobi"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
+      <BodyProperties version="4"
+                      key="001B24054000034E5971639B6173986553578562A5141441C331071A85345637038786350803829400000000000000000000000000000000000000003F1C1002" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="10" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="3" />
+      <Trait id="Manager"
+             value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentRoster civilian="true" />
+      <EquipmentSet id="rep_jedi_bat_template" />
+      <EquipmentSet id="rep_senator_civ_template"
+                    civilian="true" />
+    </Equipments>
+</NPCCharacter>
+
 <NPCCharacter id="count_dooku"
                 default_group="Cavalry"
-                age="58"
+                age="80"
                 voice="earnest"
                 is_hero="true"
                 culture="Culture.separatistalliance"
@@ -83,7 +117,7 @@
     <face>
       <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
       <BodyProperties version="4"
-                      key="0000440C0FFC360D26870C0FF139117045F990002E7CA0049068C60F7C9004663A9276570B7A310686660000670300780000000000005B7900000000337C60C3" />
+                      key="0010E0000000134E296775586394D64153888662C5113232ECB17220878476270477B6460755B69300000000000000000000000000000000000000001EFC5042" />
     </face>
     <skills>
             <skill id="Athletics"
@@ -515,7 +549,7 @@
 
 <NPCCharacter id="pre_vizsla"
                 default_group="Cavalry"
-                age="35"
+                age="30"
                 voice="earnest"
                 is_hero="true"
                 culture="Culture.mandalorians"
@@ -525,7 +559,7 @@
     <face>
       <!--face_key value="000b312cc000300da4a56a443fb6aa9674a624797769aaa8d879575b59b825b9000367440645277900001105000030a30000001f000000000000000000003000" /-->
       <BodyProperties version="4"
-                      key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+                      key="00180C0000FC100000B1113F0BF3F2F680FFA786D811B9012000D1705CF10110017006140799F303000000000000000000000000000000000000000068F43084" />
     </face>
     <skills></skills>
     <Traits>
@@ -616,7 +650,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="man_previzsla_bat_template" />
+      <EquipmentSet id="man_red_bat_template" />
       <EquipmentSet id="rep_senator_civ_template"
                     civilian="true" />
     </Equipments>

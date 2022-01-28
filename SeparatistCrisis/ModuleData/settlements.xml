@@ -70,6 +70,45 @@
     </CommonAreas>
   </Settlement>
 
+<Settlement id="castle_galrepublic_1" name="{=Settlements.Settlement.name.castle_galrepublic_1}Republic Castle" owner="Faction.galactic_senate" posX="601.44" posY="69.08" culture="Culture.galactic_republic" prosperity="850" gate_posX="602.98" gate_posY="70.30">
+    <Components>
+      <Town id="castle_comp_galrepublic_1" is_castle="true" level="2" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+
+  <Settlement id="castle_village_galrepublic_1" name="{=Settlements.Settlement.name.castle_village_galrepublic_1}Morenia" posX="611.10" posY="67.65" culture="Culture.galactic_republic" text="{=Settlements.Settlement.text.castle_village_galrepublic_1}Morenia sits overlooking the Sethys river, on a low pass leading over the hills to the valley of the Lycarea. Villagers collect clay from the riverbanks for the kilns of the imperial southlands.">
+    <Components>
+      <Village id="castle_village_comp_galrepublic_1" village_type="VillageType.clay_mine" hearth="497" gate_rotation="0.008" trade_bound="Settlement.castle_galrepublic_1" bound="Settlement.castle_galrepublic_1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_z" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+
+    <Settlement id="castle_village_galrepublic_2" name="{=Settlements.Settlement.name.castle_village_galrepublic_2}Atphynia" posX="601.31" posY="82.21" culture="Culture.galactic_republic" text="{=Settlements.Settlement.text.village_galrepublic_1}The village of Atphynia sits near the mouth of the Sethys river, just before it splits into three to form the valley known as Tripotamia. Villagers here have laid out salt pans near where the Sethys estuary joins the Perassic sea.">
+    <Components>
+      <Village id="castle_village_galrepublic_2" village_type="VillageType.salt_mine" hearth="130" trade_bound="Settlement.castle_galrepublic_1" bound="Settlement.castle_galrepublic_1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_i" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+
 <!-- MANDALORE 
 
 -->
