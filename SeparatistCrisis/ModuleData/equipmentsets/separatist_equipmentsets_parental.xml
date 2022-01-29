@@ -3,6 +3,24 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
  <EquipmentRosters>
   <!--Culture: Empire-->
   <!--1.Retainer-->
+  <EquipmentRoster id="mother_char_creation_0_separatistalliance"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.vlandian_dress" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="father_char_creation_0_separatistalliance"
+                   culture="Culture.separatistalliance">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.sleeveless_padded_short_coat" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
   <EquipmentRoster id="mother_char_creation_1_separatistalliance"
                    culture="Culture.separatistalliance">
     <EquipmentSet>

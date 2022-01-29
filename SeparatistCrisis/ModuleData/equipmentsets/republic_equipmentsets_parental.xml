@@ -3,6 +3,27 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
  <EquipmentRosters>
   <!--Culture: Empire-->
   <!--1.Retainer-->
+  <EquipmentRoster id="mother_char_creation_0_galactic_republic"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.empire_dress" />
+      <Equipment slot="Cape"
+                 id="Item.female_hood" />
+      <Equipment slot="Leg"
+                 id="Item.ladys_shoe" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="father_char_creation_0_galactic_republic"
+                   culture="Culture.galactic_republic">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  
   <EquipmentRoster id="mother_char_creation_1_galactic_republic"
                    culture="Culture.galactic_republic">
     <EquipmentSet>
