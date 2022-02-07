@@ -904,7 +904,7 @@
               <upgrade_targets></upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
-                            <equipment slot="Item0" id="Item.e5_blaster" />
+                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
                             <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
                             <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.nimbusbody" />
