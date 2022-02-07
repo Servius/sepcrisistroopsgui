@@ -696,7 +696,7 @@ FEMALE:
   </NPCCharacter>
   <NPCCharacter id="spc_notable_separatistalliance_5" name="{=!}Messianic Republic preacher" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.separatistalliance" occupation="Preacher">
     <face>
-      <face_key_template value="BodyProperty.villager_separatistalliance" />
+      <face_key_template value="BodyProperty.villager_empire" />
     </face>
     <!--<Hero id="spc_notable_empire_5" faction="Kingdom.empire" />-->
     <Traits>
@@ -707,7 +707,6 @@ FEMALE:
     <Equipments>
       <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
       <EquipmentSet id="npc_wanderer_equipment_template_separatistalliance" civilian="true" />
-      <EquipmentSet id="spc_notable_empire_5" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="spc_notable_separatistalliance_6" name="{=!}Puritan Republic preacher" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.separatistalliance" occupation="Preacher">
@@ -724,7 +723,6 @@ FEMALE:
     <Equipments>
       <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
       <EquipmentSet id="npc_wanderer_equipment_template_separatistalliance" civilian="true" />
-      <EquipmentSet id="spc_notable_empire_6" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="spc_notable_separatistalliance_7" name="{=!}Female Republic mystic" voice="earnest" is_template="true" default_group="Infantry" is_female="true" culture="Culture.separatistalliance" occupation="Preacher">
@@ -739,7 +737,6 @@ FEMALE:
     <Equipments>
       <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
       <EquipmentSet id="npc_wanderer_equipment_template_separatistalliance" civilian="true" />
-      <EquipmentSet id="spc_notable_empire_7" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="spc_notable_separatistalliance_8" name="{=!}Republic gruff labor leader" voice="curt" is_template="true" default_group="Infantry" is_female="false" culture="Culture.separatistalliance" occupation="Artisan">
@@ -753,7 +750,6 @@ FEMALE:
     <Equipments>
       <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
       <EquipmentSet id="npc_wanderer_equipment_template_separatistalliance" civilian="true" />
-      <EquipmentSet id="spc_notable_empire_8" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="spc_notable_separatistalliance_9" name="{=!}Republic outgoing labor leader" voice="earnest" is_template="true" default_group="Infantry" is_female="false" culture="Culture.separatistalliance" occupation="Artisan">
@@ -769,7 +765,6 @@ FEMALE:
     <Equipments>
       <EquipmentSet id="npc_armed_wanderer_equipment_template_empire" />
       <EquipmentSet id="npc_wanderer_equipment_template_separatistalliance" civilian="true" />
-      <EquipmentSet id="spc_notable_empire_9" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="spc_notable_separatistalliance_gl1" name="{=!}Protective Republic male gang leader" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.separatistalliance" occupation="GangLeader">
