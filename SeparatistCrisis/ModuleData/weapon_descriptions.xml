@@ -62,6 +62,19 @@
     </AvailablePieces>
   </WeaponDescription>
 
+  <WeaponDescription id="SWOneHandedSword"
+                     weapon_class="OneHandedSword"
+                    item_usage_features="onehanded:block:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="beskad_blade"/>
+      <AvailablePiece id="beskad_hilt"/>
+      <!-- AvailablePieces,OneHandedBastardSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
 <WeaponDescription id="1HBastardSwordAltVibroSword"
                      weapon_class="OneHandedSword"
                      item_usage_features="onehanded:block:swing:thrust">
@@ -95,6 +108,8 @@
       <AvailablePiece id="vibroblade_blade"/>
       <AvailablePiece id="vibroblade_guard"/>
       <AvailablePiece id="vibroblade_grip"/>
+      <AvailablePiece id="beskad_blade"/>
+      <AvailablePiece id="beskad_hilt"/>
       <!-- AvailablePieces,OneHandedBastardSword -->
     </AvailablePieces>
   </WeaponDescription>

@@ -325,10 +325,10 @@
     <Flags />
   </Item>
 
-<Item id="e5_blaster"
-        name="E-5 Blaster Rifle"
+<Item id="e5blaster"
+        name="E5 Blaster"
         body_name="bo_cross_bow_heavy"
-        mesh="e_5_rifle"
+        mesh="e_5_rifle_new"
         culture="Culture.separatistalliance"
         weight="2.0"
         appearance="0.8"
@@ -352,7 +352,7 @@
               physics_material="wood_weapon"
               center_of_mass="0,0,0.4"
               item_modifier_group="crossbow"
-        position="0.0, .01, -2"
+        position="0.0, .01, 0.05"
           rotation="0, 0.0, 180.0">
         <WeaponFlags RangedWeapon="true"
                      HasString="true"

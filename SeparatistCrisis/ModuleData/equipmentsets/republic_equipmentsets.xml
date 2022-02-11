@@ -5,7 +5,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.galactic_republic">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.vibroaxe" />
+                 id="Item.beskadsword" />
       <Equipment slot="Head"
                  id="Item.empire_lord_helmet" />
       <Equipment slot="Body"

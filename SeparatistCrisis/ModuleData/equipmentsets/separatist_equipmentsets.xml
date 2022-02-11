@@ -5,7 +5,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
                    culture="Culture.separatistalliance">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.vibrosword" />
+                 id="Item.beskadsword" />
       <Equipment slot="Item1"
                  id="Item.e5_blaster" />
       <Equipment slot="Item2"

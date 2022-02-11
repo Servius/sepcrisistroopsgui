@@ -173,6 +173,46 @@
     </UsablePieces>
   </CraftingTemplate>
 
+ <CraftingTemplate id="beskadtemplate"
+                    item_modifier_group="sword"
+                    item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+                    piece_type_to_scale_holster_with="Blade"
+                    hidden_piece_types_on_holster="Blade"
+                    default_item_holster_position_offset="0,0,-0.1">
+    <PieceDatas>
+      <PieceData piece_type="Handle"
+                 build_order="0" />
+      <PieceData piece_type="Blade"
+                 build_order="2" />
+    </PieceDatas>
+    <WeaponDescriptions>
+      <WeaponDescription id="SWOneHandedSword" />
+    </WeaponDescriptions>
+    <StatsData>
+      <StatData stat_type="Weight"
+                max_value="7.0" />
+      <StatData stat_type="WeaponReach"
+                max_value="300" />
+      <StatData stat_type="ThrustSpeed"
+                max_value="200" />
+      <StatData stat_type="SwingSpeed"
+                max_value="200" />
+      <StatData stat_type="ThrustDamage"
+                max_value="500" />
+      <StatData stat_type="SwingDamage"
+                max_value="500" />
+      <StatData stat_type="Handling"
+                max_value="200" />
+      <!--<StatData stat_type="FollowUp" max_value="200" />-->
+    </StatsData>
+    <UsablePieces>
+    <UsablePiece piece_id="beskad_hilt"/>
+    <UsablePiece piece_id="beskad_blade"/>
+    </UsablePieces>
+  </CraftingTemplate>
+
+  
+
 <CraftingTemplate id="ShockBaton"
                     item_modifier_group="mace"
                     item_holsters="mace_right_hip:axe_right_hip_2:axe_right_hip:axe_back"

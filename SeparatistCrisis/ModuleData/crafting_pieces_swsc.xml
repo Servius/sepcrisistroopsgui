@@ -338,6 +338,48 @@
     </Materials>
   </CraftingPiece>
 
+<!-- Beskad Mando Sword --> 
+
+ <CraftingPiece id="beskad_hilt" 
+    name="{=longclaw_grip}Beskad Grip" 
+    tier="5" 
+    piece_type="Handle" 
+    mesh="beskad_grip" 
+    culture="Culture.mandalorians" 
+    length="26.5" 
+    weight="0.20" 
+    item_holster_pos_shift="0,0,-0.0">
+
+    <BuildData piece_offset="6" 
+      next_piece_offset="-8.5" />
+    <Materials>
+      <Material id="Iron4"
+                count="12" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="beskad_blade" 
+    name="Beskad Blade" 
+    tier="5" 
+    piece_type="Blade" 
+    mesh="beskad_blade" 
+    culture="Culture.mandalorians" 
+    length="30" 
+    weight="0.5">
+    <BladeData stack_amount="3" 
+      physics_material="metal_weapon" 
+      body_name="bo_sword_one_handed" 
+      holster_mesh="empire_blade_3_scabbard_3">
+      <Thrust damage_type="Pierce" 
+        damage_factor="4.0" />
+      <Swing damage_type="Cut" damage_factor="5.0" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron4"
+                count="12" />
+      </Materials>
+    </CraftingPiece>
+
 <!-- Vibro Axe -->
   <CraftingPiece id="vibro_axe_head"
                  name="{=cEU66ABf}Vibro Axe Blade"
@@ -382,6 +424,8 @@
                 count="1" />
     </Materials>
   </CraftingPiece>
+
+
 
 <!-- #endregion -->
   <!-- #endregion -->

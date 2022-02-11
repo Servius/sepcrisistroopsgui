@@ -112,7 +112,7 @@
 <!-- MANDALORE 
 
 -->
-  <Settlement id="town_mandalore" name="{=Settlements.Settlement.name.town_mandalore}Mandalore" owner="Faction.house_kryze" posX="402.26" posY="71.38" culture="Culture.mandalorians" prosperity="3400" gate_posX="402.54" gate_posY="69.96" text="{=4ENGzVaC}The tale of Sarpea of Onira is one of the epic poems of the eastern frontier. Like many, it seems written to justify the Empire's conquest. Sarpea, a senator's daughter, was seized by a Palaic chieftain and carried to his citadel here. When the imperial armies appeared before its walls years later to rescue her, she begged them to retreat for the sake of her infant son, whom her fearsome husband had threatened to hurl from the walls instead of allowing him to be captured and raised by his mother's people. The legions withdrew, so the story says, but the boy grew into a warrior who joined the Empire and slew his father. It is now the center of a horse-breeding industry on the eastern plains.">
+  <Settlement id="town_mandalore" name="{=Settlements.Settlement.name.town_mandalore}Sundari" owner="Faction.house_kryze" posX="402.26" posY="71.38" culture="Culture.mandalorians" prosperity="3400" gate_posX="402.54" gate_posY="69.96" text="{=4ENGzVaC}Sundari was the domed capital city of the New Mandalorian faction of Mandalorians, located on the Outer Rim world of Mandalore, where it stood alongside Mandalore's traditional capital of Keldabe.">
     <Components>
       <Town id="town_comp_mandalore" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -133,7 +133,7 @@
     </CommonAreas>
   </Settlement>
 
-<Settlement id="village_mandalore_1" name="{=Settlements.Settlement.name.village_mandalore}Mandalorian Village 1" posX="393.58" posY="70.41" culture="Culture.mandalorians" text="{=Settlements.Settlement.text.village_coruscant_1}Centax-1 in the broad plains south of Lake Tanaesis. This is good sheep country, but in a land scoured by imperial fugitives, wild Eleftheroi riders and steppe nomads, the villagers here have learned to watch their flocks closely.">
+<Settlement id="village_mandalore_1" name="{=Settlements.Settlement.name.village_mandalore}Norg Bral" posX="393.58" posY="70.41" culture="Culture.mandalorians" text="{=Settlements.Settlement.text.village_mandalore_1}Norg Bral in the broad wasteland near the eastern banks of Enceri river. This is good sheep country, but in a land scoured by galactic fugitives, wild Eleftheroi riders, local Calradians, and steppe nomads, the villagers here have learned to watch their flocks closely.">
     <Components>
       <Village id="village_comp_mandalore_1" village_type="VillageType.sheep_farm" hearth="402" trade_bound="Settlement.town_mandalore" bound="Settlement.town_mandalore" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -147,12 +147,51 @@
     </CommonAreas>
   </Settlement>
 
-  <Settlement id="village_mandalore_2" name="{=Settlements.Settlement.name.village_mandalore_2}Mandalorian Village 1" posX="404.51" posY="58.15" culture="Culture.mandalorians" text="{=Settlements.Settlement.text.village_mandalore_2}Mandalorian Village 1 lies near the southern end of Lake Tanaesis. The village sits near a deposit of salt, and salt springs occasionally bubble to the surface, feeding the legend that this was once a gateway to a haunted underground sea.">
+  <Settlement id="village_mandalore_2" name="{=Settlements.Settlement.name.village_mandalore_2}Shuror" posX="404.51" posY="58.15" culture="Culture.mandalorians" text="{=Settlements.Settlement.text.village_mandalore_2}Shuror lies near the eastern banks of Enceri river. The village sits near a deposit of salt, and salt springs occasionally bubble to the surface, feeding the legend that this was once a gateway to a haunted underground sea.">
     <Components>
       <Village id="village_comp_mandalore_2" village_type="VillageType.salt_mine" hearth="288" trade_bound="Settlement.town_mandalore" bound="Settlement.town_mandalore" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="empire_village_002" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+
+  <Settlement id="castle_mandalore_1" name="{=Settlements.Settlement.name.castle_mandalore_1}Keldabe" owner="Faction.clan_awaud" posX="392.20" posY="55.12" culture="Culture.mandalorians" prosperity="850" gate_posX="392.70" gate_posY="58.10">
+    <Components>
+      <Town id="castle_comp_mandalore_1" is_castle="true" level="2" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+
+  <Settlement id="castle_village_mandalore_1" name="{=Settlements.Settlement.name.castle_village_mandalore_1}Bralsin" posX="381.30" posY="55.60" culture="Culture.mandalorians" text="{=Settlements.Settlement.text.castle_village_mandalore_1}Bralsin sits overlooking the Enceri river, on a low pass leading over the hills to the Enceri Valley. Villagers collect clay from the riverbanks for the kilns of the mandalorian southlands.">
+    <Components>
+      <Village id="castle_village_comp_mandalore_1" village_type="VillageType.clay_mine" hearth="497" gate_rotation="0.008" trade_bound="Settlement.castle_mandalore_1" bound="Settlement.castle_mandalore_1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_z" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+
+  <Settlement id="castle_village_mandalore_2" name="{=Settlements.Settlement.name.castle_village_mandalore_2}Enceri" posX="378.07" posY="40.64" culture="Culture.mandalorians" text="{=Settlements.Settlement.text.village_mandalore_2}The village of Enceri sits near the mouth of the Enceri river, just before it splits into three to form the valley known as Enceri Valley. Villagers here have laid out salt pans near where the Sethys estuary joins the Perassic sea.">
+    <Components>
+      <Village id="castle_village_mandalore_2" village_type="VillageType.salt_mine" hearth="130" trade_bound="Settlement.castle_mandalore_1" bound="Settlement.castle_mandalore_1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_i" />
     </Locations>
     <CommonAreas>
       <Area type="Pasture" name="{=fOUsLdZR}Pasture" />

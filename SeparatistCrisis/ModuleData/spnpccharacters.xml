@@ -693,7 +693,7 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0"
-                   id="Item.peasant_pitchfork_2_t1" />
+                   id="Item.beskadsword" />
         <equipment slot="Head"
                    id="Item.leather_cap" />
         <equipment slot="Body"
@@ -703,7 +703,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
-                   id="Item.peasant_polearm_1_t1" />
+                   id="Item.beskadsword" />
         <equipment slot="Head"
                    id="Item.merchants_hat" />
         <equipment slot="Body"
@@ -713,7 +713,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
-                   id="Item.peasant_sickle_1_t1" />
+                   id="Item.beskadsword" />
         <equipment slot="Body"
                    id="Item.tied_cloth_tunic" />
         <equipment slot="Leg"
@@ -721,7 +721,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
-                   id="Item.empire_sword_1_t2" />
+                   id="Item.beskadsword" />
         <equipment slot="Body"
                    id="Item.tied_cloth_tunic" />
         <equipment slot="Leg"
@@ -752,7 +752,7 @@
               <Equipments>
                      <EquipmentRoster>
                             <equipment slot="Item1" id="Item.riotshield" />
-                            <equipment slot="Item3" id="Item.vibrosword" />
+                            <equipment slot="Item3" id="Item.beskadsword" />
                             <equipment slot="Body" id="Item.death_watch_armor" />
                             <equipment slot="Gloves" id="Item.death_watch_gauntlets" />
                             <equipment slot="Leg" id="Item.death_watch_greaves" />
@@ -904,7 +904,7 @@
               <upgrade_targets></upgrade_targets>
               <Equipments>
                      <EquipmentRoster>
-                            <equipment slot="Item0" id="Item.a280_blaster_rifle_test" />
+                            <equipment slot="Item0" id="Item.e5blaster" />
                             <equipment slot="Item1" id="Item.blaster_beam_red_medium" />
                             <equipment slot="Item3" id="Item.vibrosword" />
                             <equipment slot="Body" id="Item.nimbusbody" />

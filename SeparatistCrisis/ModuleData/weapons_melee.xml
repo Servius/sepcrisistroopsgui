@@ -71,6 +71,18 @@
        </Pieces>
      </CraftedItem>
 
+
+  <CraftedItem id="beskadsword" 
+      name="Beskad Sword" 
+      crafting_template="beskadtemplate" 
+      culture="Culture.mandalorians" 
+      is_merchandise="true" >
+       <Pieces>
+         <Piece id="beskad_blade" Type="Blade" scale_factor="100" />
+         <Piece id="beskad_hilt" Type="Handle" scale_factor="100" />
+       </Pieces>
+     </CraftedItem>
+
   <CraftedItem id="shockbaton_weapon"
                name="{=mzvtFPPi}Shock Baton"
                crafting_template="ShockBaton"
@@ -98,6 +110,7 @@
              scale_factor="100" />
     </Pieces>
   </CraftedItem>
+
  <Item id="riotshield"
         name="{=wAcc9SX4}Republic Riot Shield"
         body_name="bo_riotshield"
