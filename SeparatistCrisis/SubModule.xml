@@ -81,7 +81,7 @@
 	</XmlNode>		
 
 		<XmlNode>
-			<XmlName id="partyTemplates" path="partyTemplates"/>
+			<XmlName id="partyTemplates" path="partytemplates"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
